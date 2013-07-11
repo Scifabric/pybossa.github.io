@@ -9,7 +9,8 @@
 
     <!-- Le styles -->
     <link href="assets/css/bootstrap.css" rel="stylesheet">
-    <link href="assets/css/font-awesome.css" rel="stylesheet">
+    <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.no-icons.min.css" rel="stylesheet">
+   <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
     <style type="text/css">
       body {
         padding-top: 20px;
@@ -68,9 +69,9 @@
 
       <div class="masthead">
         <ul class="nav nav-pills pull-right">
-          <li class="active"><a href="#">Home</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="contact.html">Contact</a></li>
+            <li class="active"><a href="#"><i class="icon-home"></i> Home</a></li>
+            <li><a href="about.html"><i class="icon-info"></i> About</a></li>
+            <li><a href="contact.html"><i class="icon-envelope"></i> Contact</a></li>
         </ul>
         <h3 class="muted">PyBossa</h3>
       </div>
@@ -88,17 +89,84 @@
       <hr>
 
       <div class="row-fluid" style="text-align:center">
+          <h2>Create Citizen Science Applications</h2>
+      </div>
+      <div class="row-fluid">
+        <div class="span6 well well-small">
+            <h4><i class="icon icon-picture"></i> Image Pattern Recognition</h4>
+            <p>Analyze patters in photos, pictures, etc...</p>
+            <a class="btn btn-small btn-inverse" target="_blank" href="http://github.com/PyBossa/app-flickrperson"></i>Find out more <i class="icon-chevron-right"></i></a>
+
+        </div>
+        <div class="span6 well well-small">
+            <h4><i class="icon-music"></i> Sound Pattern Recognition</h4>
+            <p>Analyze, identify, or describe sounds.</p>
+            <a class="btn btn-small btn-inverse" target="_blank"  href="http://github.com/PyBossa/app-soundcloud"></i>Find out more <i class="icon-chevron-right"></i></a>
+        </div>
+      </div>
+
+      <div class="row-fluid">
+        <div class="span6 well well-small">
+            <h4><i class="icon icon-pencil"></i> Transcribe PDF docs</h4>
+            <p>Transcribe PDF docs easily</p>
+            <a class="btn btn-small btn-inverse" target="_blank" href="http://github.com/PyBossa/pdftranscribe"></i>Find out more <i class="icon-chevron-right"></i></a>
+
+        </div>
+        <div class="span6 well well-small">
+            <h4><i class="icon-globe"></i> Geo-localization</h4>
+            <p>Solve Geo-Localization tasks.</p>
+            <a class="btn btn-small btn-inverse" target="_blank"  href="http://github.com/PyBossa/app-geocoding"></i>Find out more <i class="icon-chevron-right"></i></a>
+        </div>
+
+      </div>
+
+      <div class="row-fluid">
+        <div class="span6 well well-small">
+            <h4><i class="icon icon-film"></i> Video Pattern Recognition</h4>
+            <p>Analyze, identify, or describe videos.</p>
+            <a class="btn btn-small btn-inverse" target="_blank" href="http://github.com/PyBossa/app-vimeo"></i>Find out more <i class="icon-chevron-right"></i></a>
+
+        </div>
+        <div class="span6 well well-small">
+            <h4><i class="icon-mobile-phone"></i> Volunteer sensing + thinking</h4>
+            <p>Capture and analyze data with your volunteers.</p>
+            <a class="btn btn-small btn-inverse" target="_blank"  href="http://github.com/PyBossa/app-epicollect"></i>Find out more <i class="icon-chevron-right"></i></a>
+        </div>
+
+      </div>
+
+      <div class="row-fluid" style="text-align:center">
+          <h2>Export your Data Easily</h2>
+      </div>
+      <div class="row-fluid ">
+        <div class="span6 well well-small">
+            <h4><i class="icon-table"></i> CSV format</h4>
+          <p>Export the data in CSV format</p>
+          <a class="btn btn-small btn-inverse" target="_blank" href="http://docs.pybossa.com/en/latest/user/tutorial.html#export-results">Read more <i class="icon icon-chevron-right"></i> </a>
+
+        </div>
+
+        <div class="span6 well well-small">
+            <h4><i class="icon-star"></i> JSON format</h4>
+          <p>Export your data in JSON format</p>
+          <a class="btn btn-small btn-inverse" target="_blank"  href="http://docs.pybossa.com/en/latest/user/tutorial.html#export-results">Read more <i class="icon icon-chevron-right"></i> </a>
+        </div>
+
+      </div>
+
+
+      <div class="row-fluid" style="text-align:center">
           <h2>Projects using PyBossa</h2>
       </div>
-      <div class="row-fluid marketing">
-        <div class="span6">
+      <div class="row-fluid">
+        <div class="span6 well well-small">
           <h4>ForestWatchers.net</h4>
           <p>Help to assess deforestation in tropical forests</p>
           <a class="btn btn-small btn-inverse" target="_blank" href="http://forestwatchers.net"><i class="icon icon-play"></i> Read more</a>
 
         </div>
 
-        <div class="span6">
+        <div class="span6 well well-small">
           <h4>Feynman's Flowers</h4>
           <p>Help the project classifying nano molecules</p>
           <a class="btn btn-small btn-inverse" target="_blank"  href="http://crowdcrafting.org/app/feynmanflowers"><i class="icon icon-play"></i> Read more</a>
@@ -108,8 +176,8 @@
 
       <hr>
 
-      <div class="footer">
-        <p>&copy; Citizen Cyberscience Centre and Open Knowledge Foundation</p>
+      <div class="footer" style="text-align:center">
+          <p>&copy; <a href="http://www.citizencyberscience.net">Citizen Cyberscience Centre</a> and <a href="http://okfn.org">Open Knowledge Foundation</a></p>
       </div>
 
     </div> <!-- /container -->
