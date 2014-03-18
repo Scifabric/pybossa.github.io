@@ -1545,6 +1545,13 @@ body.blog ul.share-social li a.google-plus:hover {
 		margin:30px 0 20px;
 		padding: 0;
 	}
+	body.blog div.blog_entries h3 {
+		font-size:16px !important;
+		margin-top:10px;
+	}
+	body.blog .post-entry > p.intro {
+		font-size:14px !important;
+	}
 	body.blog .post-detail blockquote {
 		display:block;
 		width:100%;
