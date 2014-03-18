@@ -1350,7 +1350,8 @@ body.blog div.post-entry {
 body.blog div.post-entry img {
 	border-radius:3px;
 	opacity:.8;
-	height:220px;
+	width:100%;
+	height:auto;
 	display:block;
 	background-color:#eee;
 	-webkit-transition: opacity 0.3s ease;
@@ -1507,13 +1508,17 @@ body.blog ul.share-social li a.google-plus:hover {
 	body.blog ul.share-social {
 		display:block;
 		width:100%;
-		padding:0 !important;
+		padding:0 0 0 8px !important;
 		margin:0 !important;
 	}
 	body.blog ul.share-social li {
-		width:32.45%;
+		width:32.2%;
 		margin:10px 0 30px 0;
 		padding:0;
+	}
+	body.blog ul.share-social li:last-child {
+		width:32.4%;
+		margin:10px 0 30px 0;
 	}
 	body.blog ul.share-social li.share_on {
 		display:none;
@@ -1521,7 +1526,7 @@ body.blog ul.share-social li a.google-plus:hover {
 	body.blog ul.share-social li a {
 		display:block;
 		width:100%;
-		padding:2px 0 0 0;
+		padding:6px 0 0 0;
 	}
 	body.blog ul.share-social li a.facebook {
 		color:#fff;

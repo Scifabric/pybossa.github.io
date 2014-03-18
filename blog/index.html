@@ -6,6 +6,7 @@ body_class: blog
 ---
 <div class="container blog_entries first-container">
 	<div class="col-md-offset-1 col-md-10">
+		<div class="row">
 		<h2>Blog entries</h2>
 		<ul class="share-social">
 			<li class="share_on">Share on</li>
@@ -28,6 +29,7 @@ body_class: blog
 				</a>
 			</li>
 		</ul>
+		</div>
 		{% for post in site.categories.blog %}
 		{% capture modulo %}{{ forloop.index0 | mod:2 }}{% endcapture %}
 		{% if modulo == "0" %}
@@ -45,9 +47,9 @@ body_class: blog
 		{% endif %}
 		{% endfor %}
 
-		<div class="post-nav">
+		<!--<div class="post-nav">
 			<a href="#" class="btn btn-small btn-default">Load more posts</a>
-		</div>
+		</div> -->
 	</div>
 </div>
 
