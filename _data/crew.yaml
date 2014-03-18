@@ -1,0 +1,30 @@
+- name: Daniel 
+  surname: Lombraña
+  author: teleyinex
+  position: "Lead Developer"
+  github: teleyinex
+  twitter: teleyinex
+  linkedin: teleyinex
+  avatar: daniel.jpg
+  bio: "is an open-source developer and a researcher with a passion for citizen science."
+
+- name: Alejandro
+  surname: Domínguez
+  author: alejandrodob
+  position: "Junior Developer"
+  github: alejandrodob
+  twitter: alejandrodob
+  github: alejandrodob
+  linkedin: alejandrodob
+  avatar: alejandro.jpg
+  bio: 
+
+- name: Jorge Correa
+  surname: Correa
+  author: jcorrea
+  position: "UX/UI Designer"
+  github: jcorreaes
+  twitter: jorgecorrea
+  linkedin: jorgecorrea
+  avatar: jorge.jpg
+  bio: 

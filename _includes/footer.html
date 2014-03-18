@@ -1,0 +1,36 @@
+	<footer>
+		<div class="container">
+		<div>
+			<ul class="footer-ssnn">
+				<li class="footer-ssnn-twitter">
+					<a href="https://twitter.com/PyBossa" class="btn btn-small btn-inverse"><i class="fa fa-twitter fa-lg"></i> <span>Follow us on Twitter</span></a>
+				</li>
+				<li class="footer-ssnn-github">
+					<a href="http://github.com/PyBossa" class="btn btn-small btn-inverse"><i class="fa fa-github-alt fa-lg"></i> <span>Follow us on GitHub</span></a>
+				</li>
+			</ul>
+			<ul class="footer-nav hidden-sm hidden-xs">
+				<li{% if page.active == 'index'%} class="active" {% endif %}><a href="/index.html">Home</a></li>
+				<li {% if page.active == 'getting_started'%} class="active" {% endif %}><a href="/getting_started.html">Getting Started</a></li>
+				<li {% if page.active == 'press'%} class="active" {% endif %}><a href="/press/">Press</a></li>
+				<li {% if page.active == 'about'%} class="active" {% endif %}><a href="/about.html">About</a></li>
+				<li {% if page.active == 'docs'%} class="active" {% endif %}><a href="http://docs.pybossa.com">Docs</a></li>
+				<li {% if page.active == 'blog'%} class="active" {% endif %}><a href="/blog/">Blog</a></li>
+			</ul>
+			<hr />
+			<ul class="supported">
+				<li class="col-md-3"><h3>PyBossa is supported by</h3></li>
+				<li class="col-md-3 shuttleworth"><a href="http://www.shuttleworthfoundation.org/"><span>Shuttleworth Foundation</span></a></li>
+				<li class="col-md-3 openknowledge"><a href="http://okfn.org/"><span>Open Knowledge Foundation</span></a></li>
+				<li class="col-md-3 cyberscience"><a href="http://citizencyberscience.net/"><span>Citizen Cyberscience Center</span></a></li>
+			</ul>
+			<ul class="footer-links">
+				<li>2014 &copy; Shuttleworth Foundation</li>
+			</ul>
+			<ul class="footer-cc">
+				<li><a href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons License BY-SA 4.0</a></li>
+			</ul>
+
+		</div>
+		</div>
+	</footer> <!-- /container -->

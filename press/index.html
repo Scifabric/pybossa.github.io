@@ -1,0 +1,174 @@
+---
+layout: default
+title: Press
+active: press
+body_class: press
+---
+
+<div class="container-fluid wood-bg first-container">
+
+	<div class="container">	
+		<ul class="as-seen-on screens">
+			{% for post in site.categories.press %}
+			{% if post.featured %}
+			<li class="col-md-4 col-sm-4 wow fadeInUp">
+				<a class="hidden-xs" href="{{post.link}}"><img src="{{site.URL}}/assets/img/{{post.featured_img}}" alt="{{post.author}}" width="100%"/></a>
+				<h4><a href="{{post.link}}">{{post.source}}</a></h4>
+				{{post.content}}
+			</li>
+			{% endif %}
+			{% endfor %}
+		</ul>
+	</div>
+
+</div>
+
+<div class="container">
+	<div class="row">
+		<div class="col-md-8 col-md-offset-2 press-releases">
+
+			<h2>A few words about us</h2>
+			<p>PyBossa is a free, 100% open-source framework for crowdsourcing. It enables you to create and run projects where volunteers help you with image classification, transcription, geocoding and more. PyBossa lets researchers, civic hackers and developers connect with people all around the world to solve problems faster and more efficiently. Embrace the power of the crowd!</p>
+
+			<!--<div class="download-press-kit">
+				<p><strong>Download our media kit for all the latest news about us!</strong><br /> Our media kit is packed full of history, awards, and other exciting information.</p>
+				<a class="btn btn-inverse wow flash" data-wow-delay="3s" target="_blank" href="#">Download Press Kit <small class="hidden-xs">ZIP 2.8MB</small></a> <span class="hidden-xs">or</span> <a class="btn btn-inverse wow flash" data-wow-delay="3s" target="_blank" href="#">Download Logos and Badges <small class="hidden-xs">ZIP 2.8MB</small></a>
+			</div> -->
+
+			<hr />
+
+			<h2>Press releases</h2>
+			<ul class="as-seen-on">
+				{% for post in site.categories.press %}
+				{% if post.type == 'press' %}
+				<li>
+					<span>{{post.date | date_to_string}}, <a href="{{post.source_home}}">{{post.source}}</a></span>
+					<a href="{{post.link}}">{{post.title}}</a>
+					<ul>
+						<li class="article">
+							<a href="{{post.link}}">
+								<i class="fa fa-file-text-o fa-lg"></i>
+								<span>Article</span>
+							</a>
+						</li>
+					</ul>
+				</li>
+				{% endif %}
+				{% endfor %}
+			</ul>
+
+			<hr />
+
+			<h2>Mentioned in</h2>
+			<ul class="as-seen-on">
+				{% for post in site.categories.press %}
+				{% if post.type == 'mention' %}
+				<li>
+					<span>{{post.date | date_to_string }}, <a href="{{post.source_home}}">{{post.source}}</a></span>
+					<a href="{{post.link}}">{{post.title}}</a>
+					<ul>
+						<li class="article">
+							<a href="{{post.link}}">
+								<i class="fa fa-file-text-o fa-lg"></i>
+								<span>Article</span>
+							</a>
+						</li>
+						<li class="screenshot">
+							<a href="/assets/img/{{post.screenshot}}">
+								<i class="fa fa-picture-o fa-lg"></i>
+								<span>Screenshot</span>
+							</a>
+						</li>
+					</ul>
+				</li>
+				{% endif %}
+				{% endfor %}
+			</ul>
+		</div>
+	</div>
+</div>
+
+<hr />
+
+<div class="container presskit-images">
+	<!-- <div class="intro">
+		<h2>Images &amp; Screenshots <small><a href="#">Download all images and screenshots</a></small></h2>
+		<p>These images are provided for press use only.<br />
+			If you need another format or have a special request, please contact us at <a href="#">press@crowdcrafting.org</a>.</p>
+		</div>
+		<ul class="row alt images-screenshots">
+			<li class="col-md-3 col-sm-6 col-xs-6 wow flipInX" data-wow-delay="0.2s">
+				<span><img src="/assets/img/crowd.jpg" alt="Crowd"></span>
+				Download high resolution <a href="/assets/img/crowd_o.jpg">JPG</a>
+			</li>
+			<li class="col-md-3 col-sm-6 col-xs-6 dark wow flipInX" data-wow-delay="0.4s">
+				<span><img src="/assets/img/img_promo_02.png" alt=""></span>
+				Download high resolution <a href="#">PNG</a>	
+			</li>
+			<li class="col-md-3 col-sm-6 col-xs-6 wow flipInX" data-wow-delay="0.6s">
+				<span><img src="/assets/img/img_promo_03.png" alt=""></span>
+				Download high resolution <a href="#">PNG</a>
+			</li>
+			<li class="col-md-3 col-sm-6 col-xs-6 dark wow flipInX" data-wow-delay="0.8s">
+				<span><img src="/assets/img/img_promo_04.png" alt=""></span>
+				Download high resolution <a href="#">PNG</a>
+			</li>
+		</ul>				
+		<hr /> -->
+		<div class="presskit-logos">
+			<div class="intro">
+				<h2>Logos &amp; Badges <small><a href="#">Download all logos and badges</a></small></h2>
+				<p>These assets are here to help you spread the word. They include logos and images that help communicate our brands, <strong>PyBossa</strong> and <strong>Crowdcrafting</strong>. For special requests or inquiries, please contact us at <a href="#">press@crowdcrafting.org</a>.</p>
+			</div>
+			<h3>Full color versions</h3>
+			<ul class="row">
+				<li class="col-md-6 col-sm-6">
+					<span><img src="/assets/img/crowdcrafting_logo_pos.png" alt=""></span>
+					Download <a href="/assets/downloads/crowdcrafting_logo_pos.png">PNG</a> | <a href="/assets/downloads/crowdcrafting_and_pybossa_branding_03_2014.eps.zip">EPS</a>
+				</li>
+				<li class="col-md-6 col-sm-6">
+					<span><img src="/assets/img/pybossa_ocs_logo_pos.png" alt=""></span>
+					Download <a href="/assets/downloads/pybossa_ocs_logo_pos.png">PNG</a> | <a href="/assets/downloads/crowdcrafting_and_pybossa_branding_03_2014.eps.zip">EPS</a>
+				</li>
+			</ul>
+			<h3>Black &amp; White versions</h3>
+			<ul class="row alt">
+				<li class="col-md-3 col-sm-6">
+					<span><img src="/assets/img/crowdcrafting_logo_neg.png" alt=""></span>
+					Download <a href="/assets/downloads/crowdcrafting_logo_neg.png">PNG</a> | <a href="/assets/downloads/crowdcrafting_and_pybossa_branding_03_2014.eps.zip">EPS</a>
+				</li>
+				<li class="col-md-3 col-sm-6 dark">
+					<span><img src="/assets/img/crowdcrafting_logo_neg_trans.png" alt=""></span>
+					Download <a href="/assets/downloads/crowdcrafting_logo_neg_trans.png">PNG</a> | <a href="/assets/downloads/crowdcrafting_and_pybossa_branding_03_2014.eps.zip">EPS</a>	
+				</li>
+				<li class="col-md-3 col-sm-6">
+					<span><img src="/assets/img/pybossa_ocs_logo_neg.png" alt=""></span>
+					Download <a href="/assets/downloads/pybossa_ocs_logo_neg.png">PNG</a> | <a href="/assets/downloads/crowdcrafting_and_pybossa_branding_03_2014.eps.zip">EPS</a>
+				</li>
+				<li class="col-md-3 col-sm-6 dark">
+					<span><img src="/assets/img/pybossa_ocs_logo_neg_trans.png" alt=""></span>
+					Download <a href="/assets/downloads/pybossa_ocs_logo_neg_trans.png">PNG</a> | <a href="/assets/downloads/crowdcrafting_and_pybossa_branding_03_2014.eps.zip">EPS</a>
+				</li>
+			</ul>
+			<h3>PyBossa Badges</h3>
+			<ul class="row alt">
+				<li class="col-md-3 col-sm-6 col-xs-6">
+					<span><img src="/assets/img/pybossa_badge_dark_small.png" alt=""></span>
+					Download PNG <a href="/assets/downloads/pybossa_badge_dark.png">S</a> | <a href="/assets/downloads/pybossa_badge_dark_small.png">XS</a>
+				</li>
+				<li class="col-md-3 col-sm-6 col-xs-6 dark">
+					<span><img src="/assets/img/pybossa_badge_light_small.png" alt=""></span>
+					Download PNG <a href="/assets/downloads/pybossa_badge_light.png">S</a> | <a href="/assets/downloads/pybossa_badge_light_small.png">XS</a>
+				</li>
+				<li class="col-md-3 col-sm-6 col-xs-6">
+					<span><img src="/assets/img/pybossa_badge_pos_trans_small.png" alt=""></span>
+					Download PNG <a href="/assets/downloads/pybossa_badge_pos_trans.png">S</a> | <a href="/assets/downloads/pybossa_badge_pos_trans_small.png">XS</a>
+				</li>
+				<li class="col-md-3 col-sm-6 col-xs-6 dark">
+					<span><img src="/assets/img/pybossa_badge_neg_trans_small.png" alt=""></span>
+					Download PNG <a href="/assets/downloads/pybossa_badge_neg_trans.png">S</a> | <a href="/assets/downloads/pybossa_badge_neg_trans_small.png">XS</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+</div>

@@ -1,0 +1,59 @@
+---
+layout: default
+title: About
+active: about
+body_class: about
+---
+<div class="container about-content first-container">
+	<div class="col-md-8 col-md-offset-2">
+		<h2>About PyBossa &amp; Crowdcrafting</h2>
+		<p>PyBossa is a free, 100% open-source framework for crowdsourcing. It enables you to create and run projects where volunteers help you with image classification, transcription, geocoding and more. PyBossa lets researchers, civic hackers and developers connect with people all around the world to solve problems faster and more efficiently. Embrace the power of the crowd!</p>
+		<h2>What makes PyBossa unique?</h2>
+		<div class="values">
+			<div class="col-md-4 about_icons wow fadeInUp">
+				<div class="about_icon" data-icon="l"></div>
+				<p>100%<br /> Open-Source</p>
+			</div>
+			<div class="col-md-4 about_icons wow fadeInUp">
+				<div class="about_icon" data-icon="k"></div>
+				<p>100%<br /> Open-Science</p>
+			</div>
+			<div class="col-md-4 about_icons wow fadeInUp">
+				<div class="about_icon" data-icon="j"></div>
+				<p>Based on volunteers<br /> <small>not micro-payments</small></p>
+			</div>
+		</div>
+		<p><strong>It's an open platform that is designed to easily connect to other services and technologies.</strong></p>
+	</div>
+	<div class="col-md-8 col-md-offset-2 support">
+		<p>You can read more about the architecture in the <a href="http://docs.pybossa.com/en/latest/overview.html">PyBossa Documentation</a> and follow the <a href="http://docs.pybossa.com/en/latest/user/create-application.html">step-by-step tutorial to create your own projects.</a></p>
+		<p>For more info, send us an e-mail to: <a href="mailto:info@pybossa.com">info@pybossa.com</a> or <a href="http://twitter.com/pybossa">Follow us on Twitter!</a></p>
+		<p>Report any bug, issue or improvement: <a href="http://github.com/PyBossa/pybossa/issues">Github Issues</a></p>
+	</div>
+</div>
+
+<div class="wood-bg container-fluid">
+	<h3>Meet the crew</h3>
+	<div class="container">
+	<ul class="members">
+		<li class="col-md-2 hidden-sm hidden-xs">
+		</li>
+        {% for member in site.data.crew %}
+		<li class="col-md-2 col-md-push-1 col-sm-3 col-xs-6 wow fadeInUp">
+			<a href="#">
+                <img class="img-circle" src="/assets/img/{{member.avatar}}" width="60%">
+			</a>
+            <h4><a href="#">{{member.name}}<br /> {{member.surname}}</a></h4>
+			<p>Lead Developer</p>
+			<ul>
+                <li><a href="http://www.linkedin.com/in/{{member.linkedin}}"><i class="fa fa-linkedin"></i></a></li>
+                <li><a href="https://twitter.com/{{member.twitter}}"><i class="fa fa-twitter"></i></a></li>
+                <li><a href="https://github.com/{{member.github}}"><i class="fa fa-github"></i></a></li>
+			</ul>				
+		</li>
+        {% endfor %}
+		<li class="col-md-2 hidden-sm hidden-xs">
+        </li>
+	</ul>
+	</div>
+</div>

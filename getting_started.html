@@ -1,0 +1,63 @@
+---
+layout: default
+title: Getting Started
+active: getting_started
+body_class: get_started
+---
+
+<div class="container first-container content">
+	<div class="col-md-8 col-md-offset-2">
+		<h2>Getting started <small>in just 4 simple steps</small></h2>
+		<p>The easiest way to install PyBossa in your computer is to use a Virtual Machine. This method streamlines the process of configuration and installation of libraries in the virtual machine, so when you are done, you can delete it if you want, without polluting your system.</p>
+		<ol>
+			<li>
+				<h3>Install VirtualBox: a free virtual machine hypervisor</h3>
+				<p>Go to <a href="https://www.virtualbox.org/wiki/Downloads">VirtualBox Download page</a> and get the version that suits your system. You will find installer for Mac OS X, GNU/Linux and Windows systems.</p>
+				<a class="btn btn-default" target="_blank"  href="http://crowdcrafting.org/app/feynmanflowers">Download VirtualBox</a>
+			</li>
+			<li>					
+				<h3>Install Vagrant</h3>
+				<p>Now, we only need another software to handle all the automated set up and configuration of PyBossa in the Virtual Machine: <a href="http://www.vagrantup.com/downloads.html">Vagrant</a>. Download the installer that fits your system, install it and go to the next step.</p>
+				<a class="btn btn-default" target="_blank"  href="http://crowdcrafting.org/app/feynmanflowers">Install Vagrant</a>
+			</li>
+			<li>
+				<h3>Download and install PyBossa</h3>
+				<p>The best way to download the latest version and get everything up in minutes is to clone the official repository.</p>
+				<p>Therefore, open a terminal and clone the repository (download and install in almost one command) with the following command:</p>
+				<kbd>
+					<ul>
+						<li id="git" name="id">git clone --recursive git@github.com:PyBossa/pybossa.git</li>
+					</ul>
+				</kbd>
+				<a href="#" data-clipboard-target="git" class="copy-button"><i class="fa fa-clipboard"></i><span>Copy to clipboard</span></a>
+			</li>
+			<li>
+				<h3>Starting PyBossa</h3>
+				<p>Now that you have everything in place, all you need to do is to run the following command within the pybossa folder:</p>
+				<kbd>
+					<ul>
+						<li id="vagrant" name="vagrant">vagrant up</li>
+					</ul>
+				</kbd>
+				<a class="copy-button" href="#" data-clipboard-target="vagrant"><i class="fa fa-clipboard"></i><span>Copy to clipboard</span></a>
+				<p>This will create a virtual machine for you, install all the dependencies, and make a PyBossa server ready for you.</p>
+				<p>Once the process is done, you will only need to start the server. Run the following commands: </p>
+				<kbd>
+					<ul>
+						<li>vagrant ssh</li>
+						<li>cd /vagrant</li>
+						<li>source vagrant_start.sh</li>
+					</ul>
+				</kbd>
+				<a href="#" class="copy-button" data-clipboard-text="vagrant ssh\n cd /vagrant\n source vagrant_starth.sh\n"><i class="fa fa-clipboard"></i><span>Copy to clipboard</span></a>
+				<p>In your web browser, open a tab with the following URL: <a href="http://0.0.0.0:5000">http://0.0.0.0:5000</a> and enjoy!</p>
+			</li>
+		</ol>
+		<div class="support">
+			<h3>Need help?</h3>
+			<p>If you need help in setting up your server, please check the official <a href="http://docs.pybossa.com">documentation</a> or send us an e-mail to <a href="mailto:info@pybossa.com">info@pybossa.com</a>.</p>
+		</div>
+	</div>
+</div> <!-- /container -->
+<script src="assets/js/ZeroClipboard.js"></script>
+<script src="assets/js/clipboard.js"></script>
