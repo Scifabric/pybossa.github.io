@@ -7,6 +7,7 @@
   linkedin: teleyinex
   avatar: daniel.jpg
   bio: "is an open-source developer and a researcher with a passion for citizen science."
+  homepage: http://daniellombrana.es
 
 - name: Alejandro
   surname: Domínguez
@@ -17,7 +18,8 @@
   github: alejandrodob
   linkedin: alejandrodob
   avatar: alejandro.jpg
-  bio: 
+  bio: "loves mathematics but only beated by his passion for developing web apps."
+  homepage: http://www.linkedin.com/in/alejandrodob
 
 - name: Jorge Correa
   surname: Correa
@@ -27,4 +29,5 @@
   twitter: jorgecorrea
   linkedin: jorgecorrea
   avatar: jorge.jpg
-  bio: 
+  bio: "loves helping people making meaningful products and services."
+  homepage: http://jcorrea.es
