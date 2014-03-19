@@ -40,10 +40,10 @@ body_class: about
 		</li>
         {% for member in site.data.crew %}
 		<li class="col-md-2 col-md-push-1 col-sm-3 col-xs-6 wow fadeInUp">
-			<a href="#">
+			<a href="{{member.homepage}}">
                 <img class="img-circle" src="/assets/img/{{member.avatar}}" width="60%">
 			</a>
-            <h4><a href="#">{{member.name}}<br /> {{member.surname}}</a></h4>
+            <h4><a href="{{member.homepage}}">{{member.name}}<br /> {{member.surname}}</a></h4>
 			<p>{{member.position}}</p>
 			<ul>
                 <li><a href="http://www.linkedin.com/in/{{member.linkedin}}"><i class="fa fa-linkedin"></i></a></li>

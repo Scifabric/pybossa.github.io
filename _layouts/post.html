@@ -29,7 +29,11 @@ active: blog
 			</li>
 		</ul>
 		<h3 class="title">{{page.title}}</h3>
-		<p class="post-date">{{ page.date | date: "%-d %B %Y" }} by <a href="#">Daniel Lombraña</a></p>
+        {% for member in site.data.crew %}
+        {% if member.author == page.author %}
+		<p class="post-date">{{ page.date | date: "%-d %B %Y" }} by <a href="{{member.homepage}}">{{member.name}} {{member.name}}</a></p>
+        {% endif %}
+        {% endfor %}
 	</div>
 
 	<div class="col-md-8 col-md-offset-2">
@@ -54,12 +58,12 @@ active: blog
     {% if member.author == page.author %}
 	<div class="col-md-8 col-md-offset-2 author-detail">
 		<div class="col-md-2 hidden-sm hidden-xs">
-			<a href="#">
+			<a href="{{member.homepage}}">
                 <img class="img-circle" src="/assets/img/{{member.avatar}}" width="100%">
 			</a>
 		</div>
 		<div class="col-md-8">
-            <h3>{{member.name}}</h3>
+            <h3>{{member.name}} {{member.surname}}</h3>
             <p class="author-rol">{{member.position}} @ PyBossa</p>
             <p>{{member.name}} {{member.bio}}</p>
 			<ul>
