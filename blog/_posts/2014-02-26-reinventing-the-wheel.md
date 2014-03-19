@@ -9,6 +9,7 @@ photo_author: John Doe
 photo_url: http://www.flickr.com/photos/stignygaard/4240882886/in/photostream/
 intro: Reinventing the wheel can be treated as a technique that will assure enough genetic diversity (different features) for frameworks, so the species can survive.
 author: teleyinex
+keywords: science, biology, development, coding
 ---
 
 In the last three days I've participated in the third [Citizen Cyberscience Summit](http://cybersciencesummit.org/).
