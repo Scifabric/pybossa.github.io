@@ -34,23 +34,26 @@
 	{% if page.active == 'blog' %}
 	<!-- for Google -->
 	<meta name="description" content="{{page.title}} - PyBossa.com" />
-	<meta name="keywords" content="" />
-
-	<meta name="author" content="" />
+	<meta name="keywords" content="{{page.keywords}}" />
+    {% for member in site.data.crew %}
+    {% if member.author == page.author %}
+	<meta name="author" content="{{member.name}} {{member.surname}}" />
+    {% endif %}
+    {% endfor %}
 	<meta name="copyright" content="SciFabric © 2014" />
-	<meta name="application-name" content="" />
+	<meta name="application-name" content="PyBossa" />
 
 	<!-- for Facebook -->          
 	<meta property="og:title" content="{{page.title}} - PyBossa.com" />
 	<meta property="og:type" content="article" />
 	<meta property="og:image" content="{{page.photo}}" />
 	<meta property="og:url" content="http%3A%2F%2Fpybossa.com{{page.url}}" />
-	<meta property="og:description" content="" />
+	<meta property="og:description" content="{{page.intro}}" />
 
 	<!-- for Twitter -->          
 	<meta name="twitter:card" content="summary" />
 	<meta name="twitter:title" content="{{page.title}} - PyBossa.com" />
-	<meta name="twitter:description" content="" />
+	<meta name="twitter:description" content="{{page.intro}}" />
 	<meta name="twitter:image" content="{{page.photo}}" />
 	{% endif %}
 	
