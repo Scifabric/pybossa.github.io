@@ -8,6 +8,7 @@ photo_author: Timm Nüchter
 photo_url: http://www.flickr.com/photos/t-klick/10122172655/
 intro: "Sentinel is a system that allows you to monitor your master-slave setup, and discover Redis services in a very simple way"
 author: teleyinex
+keywords: cache, load balancing, high availability, redis, sentinel, pybossa
 ---
 
 In the last days I have been working really hard to add a new cache system to PyBossa.

@@ -8,6 +8,7 @@ photo_author: EstatesGazzette
 photo_url: http://www.flickr.com/photos/48698930@N04/7637177726/
 intro: "Spanish National TV TVE interviews Daniel Lombraña about Citizen Science"
 author: teleyinex
+keywords: science, citizen, interview, tv, tve
 ---
 
 Last week I was invited by [La Aventura del Saber](http://www.rtve.es/television/la-aventura-del-saber/), a TV show from the **Spanish National TV**, 
