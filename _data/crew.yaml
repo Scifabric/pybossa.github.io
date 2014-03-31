@@ -31,3 +31,14 @@
   avatar: jorge.jpg
   bio: "loves helping people making meaningful products and services."
   homepage: http://jcorrea.es
+
+- name: Marvin
+  surname: Reimer
+  author: therealmarv
+  position: "Senior Developer"
+  github: therealmarv
+  twitter: therealmarv
+  linkedin: marvinreimer
+  avatar: marvin.png
+  bio: "software engineer with passion for everything related to smart, open, secure, standardized, mobile, cloud technology."
+  homepage: http://therealmarv.com/
