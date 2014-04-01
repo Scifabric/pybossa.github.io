@@ -9,6 +9,17 @@
   bio: "is an open-source developer and a researcher with a passion for citizen science."
   homepage: http://daniellombrana.es
 
+- name: Marvin
+  surname: Reimer
+  author: therealmarv
+  position: "Senior Developer"
+  github: therealmarv
+  twitter: therealmarv
+  linkedin: marvinreimer
+  avatar: marvin.png
+  bio: "software engineer with passion for everything related to smart, open, secure, standardized, mobile, cloud technology."
+  homepage: http://therealmarv.com/
+
 - name: Alejandro
   surname: Domínguez
   author: alejandrodob
@@ -32,13 +43,13 @@
   bio: "loves helping people making meaningful products and services."
   homepage: http://jcorrea.es
 
-- name: Marvin
-  surname: Reimer
-  author: therealmarv
-  position: "Senior Developer"
-  github: therealmarv
-  twitter: therealmarv
-  linkedin: marvinreimer
-  avatar: marvin.png
-  bio: "software engineer with passion for everything related to smart, open, secure, standardized, mobile, cloud technology."
-  homepage: http://therealmarv.com/
+- name: James
+  surname: Doherty 
+  author: jimmyd
+  position: "Communications"
+  github: jimmyd83
+  twitter: JimmyDocco
+  linkedin: james-doherty/55/b66/928
+  avatar: james.jpg
+  bio: "is a physicist, citizen science enthusiast and communicator who turns science into stories."
+  homepage: http://www.quantumdiaries.org/author/james-doherty/
