@@ -4,7 +4,7 @@ title:  "Reinventing the wheel"
 date:   2014-02-26 
 categories: jekyll update
 quote: Lorem ipsum dolor sit amet, consectetur adipisicing elit
-photo: http://daniellombrana.es/static/images/blog/wheel.jpg
+photo: http://daniellombrana.es/assets/img/blog/wheel.jpg
 photo_author: John Doe
 photo_url: http://www.flickr.com/photos/stignygaard/4240882886/in/photostream/
 intro: Reinventing the wheel can be treated as a technique that will assure enough genetic diversity (different features) for frameworks, so the species can survive.

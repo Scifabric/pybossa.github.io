@@ -3,7 +3,7 @@ layout: post
 title: "The adventure of knowing interview"
 date: 2014-02-18
 categories: jekyll update
-photo: http://daniellombrana.es/static/images/blog/camera.jpg
+photo: http://daniellombrana.es/assets/img/blog/camera.jpg
 photo_author: EstatesGazzette
 photo_url: http://www.flickr.com/photos/48698930@N04/7637177726/
 intro: "Spanish National TV TVE interviews Daniel Lombraña about Citizen Science"
