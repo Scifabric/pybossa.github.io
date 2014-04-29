@@ -33,7 +33,6 @@ body_class: blog
 		{% for post in site.categories.blog %}
 		{% capture modulo %}{{ forloop.index0 | mod:2 }}{% endcapture %}
 		{% if modulo == "0" %}
-        <!-- {{ forloop.index0}} -->
 		<div class="row">
 			{% endif %}
 			<div class="col-md-6 post-entry">
