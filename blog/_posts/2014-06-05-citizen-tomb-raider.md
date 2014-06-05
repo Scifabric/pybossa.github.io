@@ -1,19 +1,16 @@
 ---
 layout: post
 title:  "Citizen Tomb Raider"
-date:   2014-05-06 
+date:   2014-06-05 
 categories: jekyll update
 quote: Lorem ipsum dolor sit amet, consectetur adipisicing elit
-photo: /assets/img/blog/crowd.jpg
-photo_author: Kevin McGarry
-photo_url: https://www.flickr.com/photos/mcgarry/111003432/
-intro: "The British Museum and University College London have teamed up to crowdsource Britain’s Bronze Age with PyBossa-powered platform Micropasts.org.
-The British Museum and University College London (UCL) have launched Micropasts.org – a PyBossa-powered platform which invites members of the public to become citizen archeologists. The project will create the world’s leading prehistoric metal database and just might change the way we research our collective past."
+photo: /assets/img/blog/micropasts.jpeg
+photo_author: Micropasts
+photo_url: https://twitter.com/portableant/status/471332726529064960
+intro: "The British Museum and University College London have teamed up to crowdsource Britain’s Bronze Age with PyBossa-powered platform Micropasts.org. The British Museum and University College London (UCL) have launched Micropasts.org – a PyBossa-powered platform which invites members of the public to become citizen archeologists. The project will create the world’s leading prehistoric metal database and just might change the way we research our collective past."
 author: jimmyd
 keywords: crowdsourcing, PyBossa, open, source, science, citizen
 ---
-
-[Micropasts.org](http://micropasts.org)
 
 # A vast collection
 
