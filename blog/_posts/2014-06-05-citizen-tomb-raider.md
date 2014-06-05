@@ -1,19 +1,29 @@
 ---
 layout: post
 title:  "Citizen Tomb Raider"
-date:   2014-05-06 
+date:   2014-06-05 
 categories: jekyll update
 quote: Lorem ipsum dolor sit amet, consectetur adipisicing elit
+<<<<<<< HEAD
 photo: /assets/img/blog/crowd.jpg
 photo_author: Kevin McGarry
 photo_url: https://www.flickr.com/photos/mcgarry/111003432/
 intro: "The British Museum and University College London team up to crowd-source Britain’s Bronze Age with PyBossa-powered platform Micropasts.org"
+=======
+photo: /assets/img/blog/micropasts.jpeg
+photo_author: Micropasts
+photo_url: https://twitter.com/portableant/status/471332726529064960
+intro: "The British Museum and University College London have teamed up to crowdsource Britain’s Bronze Age with PyBossa-powered platform Micropasts.org. The British Museum and University College London (UCL) have launched Micropasts.org – a PyBossa-powered platform which invites members of the public to become citizen archeologists. The project will create the world’s leading prehistoric metal database and just might change the way we research our collective past."
+>>>>>>> FETCH_HEAD
 author: jimmyd
 keywords: crowdsourcing, PyBossa, open, source, science, citizen
 ---
 
+<<<<<<< HEAD
 The British Museum and University College London (UCL) have launched *Micropasts.org* – a PyBossa-powered platform which invites members of the public to become citizen archeologists. The project will create the world’s leading prehistoric metal database and just might change the way we research our collective past.
 
+=======
+>>>>>>> FETCH_HEAD
 # A vast collection
 
 The Bronze Age collection at the British Museum contains over 30,000 tools and weapons discovered during the 19th and 20th centuries. Following a major archeological initiative started in 1913, specific details of each artefact have been recorded in a massive database of index cards.
@@ -54,4 +64,8 @@ Daniel Pett of the British Museum says:
 
 *Micropasts* has already proved to be hugely popular. It currently has six projects running, some of which are nearing completion. So if you’ve ever dreamed of following in the foot steps of Indiana Jones or Lara Croft, here’s your chance...
 
+<<<<<<< HEAD
 [Micropasts.org](http://micropasts.org)
+=======
+http://crowdsourced.micropasts.org/
+>>>>>>> FETCH_HEAD
