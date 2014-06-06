@@ -28,7 +28,7 @@ Following a revolution in 3D modelling in recent years, it is now relatively eas
 
 The huge database of index cards at the British Museum records details about object type, location and context of discovery, as well as line drawings of each object. Contributors are asked to transcribe details from the cards in pre-determined fields and to geo-reference the object’s place of discovery.
 
-![alttext](/assets/img/blog/axes.jpeg "Photo by Micropasts – Bronze Age artefacts from the British Museum's collection")
+![alttext](/assets/img/blog/axes.jpeg "Photo by Micropasts – Bronze Age artefacts from the British Museum's collection.")
 
 # What can be achieved?
 
