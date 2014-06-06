@@ -2,3 +2,5 @@ name: PyBossa
 markdown: redcarpet
 pygments: true
 permalink: pretty
+gems:
+    - jekyll-redirect-from

@@ -1,6 +1,7 @@
 ---
+redirect_from: "/blog/2014/06/05/citizen-tomb-raider/"
 layout: post
-title:  "Citizen Tomb Raider"
+title:  "Crowdsourcing the Bronze Age"
 date:   2014-06-05 
 categories: jekyll update
 quote: Lorem ipsum dolor sit amet, consectetur adipisicing elit
