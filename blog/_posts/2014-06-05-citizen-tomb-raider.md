@@ -4,7 +4,7 @@ title:  "Citizen Tomb Raider"
 date:   2014-06-05 
 categories: jekyll update
 quote: Lorem ipsum dolor sit amet, consectetur adipisicing elit
-photo: /assets/img/blog/micropasts.jpeg
+photo: /assets/img/blog/Micropasts.jpeg
 photo_author: Micropasts – 3D print of Bronze Age palstave modelled by Micropasts
 photo_url: https://twitter.com/portableant/status/471332726529064960
 intro: "The British Museum and University College London team up to crowd-source Britain’s Bronze Age with PyBossa-powered platform Micropasts.org"
@@ -28,6 +28,8 @@ Following a revolution in 3D modelling in recent years, it is now relatively eas
 
 The huge database of index cards at the British Museum records details about object type, location and context of discovery, as well as line drawings of each object. Contributors are asked to transcribe details from the cards in pre-determined fields and to geo-reference the object’s place of discovery.
 
+![alttext](/assets/img/blog/axes.jpeg "Photo by Micropasts – Bronze Age artefacts from the British Museum's collection")
+
 # What can be achieved?
 
 Neil Wilkin, curator of Bronze Age collections at the British Museum, states that:
@@ -49,6 +51,5 @@ PyBossa has worked closely with the British Museum and UCL to produce a bespoke 
 # What are you waiting for?
 
 Since going live in April, *Micropasts* has already proved to be hugely popular. It currently has six projects running, some of which are nearing completion. So if you’ve ever dreamed of following in the foot steps of Indiana Jones or Lara Croft, here’s your chance...
-
 
 [Micropasts.org](http://micropasts.org)
