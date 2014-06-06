@@ -4,7 +4,7 @@ title:  "Citizen Tomb Raider"
 date:   2014-06-05 
 categories: jekyll update
 quote: Lorem ipsum dolor sit amet, consectetur adipisicing elit
-photo: /assets/img/blog/Micropasts.jpeg
+photo: /assets/img/blog/micropasts.jpeg
 photo_author: Micropasts – 3D print of Bronze Age palstave modelled by Micropasts
 photo_url: https://twitter.com/portableant/status/471332726529064960
 intro: "The British Museum and University College London team up to crowd-source Britain’s Bronze Age with PyBossa-powered platform Micropasts.org"
