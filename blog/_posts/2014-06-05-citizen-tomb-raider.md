@@ -9,22 +9,20 @@ photo_author: Micropasts – 3D print of Bronze Age palstave modelled by Micropa
 photo_url: https://twitter.com/portableant/status/471332726529064960
 intro: "The British Museum and University College London team up to crowd-source Britain’s Bronze Age with PyBossa-powered platform Micropasts.org"
 author: jimmyd
-keywords: crowdsourcing, PyBossa, open, source, science, citizen
+keywords: crowdsourcing, PyBossa, open, source, science, citizen, Bronze, Age, archeology, micropasts
 ---
 
 The British Museum and University College London (UCL) have launched *Micropasts.org* – a PyBossa-powered platform which invites members of the public to become citizen archeologists. The project will create the world’s leading prehistoric metal database and just might change the way we research our collective past.
 
 # A vast collection
 
-The Bronze Age collection at the British Museum contains over 30,000 tools and weapons discovered during the 19th and 20th centuries. Following a major archeological initiative started in 1913, specific details of each artefact have been recorded in a massive database of index cards.
-
-The new *Micropasts* project, led by Daniel Pett (British Musuem) and Andrew Bevan (UCL), seeks contributions to help create 3D models of the British Museum's Bronze Age artefacts and to transcribe their associated paper records.  
+The Bronze Age collection at the British Museum contains over 30,000 tools and weapons discovered during the 19th and 20th centuries. Specific details of each artefact are recorded in a massive database of index cards which has been kept since 1913. The *Micropasts* project, led by Daniel Pett (British Musuem) and Andrew Bevan (UCL), seeks contributions to help create 3D models of these artefacts and to transcribe their associated paper records.  
 
 # Photo-masking
 
-Following a revolution in 3D modelling in recent years, it is now relatively easy to create high quality 3D models of archeological artefacts using digital photographs and a process known as ‘photo-masking’. *Micropasts* asks volunteers to accurately outline or isolate the object depicted in the photograph from its background so that high quality models may be constructed.
+Following a revolution in 3D modelling in recent years, it is now relatively easy to create high quality 3D models of archeological artefacts using digital photographs and a process known as *‘photo-masking’*. 
 
-These models will allow for better visualisation of the artefacts by exposing tiny differences in object dimensions and style, providing new insights into how, when and where the objects were made. This level of detail may ultimately lead to new forms of archeological scholarship.
+*Micropasts* asks volunteers to accurately outline objects depicted in photographs so that they may be isolated from their background. High quality models may then be constructed which allow for better visualisation of the artefacts by exposing tiny differences in their dimensions and style. The models will provide new insights into how, when and where objects were made with a level of detail which may ultimately lead to new forms of archeological scholarship.
 
 # Transcription and geo-coding
 
@@ -32,15 +30,15 @@ The huge database of index cards at the British Museum records details about obj
 
 # What can be achieved?
 
-Neil Wilkin, curator of Bronze Age Collections at the British Museum, states that:
+Neil Wilkin, curator of Bronze Age collections at the British Museum, states that:
 
 *"The result [of the Micropasts project] will be the largest national database of prehistoric metal finds anywhere in the world... giving us a far more comprehensive view of our prehistoric world."*
 
-Andrew Bevan (UCL) thinks that the project is exciting because:
+Andrew Bevan (UCL) thinks that *Micropasts* is:
 
-*“... we can potentially take it in so many directions. We plan to create more 	crowdsourcing applications for the platform.”*
+*“... so exciting because we can potentially take it in so many directions. We plan to create more crowdsourcing applications for the platform.”*
 
-All the project’s data will be made publicly available so that anyone can use it, whether for research purposes or even to be incorporated into computer games.
+All the project’s data will be made publicly available so that anyone can use it, whether for academic and research purposes, or even to be incorporated into the on-line environment or for gaming.
 
 # PyBossa’s Role
 
