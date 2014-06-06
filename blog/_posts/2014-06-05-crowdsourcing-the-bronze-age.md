@@ -51,6 +51,6 @@ PyBossa has worked closely with the British Museum and UCL to produce a bespoke 
 
 # What are you waiting for?
 
-Since going live in April, *Micropasts* has already proved to be hugely popular. It currently has six projects running, some of which are nearing completion. So if you’ve ever dreamed of following in the foot steps of Indiana Jones or Lara Croft, here’s your chance...
+Since going live in April, *Micropasts* has already proved to be hugely popular. It currently has six projects running, some of which are nearing completion. So if you’ve ever dreamed of following in the foot steps of Indiana Jones, here’s your chance...
 
 [Micropasts.org](http://micropasts.org)
