@@ -5,9 +5,9 @@ title:  "Crowdsourcing the Bronze Age"
 date:   2014-06-05 
 categories: jekyll update
 quote: Lorem ipsum dolor sit amet, consectetur adipisicing elit
-photo: /assets/img/blog/micropasts.jpeg
-photo_author: Micropasts – 3D print of Bronze Age palstave modelled by Micropasts
-photo_url: https://twitter.com/portableant/status/471332726529064960
+photo: /assets/img/blog/bronze.jpg
+photo_author: Alister Babb
+photo_url: https://www.flickr.com/photos/26250290@N06/5380992541
 intro: "The British Museum and University College London team up to crowd-source Britain’s Bronze Age with PyBossa-powered platform Micropasts.org"
 author: jimmyd
 keywords: crowdsourcing, PyBossa, open, source, science, citizen, Bronze, Age, archeology, micropasts
@@ -19,6 +19,9 @@ The British Museum and University College London (UCL) have launched *Micropasts
 
 The Bronze Age collection at the British Museum contains over 30,000 tools and weapons discovered during the 19th and 20th centuries. Specific details of each artefact are recorded in a massive database of index cards which has been kept since 1913. The *Micropasts* project, led by Daniel Pett (British Musuem) and Andrew Bevan (UCL), seeks contributions to help create 3D models of these artefacts and to transcribe their associated paper records.  
 
+![alttext](/assets/img/blog/axes.jpeg) 
+<p class="post-caption">Photo by <a href="http://micropasts.org">Micropasts</a> – Bronze Age artefacts from the British Museum's collection.</p>
+
 # Photo-masking
 
 Following a revolution in 3D modelling in recent years, it is now relatively easy to create high quality 3D models of archeological artefacts using digital photographs and a process known as *‘photo-masking’*. 
@@ -29,7 +32,6 @@ Following a revolution in 3D modelling in recent years, it is now relatively eas
 
 The huge database of index cards at the British Museum records details about object type, location and context of discovery, as well as line drawings of each object. Contributors are asked to transcribe details from the cards in pre-determined fields and to geo-reference the object’s place of discovery.
 
-![alttext](/assets/img/blog/axes.jpeg "Photo by Micropasts – Bronze Age artefacts from the British Museum's collection.")
 
 # What can be achieved?
 
@@ -42,6 +44,9 @@ Andrew Bevan (UCL) thinks that *Micropasts* is:
 *“... so exciting because we can potentially take it in so many directions. We plan to create more crowdsourcing applications for the platform.”*
 
 All the project’s data will be made publicly available so that anyone can use it, whether for academic and research purposes, or even to be incorporated into the on-line environment or for gaming.
+
+![alttext](/assets/img/blog/micropasts.jpeg)
+<p class="post-caption">Photo by <a href="http://micropasts.org">Micropasts</a> – 3D print of Bronze Age palstave modelled by Micropasts.</p>
 
 # PyBossa’s Role
 
