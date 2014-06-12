@@ -15,6 +15,11 @@ layout: nil
       <title>{{ post.title | xml_escape }}</title>
       <link>http://pybossa.com{{post.url}}</link>
       <description>{{post.intro | xml_escape}}</description>
+      {% for member in site.data.crew %}
+      {% if member.author == post.author %}
+      <author>{{member.name}} {{member.surname}}</author>
+      {% endif %}
+      {% endfor %}
       <pubDate>{{post.date |  date: "%Y-%M-%D"}}</pubDate>
   </item>
   {% endfor %}
