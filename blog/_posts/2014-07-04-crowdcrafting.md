@@ -23,7 +23,7 @@ The *PyBossa* team is extremely excited to launch a brand new version of the *Py
 
 Thanks to developer Jorge Correa, the new *Crowdcrafting* site looks amazing, with a sleek, clean and modern design – so any projects you create will look fabulous.
 
-![alttext](/assets/img/blog/ScreenShot1.png "The pretty new platform.")
+![alttext](/assets/img/blog/ScreenShot1.png "Our new look.")
 
 ## Speed and efficiency
 
