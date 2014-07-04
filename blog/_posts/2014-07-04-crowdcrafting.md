@@ -15,7 +15,7 @@ The *PyBossa* team is extremely excited to launch a brand new version of the *Py
 
 # What is Crowcrafting?
 
-[*Crowdcrafting.org*](http://crowdcrafting.org/) is an opensource platform that provides a highly convenient framework around which crowdsourced projects can be constructed, allowing anyone to connect with people from all around the world to solve problems quickly and efficiently. Volunteers can help with image classification, transcription, geocoding and much more.
+[*Crowdcrafting.org*](http://crowdcrafting.org/) is an opensource platform that provides a highly convenient framework around which crowdsourced projects can be constructed, allowing you to connect with people from all around the world to solve problems quickly and efficiently. Volunteers can help with image classification, transcription, geocoding and much more.
 
 # What’s new?
 
@@ -39,7 +39,7 @@ Creating a new project could not be easier – just fill in three fields and you
 
 ## Community
 
-A strong community is at the heart of successful crowdsourced projects. The new *Crowdcrafting* site provides a community space where users and volunteers can interact and share ideas. This incorporates a new ‘activity feed’ which reports live community action, such as new project creation and blog releases, as they happen. Users can also upload avatars for their projects and profiles for a greater sense of identity.
+A strong community is at the heart of every successful crowdsourced project. The new *Crowdcrafting* site provides a community space where users and volunteers can interact and share ideas. This incorporates a new ‘activity feed’ which reports live community action, such as new project creation and blog releases, as they happen. Users can also upload avatars for their projects and profiles for a greater sense of identity.
 
 ![alttext](/assets/img/blog/ScreenShot2.png "Crowdcrafting community page.")
 
