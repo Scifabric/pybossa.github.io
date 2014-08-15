@@ -2,7 +2,6 @@
 layout: post
 title:  "Reinventing the wheel"
 date:   2014-02-26 
-categories: jekyll update
 quote: Lorem ipsum dolor sit amet, consectetur adipisicing elit
 photo: http://daniellombrana.es/assets/img/blog/wheel.jpg
 photo_author: John Doe

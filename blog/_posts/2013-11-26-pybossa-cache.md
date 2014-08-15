@@ -2,7 +2,6 @@
 layout: post
 title: "Adding a load balanced & high-availability cache to PyBossa"
 date:   2013-11-26
-categories: jekyll update
 photo: http://daniellombrana.es/assets/img/blog/balance.jpg
 photo_author: Timm Nüchter
 photo_url: http://www.flickr.com/photos/t-klick/10122172655/

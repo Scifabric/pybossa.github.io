@@ -2,7 +2,6 @@
 layout: post
 title:  "Crowdcrafting: the next generation"
 date:   2014-07-04 
-categories: jekyll update
 quote: Lorem ipsum dolor sit amet, consectetur adipisicing elit
 photo: /assets/img/blog/CClogo.png
 photo_author: Jorge Correa

@@ -2,7 +2,6 @@
 layout: post
 title: "Sharing your PyBossa application analysis with Enki"
 date: 2013-12-16
-categories: jekyll update
 photo: http://daniellombrana.es/assets/img/blog/enki.jpg
 photo_author: Georgelazenby
 photo_url: http://en.wikipedia.org/wiki/File:Chaos_Monster_and_Sun_God.png

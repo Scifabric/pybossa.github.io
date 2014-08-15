@@ -2,7 +2,6 @@
 layout: post
 title:  "Welcome to the future of crowdsourcing"
 date:   2014-04-29 
-categories: jekyll update
 quote: Lorem ipsum dolor sit amet, consectetur adipisicing elit
 photo: /assets/img/blog/crowd.jpg
 photo_author: Kevin McGarry

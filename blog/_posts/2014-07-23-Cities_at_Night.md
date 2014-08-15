@@ -2,7 +2,6 @@
 layout: post
 title:  "Fighting light pollution from space"
 date:   2014-07-23 
-categories: jekyll update
 quote: Lorem ipsum dolor sit amet, consectetur adipisicing elit
 photo: /assets/img/blog/Carrusel1_spain.jpg
 photo_author: The Gateway to Astronaut Photography of Earth (NASA)
