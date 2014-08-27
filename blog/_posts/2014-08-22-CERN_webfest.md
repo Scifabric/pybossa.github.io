@@ -2,7 +2,6 @@
 layout: post
 title:  "Coffee and code: PyBossa at the CERN Webfest"
 date:   2014-08-22 
-categories: jekyll update
 quote: Lorem ipsum dolor sit amet, consectetur adipisicing elit
 photo: /assets/img/blog/Mug.jpg
 photo_author: James Doherty
