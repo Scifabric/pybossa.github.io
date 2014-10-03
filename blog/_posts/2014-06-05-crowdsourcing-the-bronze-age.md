@@ -7,7 +7,7 @@ quote: Lorem ipsum dolor sit amet, consectetur adipisicing elit
 photo: /assets/img/blog/bronze.jpg
 photo_author: Alister Babb
 photo_url: https://www.flickr.com/photos/26250290@N06/5380992541
-intro: "The British Museum and University College London team up to crowd-source Britain’s Bronze Age with PyBossa-powered platform Micropasts.org"
+intro: "The British Museum and University College London team up to crowdsource Britain’s Bronze Age with PyBossa-powered platform Micropasts.org"
 author: jimmyd
 keywords: crowdsourcing, PyBossa, open, source, science, citizen, Bronze, Age, archeology, micropasts
 ---
