@@ -25,7 +25,7 @@ Field teams trying to stop the spread of [Malaria](http://en.wikipedia.org/wiki/
 
 I work for the [Swiss Tropical and Public Health Institute](http://www.swisstph.ch/), an associated institute of the [University of Basel](http://www.unibas.ch/). We set up Health Demographic Surveillance Systems (HDSS) to intensively survey populations for which there is no routine registration of births and deaths. We try to enumerate these populations and understand the healthcare challenges they face. 
 
-![alttext](/assets/img/blog/Enumerators.JPG "Courtesy of Nicolas Maire")
+![alttext](/assets/img/blog/enumerators.JPG "Courtesy of Nicolas Maire")
 <p class="post-caption">Photo by <a href="http://www.swisstph.ch/about-us/staff/detailview.html?tx_x4epersdb_pi1%5BshowUid%5D=2065&cHash=d980399c892948e5cc6b3be4e43272a6">Nicolas Maire</a> HDSS enumerator team getting ready for a field survey in Majete, Malawi.</p>
 
 Teams investigating the effect of Malaria on populations in Africa realised that the data we collect would be really useful for their research – so they got in touch to ask for our help.
@@ -42,7 +42,7 @@ We need help to analyse thousands of satellite images (imported from [Bing](http
 
 An unexpected bonus of using Crowdcrafting has been the outreach achieved – lots more people know about the research projects because we’ve crowdsourced the data.
 
-![alttext](/assets/img/blog/Geolocators.JPG "Courtesy of Nicolas Maire")
+![alttext](/assets/img/blog/geolocators.JPG "Courtesy of Nicolas Maire")
 <p class="post-caption">Photo by <a href="http://www.swisstph.ch/about-us/staff/detailview.html?tx_x4epersdb_pi1%5BshowUid%5D=2065&cHash=d980399c892948e5cc6b3be4e43272a6">Nicolas Maire</a> Geolocators at the Open Day of the Swiss TPH in June 2014.</p>
 
 # What does the future hold for Rural Geolocator?
