@@ -3,9 +3,9 @@ layout: post
 title:  "Harnessing the power of the Crowd to fight Malaria"
 date:   2014-10-03 
 quote: Lorem ipsum dolor sit amet, consectetur adipisicing elit
-photo: /assets/img/blog/Mosquito.jpg
-photo_author: Sanofi Pasteur
-photo_url: https://www.flickr.com/photos/sanofi-pasteur/5284040324/in/photolist-93W66w-gak5yJ-e2AaMZ-53GFdA-4eVCHg-gyied3-9jHyK-2ynDf-adeXVQ-nYMSDk-AgXgc-9ZwSyJ-obpRb8-eRJgjD-69Nd9y-fWkWC-6rX2x9-7Cq7NA-6wAZYv-gTv4nn-e8Cnfk-5cJg8N-5f7FGA-gTXJFu-7RY1TQ-dfFvP-jEboS-dY2U27-3hPu3c-dfFnM-cTJ6P-Cv41T-4BuPcd-kETJWH-6P7nnz-dPrmk4-6VRbxR-bEw8gp-e5tJgD-hKR7dG-9n2Yj-o7WxXH-4JZPnX-eMjETA-KDcbx-4JZPo8-oYuEp-nKGswQ-dnrHEX-7pkhDt
+photo: /assets/img/blog/Mosquito3.jpg
+photo_author: James Gathany
+photo_url: https://www.flickr.com/photos/pennstatelive/12726880494/in/photolist-dGRovG-koCAb3-koAcjr-a89QJq-bmtm9b-kaZkri-cqfYAC-oCDB36-njYAQi-5FCvZV-5FDbRn-5FDbhi-7jxRvu-5FHpXY-6P7nnz-8i28x9-dBfkzk-eQyMhA-bEw8gp-4jatKd-9HmsEC-5AZ8ha-a86Us8-dkd7Ty-9Hmtzf-azJA1x-nvLzYy-bBzyvE-bQuffr-fbQBKj-bBzywu-75QcdV-8xEtvr-bu3WD8-njYAJr-5FCsgg-8h7bGD-jZbjq4-e1z9RZ-8haqFS-nZpKER-kh6DAs-bBzyDj-5Wob3J-9RPWso-sUsBe-eaFqUW-dr7AoX-dr7ADz-dr7LPd
 intro: "Rural Geolocator project helps field teams in Africa create Malaria-free zones"
 author: jimmyd
 keywords: crowdsourcing, crowdcrafting, PyBossa, open, source, science, citizen, opensource, Malaraia, Kenya, Malawi, HDSS, Field Study 
@@ -47,6 +47,6 @@ An unexpected bonus of using Crowdcrafting has been the outreach achieved – lo
 
 # What does the future hold for Rural Geolocator?
 
-Our volunteers have already invested a lot of time and effort collecting data sets for Rusinga and Majete projects so the first thing to do is analyse them. We will create maps of potentially inhabitable structures to overlay maps of houses visited by the field teams which will help to identify missed households. Ultimately we hope that using satellite imagery and crowdsourcing will greatly improve our data to guide both field research and the implementation of malaria control measures.
+Our volunteers have already invested a lot of time and effort collecting data sets for the Rusinga and Majete projects so the first thing to do is analyse them. We will create maps of potentially inhabitable structures to overlay maps of houses visited by the field teams which will help to identify missed households. Ultimately we hope that using satellite imagery and crowdsourcing will greatly improve our data to guide both field research and the implementation of malaria control measures.
 
 *Want to help field workers in Africa fight  Malaria? Here's your chance: [Rural Geolocator](http://crowdcrafting.org/app/RuralGeolocator/)*
