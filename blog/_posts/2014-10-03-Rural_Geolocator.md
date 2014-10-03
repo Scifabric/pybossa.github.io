@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Harnessing the power of the Crowd to fight Malaria"
-date:   2014-10-03s 
+date:   2014-10-03 
 quote: Lorem ipsum dolor sit amet, consectetur adipisicing elit
 photo: /assets/img/blog/Mosquito.jpg
 photo_author: Sanofi Pasteur
