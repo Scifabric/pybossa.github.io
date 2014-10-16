@@ -17,14 +17,25 @@ body_class: get_started
 			</li>
 			<li>					
 				<h3>Install Vagrant</h3>
-				<p>Now, we only need another software to handle all the automated set up and configuration of PyBossa in the Virtual Machine: <a href="http://www.vagrantup.com/downloads.html">Vagrant</a>. Download the installer that fits your system, install it and go to the next step.</p>
+				<p>Vagrant is needed to handle all the automated set up and configuration of PyBossa in the Virtual Machine: <a href="http://www.vagrantup.com/downloads.html">Vagrant</a>. Download the installer that fits your system, install it and go to the next step.</p>
 				<a class="btn btn-default" target="_blank"  href="http://www.vagrantup.com/downloads.html">Install Vagrant</a>
+			</li>
+			<li>
+				<h3>Install Vagrant Ansible plugin</h3>
+				<p>You only have to install this once. This plugin will only keep sure that Vagrant can talk to the PyBossa installation which is controlled by a local Ansible. It will not install Ansible on your system.</p>
+				<p>Open a terminal and run:</p>
+				<kbd>
+					<ul>
+						<li id="ansible-local" name="id">vagrant plugin install vagrant-ansible-local</li>
+					</ul>
+				</kbd>
+				<a href="#" data-clipboard-target="ansible-local" class="copy-button"><i class="fa fa-clipboard"></i><span>Copy to clipboard</span></a>
 			</li>
 			<li>
 				<h3>Download and install PyBossa</h3>
 				<p>The best way to download the latest version and get everything up in minutes is to clone the official repository.</p>
 				<p>Note for Windows users: <a href="https://help.github.com/articles/dealing-with-line-endings#platform-windows">Turn off autocrlf in your git settings</a>.</p>
-				<p>Open a terminal and clone the repository (download and install in almost one command) with the following command:</p>
+				<p>Clone the repository (download and install in almost one command) with the following command:</p>
 				<kbd>
 					<ul>
 						<li id="git" name="id">git clone --recursive git@github.com:PyBossa/pybossa.git</li>
@@ -46,17 +57,16 @@ body_class: get_started
 				<kbd>
 					<ul>
 						<li>vagrant ssh</li>
-						<li>cd /vagrant</li>
-						<li>source vagrant_start.sh</li>
+						<li>python run.py</li>
 					</ul>
 				</kbd>
-				<a href="#" class="copy-button" data-clipboard-text="vagrant ssh\n cd /vagrant\n source vagrant_starth.sh\n"><i class="fa fa-clipboard"></i><span>Copy to clipboard</span></a>
+				<a href="#" class="copy-button" data-clipboard-text="vagrant ssh\n python run.py\n"><i class="fa fa-clipboard"></i><span>Copy to clipboard</span></a>
 				<p>In your web browser, open a tab with the following URL: <a href="http://127.0.0.1:5000">http://127.0.0.1:5000</a> and enjoy!</p>
 			</li>
 		</ol>
 		<div class="support">
 			<h3>Need help?</h3>
-			<p>If you need help in setting up your server, please check the official <a href="http://docs.pybossa.com">documentation</a> or send us an e-mail to <a href="mailto:info@pybossa.com">info@pybossa.com</a>.</p>
+			<p>If you need help in setting up your server, please check the official <a href="http://docs.pybossa.com/en/latest/vagrant_pybossa.html#setting-up-pybossa-with-vagrant">PyBossa Vagrant documentation</a>, <a href="http://docs.pybossa.com">PyBossa documentation</a> or send us an e-mail to <a href="mailto:info@pybossa.com">info@pybossa.com</a>.</p>
 		</div>
 	</div>
 </div> <!-- /container -->
