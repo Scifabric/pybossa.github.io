@@ -29,7 +29,7 @@ I became a mum almost six months ago and that is the best thing I have ever done
 
 # Tell me about your career to date?
 
-I have degrees in Advertising and Communications and I’m currently studying for a Masters in Digital Products Design and User Experience. I have worked for advertising agencies – such as Havas Media, Young & Rubicam, and some smaller agencies –  as well as for some TV channels. But I’ve grown disenchanted with advertising (don't go down that road kids!) and want to move into a field I can feel passionate about.
+I have degrees in Advertising and Communications and I’m currently studying for a Masters in Digital Products Design and User Experience. I have worked for advertising agencies – such as Havas Media, Young & Rubicam, and some smaller agencies –  as well as for some TV channels. But I’ve grown disenchanted with advertising and want to move into a field I can feel passionate about.
 
 # How did you find PyBossa?
 
