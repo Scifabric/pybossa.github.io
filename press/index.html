@@ -51,11 +51,11 @@ body_class: press
 
 			<div class="download-press-kit">
 				<p><strong>Download our media kit for all the latest news about us!</strong><br /> Our media kit is packed full of history, awards, and other exciting information.</p>
-				<a class="btn btn-inverse wow flash" data-wow-delay="3s"
+				<a id="presskit_en" class="btn btn-inverse wow flash" data-wow-delay="3s"
                     target="_blank"
                     href="../assets/downloads/crowdcrafting_press_brochure_en.pdf">Download Press Kit (English) <small
                 class="hidden-xs">ZIP 2.8MB</small></a> 
-			<a class="btn btn-inverse wow flash" data-wow-delay="3s"
+			<a id="presskit_es" class="btn btn-inverse wow flash" data-wow-delay="3s"
                     target="_blank"
                     href="../assets/downloads/crowdcrafting_press_brochure_es.pdf">Download Press Kit (Spanish) <small
                 class="hidden-xs">ZIP 2.8MB</small></a> 
@@ -208,3 +208,31 @@ Logos and Badges <small class="hidden-xs">ZIP 48.6KB</small></a>
 		</div>
 	</div>
 </div>
+<script>
+var downloadLinkEs = document.getElementById('presskit_es');
+addListener(downloadLinkEs, 'click', function() {
+  ga('send', 'event', 'button', 'click', 'presskit-es');
+});
+
+var downloadLinkEn = document.getElementById('presskit_en');
+addListener(downloadLinkEn, 'click', function() {
+  ga('send', 'event', 'button', 'click', 'presskit-en');
+});
+
+
+
+/**
+ * Utility to wrap the different behaviors between W3C-compliant browsers
+ * and IE when adding event handlers.
+ *
+ * @param {Object} element Object on which to attach the event listener.
+ * @param {string} type A string representing the event type to listen for
+ *     (e.g. load, click, etc.).
+ * @param {function()} callback The function that receives the notification.
+ */
+function addListener(element, type, callback) {
+ if (element.addEventListener) element.addEventListener(type, callback);
+ else if (element.attachEvent) element.attachEvent('on' + type, callback);
+}
+
+</script>
