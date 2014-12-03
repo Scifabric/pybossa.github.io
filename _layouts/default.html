@@ -99,6 +99,13 @@
 	});
 	</script>
 	{% include ga.html %}
-
+<script>
+$('#presskit_en').on('click', function() {
+  ga('send', 'event', 'button', 'click', 'presskit-en');
+});
+$('#presskit_es').on('click', function() {
+  ga('send', 'event', 'button', 'click', 'presskit-es');
+});
+</script>
 </body>
 </html>
