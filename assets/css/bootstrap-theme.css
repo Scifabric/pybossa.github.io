@@ -2263,3 +2263,35 @@ div.divider {
 .icon-icon-24213:before {
    content: "n"; 
 }
+
+.bignews-banner {
+	background-color:#EE7147;
+	margin:40px auto 0 auto;
+	padding:30px;
+	border-radius:3px;
+}
+body.about .bignews-banner {
+	margin:0px auto 30px auto;
+}
+.bignews-banner p,
+.bignews-banner a {
+	color:#fff !important;
+	font-size:20px !important;
+	font-weight:100;
+}
+.bignews-banner p {
+	text-shadow: rgba(0,0,0,.3) 0px 1px 1px;
+}
+.bignews-banner a {
+	font-size:18px !important;
+	text-decoration:underline;
+}
+.bignews-banner em {
+	font-weight:400;
+}
+.bignews-banner img {
+	float:left;
+	margin-right:30px;
+}
+
+
