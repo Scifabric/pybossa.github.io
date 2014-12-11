@@ -1,0 +1,97 @@
+---
+layout: default
+body_class: blog
+active: press
+---
+
+<div class="container post-detail first-container">
+	<div class="col-md-8 col-md-offset-2">
+		<p class="back-to-blog-index"><a href="/press/">« Press</a></p>
+		<ul class="share-social">
+			<li class="share_on">Share on</li>
+			<li>
+				<a href="javascript:window.open('http%3A%2F%2Fwww.facebook.com%2Fshare.php%3Fu%3Dhttp%3A%2F%2Fpybossa.com{{ page.url }}', '_blank', 'width=500,height=450');void(0);" class="facebook">
+					<i class="fa fa-facebook"></i>
+					<span>Facebook</span>
+				</a>
+			</li>
+			<li>
+				<a href="javascript:window.open('https%3A%2F%2Ftwitter.com%2Fhome?status=http%3A%2F%2Fpybossa.com{{ page.url }}', '_blank', 'width=500,height=450');void(0);" class="twitter">
+					<i class="fa fa-twitter"></i>
+					<span>Twitter</span>
+				</a>
+			</li>
+			<li>
+				<a href="javascript:window.open('https%3A%2F%2Fplus.google.com%2Fshare?url=http%3A%2F%2Fpybossa.com{{ page.url }}', '_blank', 'width=500,height=450');void(0);" class="google-plus">
+					<i class="fa fa-google-plus"></i>
+					<span>Google+</span>
+				</a>
+			</li>
+		</ul>
+		<h3 class="title">{{page.title}}</h3>
+        {% for member in site.data.crew %}
+        {% if member.author == page.author %}
+		<p class="post-date">{{ page.date | date: "%-d %B %Y" }} by <a
+            href="{{member.homepage}}">{{member.name}} {{member.surname}}</a></p>
+        {% endif %}
+        {% endfor %}
+	</div>
+
+	<div class="col-md-8 col-md-offset-2">
+		<p class="intro">{{page.intro}}</p>
+		{{ content }}
+		<!--<p class="post-quote">{{page.quote}}</p>-->
+	</div>
+	<div class="col-md-8 col-md-offset-2 tagged-in">
+        <!--
+		<ul>
+			<li class="title">This entry was tagged with</li>
+			<li><a href="#">citizen science</a></li>
+			<li><a href="#">open source</a></li>
+			<li><a href="#">pybossa</a></li>
+			<li><a href="#">evolution</a></li>
+			<li><a href="#">discussion</a></li>
+        </ul>-->
+	</div>
+    {% for member in site.data.crew %}
+    {% if member.author == page.author %}
+	<div class="col-md-8 col-md-offset-2 author-detail">
+		<div class="col-md-2 hidden-sm hidden-xs">
+			<a href="{{member.homepage}}">
+                <img class="img-circle" src="/assets/img/{{member.avatar}}" width="100%">
+			</a>
+		</div>
+		<div class="col-md-8">
+            <h3>{{member.name}} {{member.surname}}</h3>
+            <p class="author-rol">{{member.position}} @ PyBossa</p>
+            <p>{{member.name}} {{member.bio}}</p>
+			<ul>
+                {% if member.email %}
+                <li><a href="mailto:{{member.email}}"><i class="fa fa-envelope"></i></a></li>
+                {% endif %}
+                <li><a href="http://linkedin.com/in/{{member.linkedin}}"><i class="fa fa-linkedin"></i></a></li>
+                <li><a href="https://twitter.com/{{member.twitter}}"><i class="fa fa-twitter"></i></a></li>
+                <li><a href="https://github.com/{{member.github}}"><i class="fa fa-github"></i></a></li>
+			</ul>
+    		</div>
+	</div>
+    {% endif %}
+    {% endfor %}
+    </div>
+
+<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+				<h4 class="modal-title" id="myModalLabel">Modal title</h4>
+			</div>
+			<div class="modal-body">
+				
+			</div>
+		</div>
+	</div>
+</div>
+
+
