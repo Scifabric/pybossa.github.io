@@ -16,7 +16,8 @@ active: blog
 				</a>
 			</li>
 			<li>
-				<a href="javascript:window.open('https%3A%2F%2Ftwitter.com%2Fhome?status=http%3A%2F%2Fpybossa.com{{ page.url }}', '_blank', 'width=500,height=450');void(0);" class="twitter">
+				<a
+                    href='javascript:window.open("https://twitter.com/intent/tweet?text={{page.intro|escape}}&url=http://pybossa.com{{page.url}}","_blank","width=500,height=450");void(0);' class="twitter">
 					<i class="fa fa-twitter"></i>
 					<span>Twitter</span>
 				</a>
