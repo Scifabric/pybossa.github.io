@@ -6,6 +6,7 @@
   twitter: teleyinex
   linkedin: teleyinex
   avatar: daniel.jpg
+  email: daniel@scifabric.com
   bio: "is an open-source developer and a researcher with a passion for citizen science."
   homepage: http://daniellombrana.es
 
@@ -29,6 +30,7 @@
   github: alejandrodob
   linkedin: alejandrodob
   avatar: alejandro.jpg
+  email: alejandro@scifabric.com
   bio: "loves mathematics but only beated by his passion for developing web apps."
   homepage: http://www.linkedin.com/in/alejandrodob
 
@@ -57,11 +59,12 @@
 - name: Clara
   surname: Sánchez-Puga
   author: clarilla
-  position: "Community Manager"
+  position: "PR & Community"
+  email: "clara@scifabric.com"
   github: clarilla
   twitter: clarilla
   linkedin: clarasanchezpuga
   avatar: clara.jpg
-  bio: ""
+  bio: "is a creative copywriter who loves music and her family."
   homepage: http://roqueandodurisimo.com/
 

@@ -31,7 +31,8 @@ active: blog
 		<h3 class="title">{{page.title}}</h3>
         {% for member in site.data.crew %}
         {% if member.author == page.author %}
-		<p class="post-date">{{ page.date | date: "%-d %B %Y" }} by <a href="{{member.homepage}}">{{member.name}} {{member.name}}</a></p>
+		<p class="post-date">{{ page.date | date: "%-d %B %Y" }} by <a
+            href="{{member.homepage}}">{{member.name}} {{member.surname}}</a></p>
         {% endif %}
         {% endfor %}
 	</div>
