@@ -109,7 +109,7 @@ Logos and Badges <small class="hidden-xs">ZIP 48.6KB</small></a>-->
 					<a href="{{post.link}}">{{post.title}}</a>
 					<ul>
 						<li class="article">
-							<a href="{{post.link}}">
+                        <a href="{% if post.otherlink %}{{post.otherlink}}{% else %}{{post.link}}{% endif %}">
 								<i class="fa fa-file-text-o fa-lg"></i>
 								<span>Article</span>
 							</a>
