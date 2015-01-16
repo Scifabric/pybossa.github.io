@@ -31,10 +31,10 @@ body_class: blog
 		</ul>
 		</div>
 		{% for post in site.categories.blog %}
-		{% capture modulo %}{{ forloop.index0 | mod:2 }}{% endcapture %}
-		{% if modulo == "0" %}
+        {% assign loopindex = forloop.index | modulo: 2 %}
+        <!-- modulo {{loopindex}} -->
+		{% if loopindex == 1 %}
 		<div class="row">
-			{% endif %}
 			<div class="col-md-6 post-entry">
 				<a href="{{ post.url }}"><img src="{{ post.photo }}" width="100%"/></a>
 				<a href="{{ post.url }}"><h3>{{ post.title }}</h3></a>
@@ -42,7 +42,14 @@ body_class: blog
 				<p class="intro">{{ post.intro | strip_html | truncate: 150 }}</p>
 				<a href="{{ site.prefix }}{{ post.url }}">Read more</a>
 			</div>
-			{% if modulo == "1" %}
+		{% else %}
+			<div class="col-md-6 post-entry">
+				<a href="{{ post.url }}"><img src="{{ post.photo }}" width="100%"/></a>
+				<a href="{{ post.url }}"><h3>{{ post.title }}</h3></a>
+				<p class="post-date">{{ post.date | date: "%-d %B %Y" }}</p>
+				<p class="intro">{{ post.intro | strip_html | truncate: 150 }}</p>
+				<a href="{{ site.prefix }}{{ post.url }}">Read more</a>
+			</div>
 		</div>
 		{% endif %}
 		{% endfor %}
