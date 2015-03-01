@@ -2,7 +2,6 @@ name: PyBossa
 markdown: redcarpet
 highlighter: pygments
 permalink: pretty
-pygments: false
 gems:
     - jekyll-redirect-from
     - jekyll-sitemap
