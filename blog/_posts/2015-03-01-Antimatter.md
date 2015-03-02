@@ -37,6 +37,6 @@ The team is currently calibrating the experiment so, if you want to get involved
 <p class="post-caption">Photo by <a href="http://aegis.web.cern.ch/aegis/">CERN</a> Part of the AEgIS experiment at CERN.</p>
 
 
-It’s not every day that you have the opportunity to help design an experiment at CERN then analyse its data.  So don’t delay, contribute today at [Crowdcrafting](http://crowdcrafting.org/)!
+It’s not every day that you have the opportunity to help design an experiment at CERN then analyse its data.  So don’t delay, contribute today at [Crowdcrafting](http://crowdcrafting.org/app/antimatteralpha/)!
 
 [Antimatter Alpha Project](http://crowdcrafting.org/app/antimatteralpha/)
