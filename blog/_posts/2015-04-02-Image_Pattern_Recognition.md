@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Brain vs Processor – Image Pattern Recognition"
+title:  "Brain vs Processor: Image Pattern Recognition"
 date:   2015-04-02 
 quote: Lorem ipsum dolor sit amet, consectetur adipisicing elit
 photo: /assets/img/blog/Eye.jpg
@@ -15,7 +15,7 @@ We admit it – computers are getting pretty clever. They can calculate pi to tr
 
 # Advanced cognitive abilities
 
-Humans possess advanced cognitive skills that make us much better than computers at analysing certain kinds of information. And if you have a data set which relies on these kinds of interpretative skills for analysis, then being able to access lots of human brains might be very helpful. Humans are great at spotting patterns, so in this post we’ll show you how to easily set up a project in [Crowdcrafting](http://pybossa.com/blog/2014/07/04/crowdcrafting/) for recognising patterns in images.
+Humans possess advanced cognitive skills that make us much better than computers at analysing certain kinds of information. And if you have a data set which requires these kinds of interpretative skills for analysis, then being able to access lots of human brains might be very helpful. Humans are great at spotting patterns, so in this post we’ll show you how to easily set up a project in [Crowdcrafting](http://pybossa.com/blog/2014/07/04/crowdcrafting/) for recognising patterns in images.
 
 # Image recognition
 
