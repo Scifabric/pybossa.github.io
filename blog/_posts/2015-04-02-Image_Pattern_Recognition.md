@@ -15,7 +15,7 @@ We admit it – computers are getting pretty clever. They can calculate pi to tr
 
 # Advanced cognitive abilities
 
-Humans possess advanced cognitive skills that make us much better than computers at analysing certain kinds of information. And if you have a data set which requires these kinds of interpretative skills for analysis, then being able to access lots of human brains might be very helpful. Humans are great at spotting patterns, so in this post we’ll show you how to easily set up a project in [Crowdcrafting](http://pybossa.com/blog/2014/07/04/crowdcrafting/) for recognising patterns in images.
+Humans possess advanced cognitive skills that make us much better than computers at analysing certain kinds of information. And if you need to exploit these interpretative skills in order to analyse your research data, then having access to lots of human brains might be very helpful. Humans are great at spotting patterns, so in this post we’ll show you how to easily set up a project in [Crowdcrafting](http://pybossa.com/blog/2014/07/04/crowdcrafting/) for recognising patterns in images.
 
 # Image recognition
 
