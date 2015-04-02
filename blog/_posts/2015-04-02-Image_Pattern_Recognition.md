@@ -6,9 +6,9 @@ quote: Lorem ipsum dolor sit amet, consectetur adipisicing elit
 photo: /assets/img/blog/Eye.jpg
 photo_author: Rob Unreall
 photo_url: https://www.flickr.com/photos/robunreall/3969715742/in/photolist-73MQbS-k6PNf2-jVsV2T-2HMFqw-4TDru4-9HYNCh-7XFb85-d9NGiY-nptVX-4pg8Zn-4ZnZec-g9gjc-6drVBp-o3aN3-v2DGS-9qY3ii-6tyzcB-7xtAJW-3QgN6u-7RT2Vy-7CJ9EL-bdyvf-hPd2DS-6jcnsn-7uQiaV-7QRpfs-4BL8jB-6b3Ltb-61nidE-hm594q-5JAx2X-6hEUoB-hoV6h-7LDcaS-64zC7c-8es2rr-89pqF1-7Spyg6-6nh3uX-7d3jPk-aVQ5P6-3rQZAN-3WdebX-3ETPMb-q6tJA-7byV6c-5ZYk7R-SiFF-eFY85c-64UQxA
-intro: "The first in a series of blog entries showcasing how researchers can use Crowdcrafting to tap into superior human cognitive powers"
+intro: "The first in a series of blog posts showcasing how researchers can use Crowdcrafting to tap into superior human cognitive powers"
 author: jimmyd
-keywords: crowdsourcing, crowdcrafting, PyBossa, open, source, science, citizen, opensource, CERN, antimatter, Michael Doser, particle physics 
+keywords: crowdsourcing, crowdcrafting, PyBossa, open, source, science, citizen, opensource, brain, processor, cognitive, image, pattern, recognition 
 ---
 
 We admit it – computers are getting pretty clever. They can calculate pi to trillions of digits, model what happens when two protons collide at close to the speed of light and even allow you to share photographs of your lunch with everyone you know. But there are some things computers aren’t that great at. They can’t identify where you’re from by your accent, they’re not very good at mining specific types of data from documents and they can’t tell how you feel from your facial expressions.
