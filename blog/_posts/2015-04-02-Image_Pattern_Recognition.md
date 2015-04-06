@@ -19,9 +19,9 @@ Humans possess advanced cognitive skills that make us much better than computers
 
 # Image recognition
 
-This handy little video, created by PyBossa’s lead developer [Daniel](http://daniellombrana.es/), shows just how easy it is to create an image pattern recognition-type project in Crowdcrafting. (Click on the image below to link to Youtube.)
+This handy little video, created by PyBossa’s lead developer [Daniel](http://daniellombrana.es/), shows just how easy it is to create an image pattern recognition-type project in Crowdcrafting. 
 
-[![alttext](/assets/img/blog/IPR.png "Courtesy of James Doherty")](https://www.youtube.com/watch?v=r_nA__1lj3Q)
+<style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='http://www.youtube.com/embed/r_nA__1lj3Q' frameborder='0' allowfullscreen></iframe></div>
 
 Crowdcrafting has a tool specifically for importing images from [Flickr](https://www.flickr.com/). So once you’ve uploaded the images you want to analyse into Flickr, you can create a new project with our handy ‘Image Pattern Recognition’ template and then use the Flickr importer tool to load images into your project. Then you just need to create the tasks you want your contributors to complete and – hey presto! – you’ve got an image pattern recognition project up and running in no time.
 
