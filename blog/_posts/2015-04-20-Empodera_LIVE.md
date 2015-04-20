@@ -49,7 +49,7 @@ That there are wonderful people in the world fighting for the rights of others a
 
 If I can YES! It was wonderful and I recommend the event to anyone interested in changing the world.
 
-## And next year, you’ll bring your teammates living in cold, wet England… Right?
+## And you’ll bring your teammate who lives in cold, wet England… right?
 
 Haha… absolutely!*
 
