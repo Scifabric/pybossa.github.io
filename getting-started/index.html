@@ -55,31 +55,14 @@ body_class: get_started
 				<a href="#" data-clipboard-target="juju-charm-4" class="copy-button"><i class="fa fa-clipboard"></i><span>Copy to clipboard</span></a>
 			</li>
 			<li>
-				<h3>Deploy the database</h3>
-				<p>Open a terminal and run:</p>
+				<h3>Deploy PyBossa Juju bundle</h3>
+				<p>This command will install PostgreSQL and PyBossa and will connect them:</p>
 				<kbd>
 					<ul>
-						<li id="juju-postgresql" name="id">juju deploy postgresql</li>
+						<li id="juju-deployer" name="id">juju deployer -c bundle.yaml</li>
 					</ul>
 				</kbd>
-				<a href="#" data-clipboard-target="juju-postgresql" class="copy-button"><i class="fa fa-clipboard"></i><span>Copy to clipboard</span></a>
-			</li>
-			<li>
-				<h3>Deploy PyBossa</h3>
-				<p>Open a terminal and run:</p>
-				<kbd>
-					<ul>
-						<li id="juju-pybossa" name="id">juju git-deploy github.com/PyBossa/pybossa-jujucharm</li>
-					</ul>
-				</kbd>
-				<a href="#" data-clipboard-target="juju-pybossa" class="copy-button"><i class="fa fa-clipboard"></i><span>Copy to clipboard</span></a>
-				<p>Connect the databse with PyBossa:</p>
-				<kbd>
-					<ul>
-                        <li id="juju-pybossa-connect" name="id">juju add-relation pybossa postgresql:db-admin</li>
-					</ul>
-				</kbd>
-				<a href="#" data-clipboard-target="juju-pybossa-connect" class="copy-button"><i class="fa fa-clipboard"></i><span>Copy to clipboard</span></a>
+				<a href="#" data-clipboard-target="juju-deployer" class="copy-button"><i class="fa fa-clipboard"></i><span>Copy to clipboard</span></a>
 			</li>
 			<li>
 				<h3>Export PyBossa port</h3>
@@ -94,7 +77,7 @@ body_class: get_started
                 <p>That command will give you the IP where the PyBossa server is listening. Copy it and pass it to the following command:</p>
 				<kbd>
 					<ul>
-						<li id="juju-nat" name="id">sudo ./natpybossa.sh IP</li>
+						<li id="juju-nat" name="id">sudo natpybossa IP</li>
 					</ul>
 				</kbd>
 				<a href="#" data-clipboard-target="juju-nat" class="copy-button"><i class="fa fa-clipboard"></i><span>Copy to clipboard</span></a>
@@ -102,7 +85,6 @@ body_class: get_started
 			<li>
 				<h3>Testing PyBossa</h3>
 				<p>In your web browser, open a tab with the following URL: <a href="http://127.0.0.1:7000">http://127.0.0.1:7000</a> and enjoy!</p>
-				<p>The server will not respond until <em>juju status</em> returns that all services are <em>started</em>. Use <em>juju status</em> to check.</p>
 			</li>
 		</ol>
 		<div class="support">
