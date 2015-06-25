@@ -47,9 +47,9 @@ All the project’s data will be made publicly available so that anyone can use 
 ![alttext](/assets/img/blog/micropasts.jpeg)
 <p class="post-caption">Photo by <a href="http://micropasts.org">Micropasts</a> – 3D print of Bronze Age palstave modelled by Micropasts.</p>
 
-# PyBossa’s Role
+# SciFabric’s Role
 
-PyBossa has worked closely with the British Museum and UCL to produce a bespoke platform ideally suited to citizen archeology. Daniel Pett of the British Museum says:
+[Scifabric](http://scifabric.com) has worked closely with the British Museum and UCL to produce a bespoke platform ideally suited to citizen archeology. Daniel Pett of the British Museum says:
 
 *"The PyBossa system has allowed the British Museum to release an amazing resource to the public and a worldwide audience. It has so much potential for citizen scientists and future developments will aid archaeologists and museum curators to tell new narratives with input from the crowd."*
 
