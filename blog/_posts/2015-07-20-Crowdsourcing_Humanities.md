@@ -33,7 +33,7 @@ The [National Library of Israel](http://www.nlics.org/) (NLI) has set up a new p
 ![alttext](/assets/img/blog/HebrewText.jpg "Courtesy of FirewallJC")
 <p class="post-caption">Photo by <a href="https://www.flickr.com/photos/firewalljc/3933346067/in/photolist-6ZzqKv-6ZDrBo-5uHZVL-d3XQJ-hzSk5F-5Zd2rK-75HWy7-8uyCrj-3rrEMd-5vKdF7-9QPUV7-5raBur-dX5NEj-4EpFVX-Phzxp-79U5nw-7gwjqu-9HUUkY-5Y9GoZ-6ci8Z2-kq8xXx-icEnss-ice7YB-8AMPRM-q6C1vd-6aucEF-5Zhepu-7gwuh5-5FmTqq-qmURat-d2naob-hGopDW-qEJSdT-qe4GsK-qr8rd4-qr8qZZ-pu96WL-qr8p2F-q5vXcD-7vp5SF-qobouk-4avqhB-ay3aut-eb9TCG-eb9TdU-eb9ST5-eb9StS-2Vrtjd-6kvQLh-5ZpKnK">FirewallJC</a> Could you help to translate a text such as this?</p>
 
-In order to create a customised platform, the NLI has upgraded to a PyBossa UX/UI interface, developed a back office management system for librarians, and integrated the platform into to the NLI digital library infrastructure
+In order to create a customised platform, the NLI has upgraded to a PyBossa UX/UI interface, developed a back office management system for librarians, and integrated the platform into to the NLI digital library infrastructure.
 
 Speak Hebrew? Then [give it a go](http://www.nlics.org/)!
 
@@ -44,7 +44,7 @@ The [British Museum](http://www.britishmuseum.org/) and [University College Lond
 ![alttext](/assets/img/blog/axes.jpeg "Courtesy of Micropasts")
 <p class="post-caption">Photo by <a href="http://micropasts.org/">Micropasts</a> Some axes from the British Museum's Bronze Age collection.</p>
 
-The British Museum’s Bronze Age collection contains over 30,000 tools and weapons discovered during the 19th and 20th centuries. Specific details of each artefact are recorded in a massive database of index cards which has been kept since 1913. The Micropasts project seeks contributions to help create 3D models of these artefacts using a process know as photomasking, to transcribe their associated paper records and to identify their sites of discovery.
+The British Museum’s Bronze Age collection contains over 30,000 tools and weapons discovered during the 19th and 20th centuries. Specific details of each artefact are recorded in a massive database of index cards which has been kept since 1913. The Micropasts project seeks contributions to help create 3D models of these artefacts using a process known as photomasking, to transcribe their associated paper records and to identify their sites of discovery.
 
 The Micropasts team have created over 70 projects and is at the forefront of crowdsourcing humanitarian research. Follow [Micropasts](https://twitter.com/MicroPasts) on Twitter.  
 
