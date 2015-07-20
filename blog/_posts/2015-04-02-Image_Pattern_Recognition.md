@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Brain vs Processor: Image Pattern Recognition"
+title:  "Brain vs Processor: Part 1 – Image Pattern Recognition"
 date:   2015-04-02 
 quote: Lorem ipsum dolor sit amet, consectetur adipisicing elit
 photo: /assets/img/blog/Eye.jpg
