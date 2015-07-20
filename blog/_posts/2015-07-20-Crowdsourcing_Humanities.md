@@ -39,7 +39,7 @@ Speak Hebrew? Then [give it a go](http://www.nlics.org/)!
 
 # Micropasts
 
-The [British Museum](http://www.britishmuseum.org/) and [University College London](http://www.ucl.ac.uk/) (UCL) have teamed-up to create [Micropasts](http://micropasts.org/), a platform which invites members of the public to become citizen archeologists. The project aims to create the world’s leading prehistoric metal database and change the way we research our collective past.
+The [British Museum](http://www.britishmuseum.org/) and [University College London](http://www.ucl.ac.uk/) (UCL) have teamed-up to create [Micropasts](http://micropasts.org/), a platform that invites members of the public to become citizen archeologists. The project aims to create the world’s leading prehistoric metal database and change the way we research our collective past.
 
 ![alttext](/assets/img/blog/axes.jpeg "Courtesy of Micropasts")
 <p class="post-caption">Photo by <a href="http://micropasts.org/">Micropasts</a> Some axes from the British Museum's Bronze Age collection.</p>
