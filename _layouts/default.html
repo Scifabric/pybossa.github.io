@@ -105,6 +105,7 @@
 </head>
 
 <body class="{{page.body_class}}">
+	{% include gtm.html %}
 	{% include navbar.html %}
 	{{ content }}
 	{% include newsletter.html %}
@@ -142,7 +143,6 @@
 		});
 	});
 	</script>
-	{% include gtm.html %}
 <script>
 $('#presskit_en').on('click', function() {
   ga('send', 'event', 'button', 'click', 'presskit-en');
