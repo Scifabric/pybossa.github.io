@@ -13,7 +13,7 @@ keywords: crowdsourcing, crowdcrafting, PyBossa, open, source, science, citizen,
 
 Welcome to Part 3 of our Brain vs. Processor blog series, which is examining how the human brain remains a more versatile and effective tool than computers for interpreting certain types of data, and detailing how you can use [PyBossa](http://pybossa.com/) software to tap into these capabilities.
 
-So far we’ve talked about how humans are ace at interpreting [images](http://pybossa.com/blog/2015/04/02/Image_Pattern_Recognition/) and [sounds](http://pybossa.com/blog/2015/05/10/Sound_Pattern_Recognition/). This blog post focuses on another amazing skill we possess that you’re doing it right now… yup, reading!
+So far we’ve talked about how humans are ace at interpreting [images](http://pybossa.com/blog/2015/04/02/Image_Pattern_Recognition/) and [sounds](http://pybossa.com/blog/2015/05/10/Sound_Pattern_Recognition/). This blog post focuses on another amazing skill we possess that you’re doing right now… yup, reading!
 
 # Interpretation skills
 
@@ -21,7 +21,7 @@ Computers are becoming more sophisticated at transcribing information from docum
 
 # Transcribing documents in Crowdcrafting
 
-Scifabric’s head honcho [Daniel Lombraña González](http://daniellombrana.es/) has kindly recorded another little video that shows how easy it is to set up a PDF transcription project in Crowdcrafting. 
+Scifabric’s head honcho [Daniel Lombraña González](http://daniellombrana.es/) has kindly recorded a little video that shows how easy it is to set up a PDF transcription project in Crowdcrafting. 
 
 <style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.youtube.com/embed/GoL0SVC48eg' frameborder='0' allowfullscreen></iframe></div>
 
@@ -31,7 +31,7 @@ We have some awesome projects making the most of these capabilities.
 
 # Open Oil
  
-The [Open Oil](http://openoil.net/) project wants to make the oil industry more transparent. Oil conglomerates can be made up of hundreds of companies related by a complex web of contracts. Regulation often requires that the contracts be made publicly available but nevertheless understanding the industry as a whole is a massive job. [Open Oil](http://openoil.net/) uploads contracts into their own [Crowdcrafting project](https://crowdcrafting.org/project/openoil/) and ask volunteers to extract key pieces of information. This will help the team gain a better understanding how the industry works.
+The [Open Oil](http://openoil.net/) project wants to make the oil industry more transparent. Oil conglomerates can be made up of hundreds of companies related by a complex web of contracts. Regulation often requires that the contracts be made publicly available but nevertheless understanding the industry as a whole is a massive challenge. [Open Oil](http://openoil.net/) uploads contracts into their own [Crowdcrafting project](https://crowdcrafting.org/project/openoil/) and asks volunteers to extract key pieces of information. This will help the team gain a better understanding of how the industry works.
 
 ![alttext](/assets/img/blog/OilSunset.jpg "Pete Markham")
 <p class="post-caption">Photo by <a https://www.flickr.com/photos/pmarkham/15239838875/in/photolist-pdGa9F-fAvxEi-71K9Q8-wHSCbR-5zmEbT-weBXfX-cj2RnA-aQaLwt-aF3BRB-9VhRZP-9V6tx4-pqarNg-ggofYY-qDTCi-qDTyp-67eXv4-wiwiW-6FkGU5-6tvHay-bXhiYh-8Eiz5y-pFTsmT-b1kzEx-ggofKb-9kfA6B-71Pb5L-9Z7pN3-71Karr-9UuMh3-6ZQvDd-6tK5TM-72zFcj-wHSxMR-pFTs98-6trCak-7deMVi-5TEhqr-7Dv9R5-oWcmq7-aAJWSh-aAJWGb-aAGd7g-7ZxVc-roBiy-tQ7d8r-4YkeaK-6EG8oP-wY3zGA-wY3A5u-wHSARX>Pete Markham</a> Has the sun set on secrecy in the oil industry?</p>
