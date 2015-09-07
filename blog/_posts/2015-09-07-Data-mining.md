@@ -31,7 +31,7 @@ We have some awesome projects making the most of these capabilities.
 
 # Open Oil
  
-The [Open Oil](http://openoil.net/) project wants to make the oil industry more transparent. Oil conglomerates can be made up of hundreds of companies related by a complex web of contracts. Regulation often requires that the contracts be made publicly available but nevertheless understanding the industry as a whole is a massive job. [Open Oil](http://openoil.net/) uploads contracts onto their own [Crowdcrafting project](https://crowdcrafting.org/project/openoil/) and ask volunteers to extract key pieces of information. This will help the team gain a better understanding how the industry works.
+The [Open Oil](http://openoil.net/) project wants to make the oil industry more transparent. Oil conglomerates can be made up of hundreds of companies related by a complex web of contracts. Regulation often requires that the contracts be made publicly available but nevertheless understanding the industry as a whole is a massive job. [Open Oil](http://openoil.net/) uploads contracts into their own [Crowdcrafting project](https://crowdcrafting.org/project/openoil/) and ask volunteers to extract key pieces of information. This will help the team gain a better understanding how the industry works.
 
 ![alttext](/assets/img/blog/OilSunset.jpg "Pete Markham")
 <p class="post-caption">Photo by <a https://www.flickr.com/photos/pmarkham/15239838875/in/photolist-pdGa9F-fAvxEi-71K9Q8-wHSCbR-5zmEbT-weBXfX-cj2RnA-aQaLwt-aF3BRB-9VhRZP-9V6tx4-pqarNg-ggofYY-qDTCi-qDTyp-67eXv4-wiwiW-6FkGU5-6tvHay-bXhiYh-8Eiz5y-pFTsmT-b1kzEx-ggofKb-9kfA6B-71Pb5L-9Z7pN3-71Karr-9UuMh3-6ZQvDd-6tK5TM-72zFcj-wHSxMR-pFTs98-6trCak-7deMVi-5TEhqr-7Dv9R5-oWcmq7-aAJWSh-aAJWGb-aAGd7g-7ZxVc-roBiy-tQ7d8r-4YkeaK-6EG8oP-wY3zGA-wY3A5u-wHSARX>Pete Markham</a> Has the sun set on secrecy in the oil industry?</p>
@@ -40,7 +40,7 @@ Follow Open Oil on [Twitter](https://twitter.com/Open_Oil).
 
 # Iceland's Criminal Court
 
-In the [Héraðsdómar - sýknað eða sakfellt](http://crowdcrafting.org/project/heradsdomar/) project, Icelandic citizen [Páll Hilmarsson](http://gogn.in/) wanted to test a journalist's published assertions that a particular judge, who had a conviction rate of 95%, was biased. Páll uploaded 4,700 judgements of the Reykjavik district court to Crowdcrafting and asked volunteers to note the identity of the judge and whether there was a conviction. In only 17 days, 300 users completed almost 15,000 tasks. Analysis showed that the judge in question was within the statistical norm and that, said journalist, needed a lesson in statistics. We think he got one...
+In the [Héraðsdómar - sýknað eða sakfellt](http://crowdcrafting.org/project/heradsdomar/) project, Icelandic citizen [Páll Hilmarsson](http://gogn.in/) wanted to test a journalist's published assertions that a particular judge, who had a conviction rate of 95%, was biased. Páll uploaded 4,700 judgements of the Reykjavik district court to Crowdcrafting and asked volunteers to note the identity of the judge and whether there was a conviction in each case. In only 17 days, 300 users completed almost 15,000 tasks. Analysis showed that the judge in question was within the statistical norm and that, said journalist, needed a lesson in statistics. We think he got one...
 
 # LibCrowds
 
