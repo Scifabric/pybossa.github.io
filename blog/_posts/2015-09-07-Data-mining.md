@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Brain vs. Processor: Part 3 – PDF Data Mining"
+title:  "Brain vs Processor: Part 3 – PDF Data Mining"
 date:   2015-09-07 
 quote: Lorem ipsum dolor sit amet, consectetur adipisicing elit
 photo: /assets/img/blog/Quill.jpg
