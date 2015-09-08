@@ -23,7 +23,7 @@ html, body {
 }
 
 html {
-	font: 100%/1.5 "Titillium Web","Lucida Grande","Lucida Sans",sans-serif;
+	font: 100%/1.5 "open-sans",sans-serif;
 	-webkit-font-smoothing: subpixel-antialiased;
 }
 
@@ -152,6 +152,25 @@ body.press {
 .btn-inverse {
 	background-color:rgba(0,0,0,.3);
 	color:#fff;
+	border:2px solid rgba(255,255,255,1);
+	padding:10px 20px;
+	font-size:16px;
+	margin:30px 5px 0 5px;
+	-webkit-transition: border 0.3s ease, color 0.3s ease, background 0.3s ease;
+	-moz-transition: border 0.3s ease, color 0.3s ease, background 0.3s ease;
+	-o-transition: border 0.3s ease, color 0.3s ease, background 0.3s ease;
+	transition: border 0.3s ease, color 0.3s ease, background 0.3s ease;
+}
+.btn-inverse:hover {
+	background-color:rgba(0,0,0,.8) !important;
+	color:rgba(43, 152, 132,1);
+	border:2px solid rgba(43, 152, 132,1);
+}
+
+.btn-white-complete {
+	background-color:rgba(255,255,255,1);
+	color:#000;
+	text-transform: uppercase;
 	border:2px solid rgba(255,255,255,1);
 	padding:10px 20px;
 	font-size:16px;
@@ -330,7 +349,7 @@ body.index .navbar-default.huge,
 	height:60px !important;
 	padding:5px 0;
 	box-shadow:2px 0px 5px rgba(0,0,0,.75);
-	background-color:rgba(0,0,0,.95) !important;
+	background-color:#252D35 !important;
 }
 .navbar-default h3 {
 	font-family: 'Varela Round', sans-serif;
@@ -445,54 +464,53 @@ body.index .navbar-default.huge,
 }
 
 .opening {
-	background:#000 url('../img/home_bg.gif') no-repeat center top;
+	background:#F5A623 url('../img/home_orange.png') no-repeat center top;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
-	padding-top:190px;
+	padding-top:150px;
 	padding-bottom:100px;
 	text-align:center;
 	color:#fff;
 	text-rendering: optimizeLegibility;
 }
-.opening h2 {
+.opening h1 {
 	font-family: 'Varela Round', sans-serif;
-	font-size:52px;
+	font-size:64px;
 	margin-bottom:20px;
 	padding:0;
-}
-.opening p.lead {
-	font-size:28px;
-	font-weight:300;
-	padding:0 20%;
-	margin:0;
-}
-.opening p {
-	font-size:18px;
-	font-weight:400;
-	padding:0 15%;
-	margin:30px 0 20px 0;
-}
-.opening p a {
-	color:rgba(43, 152, 132,1);
-	text-decoration:none;
-	background-color:rgba(0,0,0,.2);
-	padding: 4px 8px;
-	border-radius:3px;
-	-webkit-transition: color 0.3s ease, background-color 0.3s ease;
-	-moz-transition: color 0.3s ease, background-color 0.3s ease;
-	-o-transition: color 0.3s ease, background-color 0.3s ease;
-	transition: color 0.3s ease, background-color 0.3s ease;
-}
-.opening p a:hover {
-	color:#fff;
-	text-decoration:none;
-		background-color:rgba(0,0,0,.5);
-}
-.opening h2 span {
 	text-transform:uppercase;
+	color: #000;
 }
+
+
+.mantra {
+	font-family: 'Open Sans', helvetica, arial, sans-serif;
+	font-size:40px;
+	font-weight:100;
+	padding:0 10%;
+	margin:0;
+	color: #000;
+	font-style: italic;
+}
+
+.opening-description-title {
+	font-size:18px;
+	font-weight:600;
+	padding:0 10%;
+	margin:30px 0 0px 0;
+	color: #000;
+}
+
+.opening-description {
+	font-size:16px;
+	font-weight:400;
+	padding:0 10%;
+	margin:10px 0 20px 0;
+}
+
+
 .opening  > .container > ul.nav {
 	display: inline-block;
 }
