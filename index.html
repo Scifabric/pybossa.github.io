@@ -9,8 +9,10 @@ active: index
 		<div class="container">
 			<h1>PyBossa</h1>
 			<p class="mantra">The best open source solution for crowdsourcing</p>
-			<p><a class="btn btn-white-complete" href="/getting-started/">Know More</a>
-			   <a class="btn btn-white-complete" href="/getting-started/">Getting Started</a></p>
+			<p class="mantra-btns">
+				<a class="btn btn-white-complete" href="/getting-started/">Know More</a>
+				<a class="btn btn-white" href="/getting-started/">Getting Started</a>
+			</p>
 			
 		
 			<div class="col-md-4">
@@ -28,26 +30,109 @@ active: index
 		</div>
 	</div>
 
-	<div class="container-fluid whatis">
-		<div class="container">			
-			<h2 class="wow fadeInDown">What can PyBossa do for you?</h2>
-			<div class="col-md-4 researchers wow fadeInUp">
-				<div class="whatis_icons" data-icon="a"></div>
-				<h3>Researcher</h3>
-				<p>PyBossa enables you to complete huge tasks in record time with the help of hundreds of volunteers</p>
+
+
+
+	<div class="container features">
+		<h2 class="section-title">Features</h2>
+		<p class="section-claim">We have tons of awesome features for<br> your best crowdsourced projects</p>
+		<div class="row">
+			<div class="col-md-4 col-md-offset-2">
+				<div class="media">
+					<div class="media-left">
+						<a href="#">
+							<img class="media-object" src="assets/img/private.svg" alt="...">
+						</a>
+					</div>
+				
+					<div class="media-body">
+						<h4 class="media-heading">Private</h4>
+						<p class="media-description">Data belongs to you. Keep it private or make it public. It’s your choice.</p>
+					</div>
+				</div>
 			</div>
-			<div class="col-md-4 hackers wow fadeInUp">
-				<div class="whatis_icons" data-icon="c"></div>
-				<h3>Civic Hacker</h3>
-				<p>PyBossa gives you the tools for ground truthing, because a more informed world is a better place</p>
-			</div>
-			<div class="col-md-4 developers wow fadeInUp">
-				<div class="whatis_icons" data-icon="b"></div>
-				<h3>Developer</h3>
-				<p>Because PyBossa is 100% open source, it lets you create new crowdsourcing solutions in minutes</p>
+			<div class="col-md-4">
+				<div class="media">
+					<div class="media-left">
+						<a href="#">
+							<img class="media-object" src="assets/img/integration.svg" alt="...">
+						</a>
+					</div>
+				
+					<div class="media-body">
+						<h4 class="media-heading">Integrations</h4>
+						<p class="media-description">Data belongs to you. Keep it private or make it public. It’s your choice.</p>
+					</div>
+				</div>
 			</div>
 		</div>
+		<div class="row">
+			<div class="col-md-4 col-md-offset-2">
+				<div class="media">
+					<div class="media-left">
+						<a href="#">
+							<img class="media-object" src="assets/img/customisable.svg" alt="...">
+						</a>
+					</div>
+				
+					<div class="media-body">
+						<h4 class="media-heading">Customisable</h4>
+						<p class="media-description">Data belongs to you. Keep it private or make it public. It’s your choice.</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="media">
+					<div class="media-left">
+						<a href="#">
+							<img class="media-object" src="assets/img/template.svg" alt="...">
+						</a>
+					</div>
+				
+					<div class="media-body">
+						<h4 class="media-heading">Templates</h4>
+						<p class="media-description">Data belongs to you. Keep it private or make it public. It’s your choice.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-4 col-md-offset-2">
+				<div class="media">
+					<div class="media-left">
+						<a href="#">
+							<img class="media-object" src="assets/img/extensible.svg" alt="...">
+						</a>
+					</div>
+				
+					<div class="media-body">
+						<h4 class="media-heading">Extensible</h4>
+						<p class="media-description">Data belongs to you. Keep it private or make it public. It’s your choice.</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="media">
+					<div class="media-left">
+						<a href="#">
+							<img class="media-object" src="assets/img/notifications.svg" alt="...">
+						</a>
+					</div>
+				
+					<div class="media-body">
+						<h4 class="media-heading">Notifications</h4>
+						<p class="media-description">Data belongs to you. Keep it private or make it public. It’s your choice.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+		
+		<p>Analyze your crowdsourced data with <a target="_blank"  href="http://github.com/PyBossa/enki">Enki</a><br/> Export data to formats like CSV or JSON <br/>
+		<a target="_blank"  href="http://docs.pybossa.com/en/latest/user/tutorial.html#export-results">Read more</a></p>
 	</div>
+
 
 	<div class="container-fluid projects wood-bg">
 		<div class="container">
@@ -82,60 +167,28 @@ active: index
 		</div>
 	</div>
 	
-	<div class="container apps">
-		<h2>Create a PyBossa Project</h2>
-		<p>With PyBossa you can distribute all kinds of tasks to thousands of volunteers<br /> Check out the open source templates below</p>
-		<div class="row">
-			<div class="col-md-4 apps-examples image wow fadeInUp">
-				<div class="project_icons" data-icon="f"></div>
-				<h3>Image Pattern Recognition</h3>
-				<p>Analyze patterns in photos, pictures, etc...</p>
-				<a class="btn btn-small btn-default" target="_blank" href="http://github.com/PyBossa/app-flickrperson"><i class="fa fa-github-alt"></i> Source Code</a>
-				<a class="btn btn-small btn-info" target="_blank" href="http://crowdcrafting.org/project/flickrperson"> <i class="icon-chevron-right"></i> Try it</a>
+		<div class="container-fluid whatis">
+		<div class="container">			
+			<h2 class="wow fadeInDown">What can PyBossa do for you?</h2>
+			<div class="col-md-4 researchers wow fadeInUp">
+				<div class="whatis_icons" data-icon="a"></div>
+				<h3>Researcher</h3>
+				<p>PyBossa enables you to complete huge tasks in record time with the help of hundreds of volunteers</p>
 			</div>
-			<div class="col-md-4 apps-examples sound wow fadeInUp">
-				<div class="project_icons" data-icon="d"></div>
-				<h3>Sound Pattern Recognition</h3>
-				<p>Analyze, identify, or describe sounds.</p>
-				<a class="btn btn-small btn-default" target="_blank"  href="http://github.com/PyBossa/app-soundcloud"><i class="fa fa-github-alt"></i> Source Code</a>
-				<a class="btn btn-small btn-info" target="_blank" href="http://crowdcrafting.org/project/soundcloud"> <i class="icon-chevron-right"></i> Try it</a>
+			<div class="col-md-4 hackers wow fadeInUp">
+				<div class="whatis_icons" data-icon="c"></div>
+				<h3>Civic Hacker</h3>
+				<p>PyBossa gives you the tools for ground truthing, because a more informed world is a better place</p>
 			</div>
-			<div class="col-md-4 apps-examples transcribe wow fadeInUp">
-				<div class="project_icons" data-icon="e"></div>
-				<h3>Transcribe PDF docs</h3>
-				<p>Extract information from PDF files easily</p>
-				<a class="btn btn-small btn-default" target="_blank" href="http://github.com/PyBossa/pdftranscribe"><i class="fa fa-github-alt"></i> Source Code</a>
-				<a class="btn btn-small btn-info" target="_blank" href="http://crowdcrafting.org/project/pdftranscribe"> <i class="icon-chevron-right"></i> Try it</a>
+			<div class="col-md-4 developers wow fadeInUp">
+				<div class="whatis_icons" data-icon="b"></div>
+				<h3>Developer</h3>
+				<p>Because PyBossa is 100% open source, it lets you create new crowdsourcing solutions in minutes</p>
 			</div>
 		</div>
-
-		<div class="row">
-			<div class="col-md-4 apps-examples geo wow fadeInUp">
-				<div class="project_icons" data-icon="h"></div>
-				<h3>Geo-referencing</h3>
-				<p>Add information to web-based maps</p>
-				<a class="btn btn-small btn-default" target="_blank"  href="http://github.com/PyBossa/app-geocoding"><i class="fa fa-github-alt"></i> Source Code</a>
-				<a class="btn btn-small btn-info" target="_blank" href="http://crowdcrafting.org/project/urbanpark"><i class="icon-chevron-right"></i> Try it</a>
-			</div>
-			<div class="col-md-4 apps-examples video wow fadeInUp">
-				<div class="project_icons" data-icon="i"></div>
-				<h3>Video Pattern Recognition</h3>
-				<p>Analyze, identify, or describe videos.</p>
-				<a class="btn btn-small btn-default" target="_blank" href="http://github.com/PyBossa/app-vimeo"><i class="fa fa-github-alt"></i> Source Code</a>
-				<a class="btn btn-small btn-info" target="_blank" href="http://crowdcrafting.org/project/vimeo"><i class="icon-chevron-right"></i> Try it</a>
-			</div>
-			<div class="col-md-4 apps-examples volunteer wow fadeInUp">
-				<div class="project_icons" data-icon="g"></div>
-				<h3>Phone-based data collection</h3>
-				<p>Capture data on smartphones and analyze them</p>
-				<a class="btn btn-small btn-default" target="_blank"  href="http://github.com/PyBossa/app-epicollect"><i class="fa fa-github-alt"></i> Source Code</a>
-				<a class="btn btn-small btn-info" target="_blank" href="http://crowdcrafting.org/project/airquality"><i class="icon-chevron-right"></i> Try it</a>
-			</div>
-		</div>
-		
-		<p>Analyze your crowdsourced data with <a target="_blank"  href="http://github.com/PyBossa/enki">Enki</a><br/> Export data to formats like CSV or JSON <br/>
-		<a target="_blank"  href="http://docs.pybossa.com/en/latest/user/tutorial.html#export-results">Read more</a></p>
 	</div>
+
+	
 
 	<div class="container-fluid projects wood-bg">
 		<div class="container">
