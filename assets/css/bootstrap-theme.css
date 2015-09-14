@@ -174,7 +174,9 @@ body.press {
 
 
 .mantra-btns .btn-white-complete, 
-.mantra-btns .btn-white{
+.mantra-btns .btn-white,
+.features .btn-regular-complete,
+.features .btn-regular{
 	width: 185px;
 }
 
@@ -208,6 +210,37 @@ body.press {
 	transition: border 0.3s ease, color 0.3s ease, background 0.3s ease;
 }
 
+.btn-regular-complete {
+	background-color:rgba(245,166,35,1);
+	color:rgba(255,255,255,1);
+	text-transform: uppercase;
+	border:2px solid rgba(245,166,35,1);
+	padding:10px 20px;
+	font-size:15px;
+	font-weight: 800;
+	margin:30px 5px 0 5px;
+	-webkit-transition: border 0.3s ease, color 0.3s ease, background 0.3s ease;
+	-moz-transition: border 0.3s ease, color 0.3s ease, background 0.3s ease;
+	-o-transition: border 0.3s ease, color 0.3s ease, background 0.3s ease;
+	transition: border 0.3s ease, color 0.3s ease, background 0.3s ease;
+}
+
+.btn-regular {
+
+	background-color:rgba(245,166,35,.0);
+	color:rgba(245,166,35,1);
+	text-transform: uppercase;
+	border:2px solid rgba(245,166,35,1);
+	padding:10px 20px;
+	font-size:15px;
+	font-weight: 800;
+	margin:30px 5px 0 5px;
+	-webkit-transition: border 0.3s ease, color 0.3s ease, background 0.3s ease;
+	-moz-transition: border 0.3s ease, color 0.3s ease, background 0.3s ease;
+	-o-transition: border 0.3s ease, color 0.3s ease, background 0.3s ease;
+	transition: border 0.3s ease, color 0.3s ease, background 0.3s ease;
+}
+
 
 .section-title{
 	color: #d3d3d3;
@@ -222,13 +255,18 @@ body.press {
 	font-size: 36px;
 	color: #252D35;
 	text-align: center;
-	margin-bottom: 80px;
+	margin-bottom: 60px;
 }
+
+
 
 .features .row{
-	margin-top: 50px;	
+	margin-top: 35px;	
 }
 
+.features .media{
+	padding: 20px;
+}
 
 .media-heading{
 	font-size: 18px;
@@ -237,10 +275,44 @@ body.press {
     color: #252D35;
 }
 
-.media-description{
+.thumbnail-heading{
+	font-size: 18px;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: #F5A623;
+}
+
+.media-description,
+.thumbnail-description{
 	font-size: 16px;
     font-weight: 300;
     color: #252D35;
+}
+
+
+
+.section-claim-bottom{
+    margin-top: 60px;
+    margin-bottom: 0px;
+    font-size: 24px;
+    text-align: center;
+    font-weight: lighter;
+    font-style: italic;
+    color: #252D35;
+
+}
+
+.section-claim-bottom .fa-heart{
+	color: #E64C3C;
+}
+
+.features-btns{
+	margin-bottom: 50px;
+	text-align: center;
+}
+
+.thumb{
+	padding: 10px;
 }
 
 .btn-inverse:hover {
@@ -563,6 +635,7 @@ body.index .navbar-default.huge,
 	margin-bottom: 130px;
 }
 
+
 .opening-description-title {
 	font-size:18px;
 	font-weight:800;
@@ -578,147 +651,17 @@ body.index .navbar-default.huge,
 	margin:10px 0 20px 0;
 }
 
+.for_you{
+	background-color: #f7f7f7;
+	text-align: center;
 
-.opening  > .container > ul.nav {
-	display: inline-block;
-}
-.opening  > .container > p > a.btn-inverse {
-	min-width:290px !important;
-	margin:10px 10px 20px 10px;
-	padding: 15px 30px;
-	font-size:22px;
-	font-weight:200;
-	color:#fff;
-}
-.opening  > .container > p > a.btn-inverse:hover {
-	color:rgba(43, 152, 132,1);
-}
-.opening  > .container > p > a.btn-inverse > small {
-	color:rgba(255, 255, 255,.3);
-	font-size:14px;
-	font-weight:400;
-}
-.opening  > .container > p > a.btn-inverse:hover > small {
-	color:rgba(43, 152, 132,.6);
-	font-weight:400;
 }
 
-@media (max-width: 767px) {
-	.opening {
-		padding-top:90px;
-		padding-bottom:40px;
-	}
-	.opening h2 {
-		font-size:26px;
-		margin-bottom:15px;
-	}
-	.opening p {
-		font-size:14px;
-		margin:20px 0 30px 0;
-		padding:0;
-	}
-	.opening p.lead {
-		font-size:18px;
-		padding:0 5%;
-		margin:15px 0 15px 0;
-	}
-	.opening  > .container > ul.nav > li {
-		display: block;
-		width:100%;
-		margin:0 auto;
-		padding:0 5%;
-	}
-	.opening  > .container > p > a.btn-inverse {
-		min-width:230px !important;
-		margin:8px 0 15px 0;
-		padding: 15px 20px;
-		font-size:18px;
-	}
-}
-@media (min-width: 768px) and (max-width: 991px) {
-	.opening h2 {
-		font-size:32px;
-		margin-bottom:15px;
-	}
-	.opening p.lead {
-		font-size:24px;
-		margin:20px 0;
-		padding:0 10%;
-	}
-	.opening  > .container > ul.nav > li {
-		display: inline-block;
-	}
-	.opening  > .container > ul.nav > li > a.btn-inverse {
-		min-width:200px !important;
-		margin:8px;
-		padding: 15px 20px;
-	}
+.for_you .row{
+	margin-bottom: 85px;
 }
 
-.whatis {
-	background: transparent url('../img/red_wood_texture.png') fixed repeat;
-	background-color: #F6F5F4;
-	color:#fff;
-	text-rendering: optimizeLegibility;
-	padding:30px 0 45px 0;
-}
-.apps h2,
-.whatis h2,
-.projects h2,
-footer h3 {
-	font-family: 'Open Sans', helvetica, arial, sans-serif;
-	text-align:center;
-	font-size:28px;
-}
-.whatis h3 {
-	text-align:center;
-	font-size:20px;
-	font-weight:400;
-}
-.whatis p {
-	text-align:center;
-	font-size:16px;
-	font-weight:400;
-	padding:0 5%;
-}
-.projects .project {
-	background-color:#fff;
-	max-width:400px;
-	margin:0 auto;
-	padding:0 0 30px 0;
-	min-height:370px;
-}
-.projects .project img {
-	max-width:100%;
-}
-.projects .project .btn {
-	position:absolute;
-	left:0;
-	right:0;
-	margin-left:auto;
-	margin-right:auto;
-	max-width:250px;
-	bottom:30px;
-}
 
-@media (max-width: 767px) {
-	.apps h2,
-	.whatis h2,
-	.projects h2,
-	footer h3 {
-		font-size:18px;
-	}
-	.whatis p {
-		font-size:14px;
-		padding:0;
-	}
-	.whatis h3 {
-		font-size:18px;
-	}
-	.projects .project:first-child {
-		margin:0 auto 30px auto;
-	}
-}
 
 .whatis > .container > div {
 	padding: 20px 20px 20px 20px ;
