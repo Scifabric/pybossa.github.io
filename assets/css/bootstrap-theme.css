@@ -661,35 +661,21 @@ body.index .navbar-default.huge,
 	margin-bottom: 85px;
 }
 
+.institutions{
+    text-align: center;
+    background: transparent url('../img/institutions_bg.png');
+    padding: 40px 0 60px 0;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
 
+.institutions .section-title,
+.institutions .section-claim{
+	color: #fff;
+}
 
-.whatis > .container > div {
-	padding: 20px 20px 20px 20px ;
-	text-align:center;
-}
-div.whatis_icons {
-	width:100px;
-	height:100px;
-	padding-top:2px;
-	padding-left:2px;
-	border-radius:50px;
-	margin:0 auto;
-	display:block;
-	font-size:84px;
-	opacity:1;
-	-webkit-transition: background-color 0.3s ease;
-	-moz-transition: background-color 0.3s ease;
-	-o-transition: background-color 0.3s ease;
-	transition: background-color 0.3s ease;
-}
-div:hover > div.whatis_icons {
-	background-color: rgba(0,0,0,.1);
-	opacity:1;
-}
-div.cuatrocerocuatro > div:hover > div.whatis_icons {
-	background-color:rgba(0,0,0,.1) !important;
-	opacity:1;
-}
 
 div.project_icons {
 	width:100px;
