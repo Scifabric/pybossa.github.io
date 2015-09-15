@@ -813,7 +813,15 @@ ul.who-is-using li.esa {
     margin-top: 20px;
 	}
 
- }
+ 	}
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+	.features .row{
+	margin-top: 0px;	
+
+}
+
 
 div.project_icons {
 	width:100px;
