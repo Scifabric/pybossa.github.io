@@ -875,29 +875,30 @@ h2.who-is-using {
 	font-size:18px;
 }
 ul.who-is-using li {
-	height:70px;
+	height:100px;
 	background: transparent url('../img/sprite_logos_whois.png') no-repeat;
 }
 ul.who-is-using li span {
 	display:none;
 }
-ul.who-is-using li.bm {
-	background-position: 0px -5px;
-}
+
 ul.who-is-using li.ucl {
-	background-position: 0px -75px;
+	background-position: 0px 0px;
 }
-ul.who-is-using li.lnc {
-	background-position: 0px -150px;
+ul.who-is-using li.nasa {
+	background-position: 0px -100px;
+}
+ul.who-is-using li.bl {
+	background-position: 0px -200px;
 }
 ul.who-is-using li.cern {
-	background-position: 0px -225px;
-}
-ul.who-is-using li.unitar {
 	background-position: 0px -300px;
 }
-ul.who-is-using li.skytruth {
-	background-position: 0px -375px;
+ul.who-is-using li.bm {
+	background-position: 0px -400px;
+}
+ul.who-is-using li.esa {
+	background-position: 0px -500px;
 }
 
 @media (max-width: 767px) {
