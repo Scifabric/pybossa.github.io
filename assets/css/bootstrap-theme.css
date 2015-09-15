@@ -258,8 +258,6 @@ body.press {
 	margin-bottom: 60px;
 }
 
-
-
 .features .row{
 	margin-top: 35px;	
 }
@@ -289,8 +287,6 @@ body.press {
     color: #252D35;
 }
 
-
-
 .section-claim-bottom{
     margin-top: 60px;
     margin-bottom: 0px;
@@ -299,7 +295,6 @@ body.press {
     font-weight: lighter;
     font-style: italic;
     color: #252D35;
-
 }
 
 .section-claim-bottom .fa-heart{
@@ -315,10 +310,26 @@ body.press {
 	padding: 10px;
 }
 
-.btn-inverse:hover {
-	background-color:rgba(0,0,0,.8) !important;
-	color:rgba(43, 152, 132,1);
-	border:2px solid rgba(43, 152, 132,1);
+.people{
+	padding-bottom: 50px;
+}
+
+.people .media{
+	margin-bottom: 65px;
+}
+
+.people .section-title{
+	margin-bottom: 80px;
+}
+
+.people .media-heading{
+	text-transform: none;
+	color: #F5A623;
+	font-weight: 300;
+}
+
+.people .media-description{
+	font-size: 23px;
 }
 
 .thumbnail,
