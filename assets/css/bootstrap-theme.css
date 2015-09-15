@@ -14,7 +14,7 @@ only screen and (min-device-pixel-ratio: 2) {
 	}
 	ul.who-is-using li {
 		background-image: url('../img/sprite_logos_whois@x2.png') !important;
-		background-size: 120px !important; 
+		background-size: 200px 1000px !important; 
 	}
 }
 
@@ -775,38 +775,16 @@ ul.who-is-using li.esa {
 
 
 	ul.who-is-using {
-	width:120px;
+	width:200px;
 	text-align:center;
 	margin:20px auto;
 	}
 
 	ul.who-is-using li {
-    height: 60px;
     margin-top: 20px;
    	}
-   	
-   	ul.who-is-using li.nasa {
-    background-position: 0px -65px;
-	}
-
-	ul.who-is-using li.bl {
-    background-position: 0px -125px;
-	}
-
-   	ul.who-is-using li.cern {
-    background-position: 0px -180px;
-	}
-
-   	ul.who-is-using li.bm {
-    background-position: 0px -240px;
-	}
-
-	ul.who-is-using li.esa {
-    background-position: 0px -290px;
-	}
-
-
-}
+   
+ }
 
 div.project_icons {
 	width:100px;
