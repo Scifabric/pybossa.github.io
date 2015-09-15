@@ -761,12 +761,14 @@ ul.who-is-using li.esa {
 	.section-title{
 	padding: 10px;
 	text-align: left;
+	margin-bottom: 10px;	
 	}
 
 	.section-claim {
 	padding-left: 10px;
     font-size: 24px;
     text-align: left;
+    margin-bottom: 30px;
 	}
 
 	.features .row {
@@ -783,7 +785,34 @@ ul.who-is-using li.esa {
 	ul.who-is-using li {
     margin-top: 20px;
    	}
+
+   	.people .section-title,
+   	.institutions .section-title,
+   	.institutions .section-claim,
+   	.for_you .section-title,
+   	.for_you .section-claim{
+   		text-align: center;
+   	}
+
+
+   	.people .media-left{
+   	display: flex;
+   	}
    
+   	.people .media-body {
+    width: auto;
+    text-align: center;
+	}
+
+	.people .media-object {
+    display: block;
+    margin: auto;
+	}
+
+	.people .media-heading {
+    margin-top: 20px;
+	}
+
  }
 
 div.project_icons {
