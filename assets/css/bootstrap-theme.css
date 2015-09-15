@@ -1846,7 +1846,7 @@ body.get_started a.copy-button span {
 body.get_started ol {
     list-style-type: none;
     counter-reset: ol-counter;
-	margin: 80px 0 ;
+	margin-top: 80px;
 }
 body.get_started ol > li {
     display: inline-block;
@@ -1866,8 +1866,8 @@ body.get_started ol > li:before {
 }
 body.get_started .support,
 body.about .support {
-	border-radius: 3px;
-	background-color: #f7f6f5;
+	border-radius: 5px;
+    border: 2px solid #F5A623;
 	margin-bottom: 60px;
 	text-align: left !important;
 	padding: 30px;
@@ -1881,8 +1881,7 @@ body.about .support p {
 }
 body.get_started .support h3 {
 	margin:0 0 10px 0;
-	color:#666;
-	font-size:20px;
+	color:#F5A623;
 }
 body.get_started .support p {
 	margin:0;
