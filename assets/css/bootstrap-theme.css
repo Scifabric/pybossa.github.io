@@ -1942,7 +1942,9 @@ footer {
     font-weight: 600;
     padding-bottom: 80px;
     padding-top: 60px;
+    border-bottom: solid 10px #F5A623;
 }
+
 
 .column {
     margin-top: 25px;
