@@ -543,20 +543,20 @@ body.index .navbar-default.huge,
 }
 .navbar-default .navbar-toggle:focus {
 	background-color: transparent;
-	border:2px solid rgba(43, 152, 132,1);
+	border:2px solid #F5A623;
 }
 .navbar-default .navbar-toggle:focus .icon-bar {
-	background-color: rgba(43, 152, 132,1);
+	background-color: #F5A623;
 }
 .navbar-default .navbar-toggle .icon-bar {
 	background-color: #fff;
 }
 .navbar-default .navbar-toggle:hover {
 	background-color: transparent;
-	border:2px solid rgba(43, 152, 132,1);
+	border:2px solid #F5A623;;
 }
 .navbar-default .navbar-toggle:hover .icon-bar  {
-	background-color: rgba(43, 152, 132,1);
+	background-color: #F5A623;
 }
 .navbar-default .navbar-toggle.active {
 	background-color: transparent;
@@ -571,7 +571,7 @@ body.index .navbar-default.huge,
 		padding:5px 0;
 	}
 	body.index .navbar-default {
-		background-color:rgba(0,0,0,1) !important;
+		background-color: #252D35 !important;
 	}
 	body.index .navbar-default.huge,
 	.navbar-default.huge {
@@ -594,7 +594,7 @@ body.index .navbar-default.huge,
 		border:0;
 	}
 	.header .container .nav li.active a {
-		background-color:#EE7147;
+		background-color:#F5A623;
 		border:0;
 		color:#fff !important;
 	}
@@ -607,6 +607,11 @@ body.index .navbar-default.huge,
 	.navbar-nav {
 		margin:0;
 	}
+
+	.opening h1{
+		font-size: 24px;
+	}
+
 }
 
 .opening {
@@ -687,6 +692,51 @@ body.index .navbar-default.huge,
 	color: #fff;
 }
 
+@media (max-width: 767px) {
+
+	.opening{
+		padding-top: 110px;
+		padding-bottom: 0px;
+	}
+	
+	.opening h1{
+		font-size: 40px;
+	}
+
+	.mantra{
+		font-size: 24px;
+	}
+
+	.mantra-btns{
+		margin-bottom: 60px;
+	}
+
+	.mantra-btns .btn-white-complete, 
+	.mantra-btns .btn-white, 
+	.features .btn-regular-complete, 
+	.features .btn-regular{
+		width: 100%;
+	}
+
+	.claims{
+		display: none;
+	}
+
+	.section-title{
+	padding: 10px;
+	text-align: left;
+	}
+
+	.section-claim {
+	padding-left: 10px;
+    font-size: 24px;
+    text-align: left;
+	}
+
+	.features .row {
+    margin-top: 0px;
+	}
+}
 
 div.project_icons {
 	width:100px;
