@@ -904,12 +904,7 @@ body.error404 {
 .apps .row {
 	margin:0;
 }
-.apps > h2,
-.projects h2,
-footer h3 {
-	color:#666;
-	font-size:28px;
-}
+
 .apps > p,
 .projects > .container > p {
 	color:#888;
@@ -2044,18 +2039,45 @@ body.about ul.values li span {
 
 
 footer {
-	background-color:#111;
-	color:#999;
-	padding:50px 0;
+	background-color:#252D35;
+    text-align: center;
+    color: #D3D3D3;
+    font-size: 16px;
+    font-weight: 600;
+    padding-bottom: 80px;
+    padding-top: 60px;
+    border-bottom: solid 10px #F5A623;
 }
+
+
+.column {
+    margin-top: 25px;
+}
+
+.column p {
+    line-height: 0.8;
+}
+
+.column > div {
+    height: 100px;
+}
+.column > :not(:first-child) {
+    border-left:2px solid #D3D3D3;
+}
+
 footer a {
-	color:#fff;
+    color: #D3D3D3;
 }
 footer a:hover {
-	color:#fff;
+    color: #D3D3D3;
 }
+
 footer h3 {
-	font-size:18px;
+	font-family: 'Varela Round', sans-serif;
+	font-size:32px;
+    text-transform: uppercase;
+    color: white;
+
 }
 footer > .container > ul.supported > li > a {
 	cursor:pointer !important;
