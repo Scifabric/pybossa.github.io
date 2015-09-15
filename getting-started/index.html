@@ -5,93 +5,109 @@ active: getting_started
 body_class: get_started
 ---
 
-<div class="container first-container content">
-	<div class="col-md-8 col-md-offset-2">
-		<h2>Getting started <small>in just a few steps</small></h2>
-		<p>The easiest way to install PyBossa in your computer is using <a href="https://jujucharms.com/">Juju technology</a>. This method streamlines the process of configuration and installation of libraries in a virtual machine, so when you are done, you can delete it if you want, without polluting your system.</p>
-		<ol>
-			<li>
-				<h3>Install VirtualBox: a free virtual machine hypervisor</h3>
-				<p>Go to <a href="https://www.virtualbox.org/wiki/Downloads">VirtualBox Download page</a> and get the version that suits your system. You will find installer for Mac OS X, GNU/Linux and Windows systems.</p>
-				<a class="btn btn-default" target="_blank"  href="https://www.virtualbox.org/wiki/Downloads">Download VirtualBox</a>
-			</li>
-			<li>					
-				<h3>Install Vagrant</h3>
-				<p>Vagrant is needed to handle all the automated set up and configuration of Juju technology in the Virtual Machine: <a href="http://www.vagrantup.com/downloads.html">Vagrant</a>. Download the installer that fits your system, install it and go to the next step.</p>
-				<a class="btn btn-default" target="_blank"  href="http://www.vagrantup.com/downloads.html">Install Vagrant</a>
-			</li>
-			<li>
-				<h3>Install PyBossa Juju charm</h3>
-				<p>Open a terminal and run:</p>
-				<kbd>
-					<ul>
-						<li id="juju-charm" name="id">git clone https://github.com/PyBossa/pybossa-jujucharm.git</li>
-					</ul>
-				</kbd>
-				<a href="#" data-clipboard-target="juju-charm" class="copy-button"><i class="fa fa-clipboard"></i><span>Copy to clipboard</span></a>
-				<p>Access the charm:</p>
-				<kbd>
-					<ul>
-						<li id="juju-charm-2" name="id">cd pybossa-jujucharm</li>
-					</ul>
-				</kbd>
-				<a href="#" data-clipboard-target="juju-charm-2" class="copy-button"><i class="fa fa-clipboard"></i><span>Copy to clipboard</span></a>
-				<p>Launch the virtual machine and access it:</p>
-				<kbd>
-					<ul>
-						<li id="juju-charm-3" name="id">vagrant up</li>
-						<li id="juju-charm-3" name="id">vagrant ssh</li>
-					</ul>
-				</kbd>
-				<a href="#" data-clipboard-target="juju-charm-3" class="copy-button"><i class="fa fa-clipboard"></i><span>Copy to clipboard</span></a>
-				<p>Enable Juju:</p>
-				<kbd>
-					<ul>
-						<li id="juju-charm-4" name="id">juju init</li>
-						<li id="juju-charm-4" name="id">juju switch local</li>
-						<li id="juju-charm-4" name="id">juju bootstrap</li>
-					</ul>
-				</kbd>
-				<a href="#" data-clipboard-target="juju-charm-4" class="copy-button"><i class="fa fa-clipboard"></i><span>Copy to clipboard</span></a>
-			</li>
-			<li>
-				<h3>Deploy PyBossa Juju bundle</h3>
-				<p>This command will install PostgreSQL and PyBossa and will connect them:</p>
-				<kbd>
-					<ul>
-						<li id="juju-deployer" name="id">juju deployer -c bundle.yaml</li>
-					</ul>
-				</kbd>
-				<a href="#" data-clipboard-target="juju-deployer" class="copy-button"><i class="fa fa-clipboard"></i><span>Copy to clipboard</span></a>
-			</li>
-			<li>
-				<h3>Export PyBossa port</h3>
-				<p>In order to have access to the PyBossa server within the virtual machine, you have to open its port.</p>
-				<p>Open a terminal and run:</p>
-				<kbd>
-					<ul>
-						<li id="juju-status" name="id">juju status</li>
-					</ul>
-				</kbd>
-				<a href="#" data-clipboard-target="juju-status" class="copy-button"><i class="fa fa-clipboard"></i><span>Copy to clipboard</span></a>
-                <p>That command will give you the IP where the PyBossa server is listening. Copy it and pass it to the following command:</p>
-				<kbd>
-					<ul>
-						<li id="juju-nat" name="id">sudo natpybossa IP</li>
-					</ul>
-				</kbd>
-				<a href="#" data-clipboard-target="juju-nat" class="copy-button"><i class="fa fa-clipboard"></i><span>Copy to clipboard</span></a>
-			</li>
-			<li>
-				<h3>Testing PyBossa</h3>
-				<p>In your web browser, open a tab with the following URL: <a href="http://127.0.0.1:7000">http://127.0.0.1:7000</a> and enjoy!</p>
-			</li>
-		</ol>
-		<div class="support">
-			<h3>Need help?</h3>
-			<p>If you need help in setting up your server, please check the official <a href="http://docs.pybossa.com/en/latest/juju_pybossa.html">PyBossa Juju documentation</a>, <a href="http://docs.pybossa.com">PyBossa documentation</a> or send us an e-mail to <a href="mailto:info@pybossa.com">info@pybossa.com</a>.</p>
-		</div>
-	</div>
-</div> <!-- /container -->
+<div class="container-fluid orangebanner">
+    <div class="container">
+        <div class="row">
+	        <div class="col-md-8 col-md-offset-2">
+	        	<h1>Getting started in just a few steps</h1>
+	        	<p>The easiest way to install PyBossa in your computer is using <a href="https://jujucharms.com/">Juju technology</a>. This method streamlines the process of configuration and installation of libraries in a virtual machine, so when you are done, you can delete it if you want, without polluting your system.</p>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container-fluid">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+                <ol>
+                    <li>
+                    <h3>Install VirtualBox: a free virtual machine hypervisor</h3>
+                    <p>Go to VirtualBox Download page and get the version that suits your system. You will find installer for Mac OS X, GNU/Linux and Windows systems.</p>
+                    <p class="download">
+                    <a target="_blank"  href="https://www.virtualbox.org/wiki/Downloads">Download VirtualBox</a>
+                    </p>
+                    </li>
+                    <li>					
+                    <h3>Install Vagrant</h3>
+                    <p>Vagrant is needed to handle all the automated set up and configuration of Juju technology in the Virtual Machine: Vagrant. Download the installer that fits your system, install it and go to the next step.</p>
+                    <p class="download">
+                    <a target="_blank"  href="http://www.vagrantup.com/downloads.html">Install Vagrant</a>
+                    </p>
+                    </li>
+                    <li>
+                    <h3>Install PyBossa Juju charm</h3>
+                    <p>Open a terminal and run:</p>
+                    <kbd>
+                        <ul>
+                            <li id="juju-charm" name="id">git clone https://github.com/PyBossa/pybossa-jujucharm.git</li>
+                        </ul>
+                    </kbd>
+                    <a href="#" data-clipboard-target="juju-charm" class="copy-button">Copy</a>
+                    <p>Access the charm:</p>
+                    <kbd>
+                        <ul>
+                            <li id="juju-charm-2" name="id">cd pybossa-jujucharm</li>
+                        </ul>
+                    </kbd>
+                    <a href="#" data-clipboard-target="juju-charm-2" class="copy-button">Copy</a>
+                    <p>Launch the virtual machine and access it:</p>
+                    <kbd>
+                        <ul>
+                            <li id="juju-charm-3" name="id">vagrant up</li>
+                            <li id="juju-charm-3" name="id">vagrant ssh</li>
+                        </ul>
+                    </kbd>
+                    <a href="#" data-clipboard-target="juju-charm-3" class="copy-button">Copy</a>
+                    <p>Enable Juju:</p>
+                    <kbd>
+                        <ul>
+                            <li id="juju-charm-4" name="id">juju init</li>
+                            <li id="juju-charm-4" name="id">juju switch local</li>
+                            <li id="juju-charm-4" name="id">juju bootstrap</li>
+                        </ul>
+                    </kbd>
+                    <a href="#" data-clipboard-target="juju-charm-4" class="copy-button">Copy</a>
+                    </li>
+                    <li>
+                    <h3>Deploy PyBossa Juju bundle</h3>
+                    <p>This command will install PostgreSQL and PyBossa and will connect them:</p>
+                    <kbd>
+                        <ul>
+                            <li id="juju-deployer" name="id">juju deployer -c bundle.yaml</li>
+                        </ul>
+                    </kbd>
+                    <a href="#" data-clipboard-target="juju-deployer" class="copy-button">Copy</a>
+                    </li>
+                    <li>
+                    <h3>Export PyBossa port</h3>
+                    <p>In order to have access to the PyBossa server within the virtual machine, you have to open its port.</p>
+                    <p>Open a terminal and run:</p>
+                    <kbd>
+                        <ul>
+                            <li id="juju-status" name="id">juju status</li>
+                        </ul>
+                    </kbd>
+                    <a href="#" data-clipboard-target="juju-status" class="copy-button">Copy</a>
+                    <p>That command will give you the IP where the PyBossa server is listening. Copy it and pass it to the following command:</p>
+                    <kbd>
+                        <ul>
+                            <li id="juju-nat" name="id">sudo natpybossa IP</li>
+                        </ul>
+                    </kbd>
+                    <a href="#" data-clipboard-target="juju-nat" class="copy-button">Copy</a>
+                    </li>
+                    <li>
+                    <h3>Testing PyBossa</h3>
+                    <p>In your web browser, open a tab with the following URL: <a href="http://127.0.0.1:7000">http://127.0.0.1:7000</a> and enjoy!</p>
+                    </li>
+                </ol>
+                <div class="support">
+                    <h3>Need help?</h3>
+                    <p>If you need help in setting up your server, please check the official <a href="http://docs.pybossa.com/en/latest/juju_pybossa.html">PyBossa Juju documentation</a>, <a href="http://docs.pybossa.com">PyBossa documentation</a> or send us an e-mail to <a href="mailto:info@pybossa.com">info@pybossa.com</a>.</p>
+                </div>
+            </div>
+        </div> <!-- /container -->
+    </div>
+</div>
 <script src="/assets/js/ZeroClipboard.js"></script>
 <script src="/assets/js/clipboard.js"></script>

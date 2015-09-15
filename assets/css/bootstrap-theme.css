@@ -453,7 +453,7 @@ body.press {
 .navbar-default {
 	position:fixed;
 	width:100%;
-	background-color:rgba(0,0,0,1) !important;
+	background-color:#252D35 !important;
 	color:#fff;
 	height:80px;
 	padding:10px 0;
@@ -1778,7 +1778,7 @@ pre, code {
 	display:inline-block;
 	padding:10px 20px;
 	margin:10px 0;
-	color:#49d5a2;
+	color: #81ACEB;
 	font-family: "Courier New", Courier, "Nimbus Mono L", monospace;
 	font-size:15px !important;
 	border-radius: 3px;
@@ -1849,6 +1849,7 @@ body.get_started ol {
 	margin: 80px 0 ;
 }
 body.get_started ol > li {
+    display: inline-block;
 	margin-left:40px;
 	margin-bottom:60px;
 }
@@ -2439,4 +2440,41 @@ body.about .bignews-banner {
 	margin-right:30px;
 }
 
+.orangebanner {
+	background-color:#F5A623;
+	padding-top:100px;
+	padding-bottom:40px;
+	color:#fff;
+	text-rendering: optimizeLegibility;
+
+}
+
+.orangebanner p {
+    color: #4B4B4B !important;
+}
+
+.orangebanner a {
+    color: #4b4b4b;
+    text-decoration: underline;
+}
+
+
+body.get_started ol > li > h3 {
+    color: #F5A623;
+    margin-top: 0px !important;
+}
+
+body.get_started .download {
+    padding-top: 10px;
+}
+
+body.get_started .download > a {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+/* body.get_started li:nth-of-type(even) {
+    background-color: #F7F7F7;
+}*/
 
