@@ -692,6 +692,42 @@ body.index .navbar-default.huge,
 	color: #fff;
 }
 
+
+ul.who-is-using {
+	margin:30px 0 130px 0;
+	padding:0;
+	list-style-type:none;
+}
+h2.who-is-using {
+	font-size:18px;
+}
+ul.who-is-using li {
+	height:100px;
+	background: transparent url('../img/sprite_logos_whois.png') no-repeat;
+}
+ul.who-is-using li span {
+	display:none;
+}
+
+ul.who-is-using li.ucl {
+	background-position: 0px 0px;
+}
+ul.who-is-using li.nasa {
+	background-position: 0px -100px;
+}
+ul.who-is-using li.bl {
+	background-position: 0px -200px;
+}
+ul.who-is-using li.cern {
+	background-position: 0px -300px;
+}
+ul.who-is-using li.bm {
+	background-position: 0px -400px;
+}
+ul.who-is-using li.esa {
+	background-position: 0px -500px;
+}
+
 @media (max-width: 767px) {
 
 	.opening{
@@ -736,6 +772,40 @@ body.index .navbar-default.huge,
 	.features .row {
     margin-top: 0px;
 	}
+
+
+	ul.who-is-using {
+	width:120px;
+	text-align:center;
+	margin:20px auto;
+	}
+
+	ul.who-is-using li {
+    height: 60px;
+    margin-top: 20px;
+   	}
+   	
+   	ul.who-is-using li.nasa {
+    background-position: 0px -65px;
+	}
+
+	ul.who-is-using li.bl {
+    background-position: 0px -125px;
+	}
+
+   	ul.who-is-using li.cern {
+    background-position: 0px -180px;
+	}
+
+   	ul.who-is-using li.bm {
+    background-position: 0px -240px;
+	}
+
+	ul.who-is-using li.esa {
+    background-position: 0px -290px;
+	}
+
+
 }
 
 div.project_icons {
@@ -927,48 +997,6 @@ footer h3 {
 	background-position: -33px -193px;
 }
 
-ul.who-is-using {
-	margin:30px 0 130px 0;
-	padding:0;
-	list-style-type:none;
-}
-h2.who-is-using {
-	font-size:18px;
-}
-ul.who-is-using li {
-	height:100px;
-	background: transparent url('../img/sprite_logos_whois.png') no-repeat;
-}
-ul.who-is-using li span {
-	display:none;
-}
-
-ul.who-is-using li.ucl {
-	background-position: 0px 0px;
-}
-ul.who-is-using li.nasa {
-	background-position: 0px -100px;
-}
-ul.who-is-using li.bl {
-	background-position: 0px -200px;
-}
-ul.who-is-using li.cern {
-	background-position: 0px -300px;
-}
-ul.who-is-using li.bm {
-	background-position: 0px -400px;
-}
-ul.who-is-using li.esa {
-	background-position: 0px -500px;
-}
-
-@media (max-width: 767px) {
-	ul.who-is-using {
-		width:120px;
-		text-align:center;
-		margin:20px auto;
-	}
-}
 
 body.press ul.as-seen-on,
 body.about ul.members {
