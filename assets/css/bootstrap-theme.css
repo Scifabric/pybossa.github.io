@@ -685,6 +685,18 @@ body.index .navbar-default.huge,
 	margin-bottom: 85px;
 }
 
+.feature-big-claim{
+	color: #252D35;
+	font-weight: 100;
+	font-style: italic;
+	line-height: normal;
+}
+.big-claim-icon{
+	text-align: right;
+	margin-top: 17px;
+
+}
+
 .featuritis .thumbnail-description{
 margin-top: 15px;
 }
@@ -699,6 +711,7 @@ margin-top: 15px;
 
 .featuritis{
 	padding-bottom: 80px;
+	margin-top: 60px;
 }
 
 .institutions{
@@ -1901,7 +1914,7 @@ pre, code {
 	font-family: "Courier New", Courier, "Nimbus Mono L", monospace;
 	font-size:15px !important;
 	border-radius: 3px;
-	background-color:#333;
+	background-color:#252D35;
 	border:none;
 }
 code {
