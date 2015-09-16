@@ -751,18 +751,20 @@ ul.who-is-using li.esa {
 	background-position: 0px -500px;
 }
 
-.big-images-container{
-	margin-top: 100px;
-	margin-bottom: 100px; 
+.container-big-images{
+	margin: 0px 0 100px 0;
 }
 
 .nuke {
 	background: transparent url('../img/nuke-image.svg') no-repeat;
 	background-position-y: 50%;
-	    background-size: 870px 486px;
-    height: 486px;
+	background-size: 870px 486px;
+    height: 600px;
 }
 
+.nuke-description{
+	margin-top: 175px;
+}
 
 @media (max-width: 767px) {
 
