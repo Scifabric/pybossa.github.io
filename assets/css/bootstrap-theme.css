@@ -1778,7 +1778,7 @@ pre, code {
 	display:inline-block;
 	padding:10px 20px;
 	margin:10px 0;
-	color: #81ACEB;
+	color: #7CAFEC;
 	font-family: "Courier New", Courier, "Nimbus Mono L", monospace;
 	font-size:15px !important;
 	border-radius: 3px;
@@ -1914,14 +1914,20 @@ body.about ul.values li span {
 	}
 	body.get_started ol > li:before {
 		display:inline-block;
-		float:none;
+		float: none;
 		margin:0 auto;
 	}
 	body.get_started ol > li {
 		margin-left:0px;
 		margin-bottom:30px;
+		/* text-align:left; */
+	}
+
+	body.get_started ol > li > h3, p {
+        margin-top: 10px !important;
 		text-align:left;
 	}
+
 }
 
 .newsletter-signup {
@@ -1973,9 +1979,9 @@ body.about ul.values li span {
     margin-top: -5px;
 	height:45px;
 	padding: 0 20px;
-    border: 2px solid #000;
+    border: 2px solid #252D35;
     font-size: 16px;
-    color: black;
+    color: #252D35;
     text-transform: uppercase;
     transition: border 0.3s ease 0s, color 0.3s ease 0s, background 0.3s ease 0s;
 }
@@ -2473,7 +2479,7 @@ body.about .bignews-banner {
 
 body.get_started ol > li > h3 {
     color: #F5A623;
-    margin-top: 0px !important;
+    margin-top: 0px;
 }
 
 body.get_started .download {
@@ -2483,7 +2489,8 @@ body.get_started .download {
 body.get_started .download > a {
     text-transform: uppercase;
     font-weight: bold;
-    font-size: 16px;
+    font-size: 15px;
+    color: #3C7AC2;
 }
 
 /* body.get_started li:nth-of-type(even) {
