@@ -688,6 +688,17 @@ body.index .navbar-default.huge,
 margin-top: 15px;
 }
 
+.featuritis .section-title{
+	color: #252D35;
+}
+
+.featuritis .section-claim{
+	color: #F5A623;
+}
+
+.featuritis{
+	padding-bottom: 80px;
+}
 
 .institutions{
     text-align: center;
@@ -739,6 +750,15 @@ ul.who-is-using li.bm {
 ul.who-is-using li.esa {
 	background-position: 0px -500px;
 }
+
+.nuke {
+	padding-top: 200px;
+	padding-bottom: 200px;
+	background: transparent url('../img/nuke-image.svg') no-repeat;
+	background-position-x: 170%;
+	background-position-y: 50%;
+}
+
 
 @media (max-width: 767px) {
 
@@ -825,13 +845,29 @@ ul.who-is-using li.esa {
     margin-top: 20px;
 	}
 
- 	}
+	.nuke {
+	padding-top: 200px;
+	padding-bottom: 200px;
+	background: none;
+	}
+
+}
 
 @media (min-width: 768px) and (max-width: 991px) {
 
 	.features .row{
 	margin-top: 0px;	
 	}
+
+	.nuke {
+	padding-top: 200px;
+	padding-bottom: 200px;
+	background: transparent url('../img/nuke-image.svg') no-repeat;
+	background-position-x: 240%;
+	background-position-y: 50%;
+	}
+
+
 
 }
 
@@ -1268,8 +1304,7 @@ body.get_started > .content h2 {
 	font-weight:400;
 }
 
-body.press div.press p,
-body.get_started p {
+body.press div.press p {
 	font-size:16px;
 	font-weight:400;
 	color:#666;
