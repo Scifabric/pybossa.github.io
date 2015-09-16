@@ -1879,13 +1879,19 @@ body.about .support {
 body.about .support p {
 	font-size:14px !important;
 }
+
+body.get_started .support {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 15px;
+}
 body.get_started .support h3 {
 	margin:0 0 10px 0;
 	color:#F5A623;
+    font-size: 40px;
+    line-height: 40px;
 }
-body.get_started .support p {
-	margin:0;
-}
+
 body.about ul.values {
 	margin:20px 0;
 	display:block;
