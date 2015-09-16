@@ -2483,3 +2483,6 @@ body.get_started .download > a {
     background-color: #F7F7F7;
 }*/
 
+body.get_started .newsletterSignup > h3 {
+    font-size: 40px;
+}
