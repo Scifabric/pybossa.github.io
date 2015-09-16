@@ -1869,7 +1869,7 @@ body.about .support {
 	border-radius: 5px;
     border: 2px solid #F5A623;
 	margin-bottom: 60px;
-	text-align: left !important;
+	text-align: left;
 	padding: 30px;
 }
 body.about .support {
@@ -1927,6 +1927,16 @@ body.about ul.values li span {
         margin-top: 10px !important;
 		text-align:left;
 	}
+
+    body.get_started .support:first-child {
+        text-align: center;
+    }
+
+    body.get_started .support img {
+        width: 50px;
+        padding-bottom: 10px;
+    }
+
 
 }
 
