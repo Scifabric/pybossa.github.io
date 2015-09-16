@@ -778,6 +778,7 @@ ul.who-is-using li.esa {
 
 @media (max-width: 767px) {
 
+
 	.opening{
 		padding-top: 110px;
 		padding-bottom: 0px;
@@ -861,11 +862,25 @@ ul.who-is-using li.esa {
     margin-top: 20px;
 	}
 
-	.nuke {
-	padding-top: 200px;
-	padding-bottom: 200px;
-	background: none;
+	.nuke{
+		display: none;
 	}
+
+	.thumbnail-description{
+		text-align: center;
+	}
+
+	.nuke-box {
+		margin-top: 40px;
+		margin-bottom: 40px;
+	}
+
+	.nuke-description{
+		max-width: 95%;
+		float: left;
+		margin-bottom: 40px;
+	}
+
 
 }
 
@@ -875,15 +890,18 @@ ul.who-is-using li.esa {
 	margin-top: 0px;	
 	}
 
-	.nuke {
-	padding-top: 200px;
-	padding-bottom: 200px;
-	background: transparent url('../img/nuke-image.svg') no-repeat;
-	background-position-x: 240%;
-	background-position-y: 50%;
+	.nuke{
+		display: none;
 	}
 
+	.nuke-box {
+		margin-top: 40px;
+		margin-bottom: 40px;
+	}
 
+	.nuke-description{
+		max-width: 90%;
+	}
 
 }
 
