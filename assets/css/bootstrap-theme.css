@@ -751,6 +751,11 @@ ul.who-is-using li.esa {
 	background-position: 0px -500px;
 }
 
+#big-images{
+	padding-right: 0px;
+	padding-left: 0px;
+}
+
 .container-big-images{
 	margin: 0px 0 100px 0;
 }
@@ -762,8 +767,13 @@ ul.who-is-using li.esa {
     height: 600px;
 }
 
-.nuke-description{
+.nuke-box{
 	margin-top: 175px;
+}
+
+.nuke-description{
+	max-width: 500px;
+	float: right;
 }
 
 @media (max-width: 767px) {
