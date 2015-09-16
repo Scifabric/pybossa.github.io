@@ -764,17 +764,41 @@ ul.who-is-using li.esa {
 .nuke {
 	background: transparent url('../img/nuke-image.svg') no-repeat;
 	background-position-y: 50%;
-	background-size: 870px 486px;
-    height: 600px;
+
+    height: 700px;
 }
 
-.nuke-box{
+.integration {
+	background: transparent url('../img/integrations-image.svg') no-repeat;
+	background-position-y: 50%;
+
+    height: 700px;
+}
+
+.templates {
+	background: transparent url('../img/templates-image.svg') no-repeat;
+	background-position-y: 50%;
+	height: 700px;
+    background-position: right;
+}
+
+
+.nuke-box,
+.templates-box,
+.integration-box{
 	margin-top: 175px;
 }
 
-.nuke-description{
+
+.nuke-description,
+.integration-description{
 	max-width: 500px;
 	float: right;
+}
+
+.templates-description{
+	max-width: 500px;
+	float: left;
 }
 
 @media (max-width: 767px) {
@@ -863,7 +887,9 @@ ul.who-is-using li.esa {
     margin-top: 20px;
 	}
 
-	.nuke{
+	.nuke, 
+	.templates,
+	.integration{
 		display: none;
 	}
 
@@ -871,11 +897,15 @@ ul.who-is-using li.esa {
 		text-align: center;
 	}
 
-	.nuke-box {
+	.nuke-box,
+	.templates-box,
+	.integration-box {
 		margin-top: 40px;
 		margin-bottom: 40px;
 	}
 
+	.integration-description,
+	.templates-description,
 	.nuke-description{
 		max-width: 95%;
 		float: left;
@@ -891,17 +921,24 @@ ul.who-is-using li.esa {
 	margin-top: 0px;	
 	}
 
-	.nuke{
+	.nuke,
+	.templates,
+	.integration{
 		display: none;
 	}
 
-	.nuke-box {
+	.nuke-box,
+	.integration-box {
 		margin-top: 40px;
-		margin-bottom: 40px;
+		margin-bottom: 20px;
+
 	}
 
-	.nuke-description{
+	.nuke-description,
+	.templates-description,
+	.integration-description{
 		max-width: 90%;
+		float: left;
 	}
 
 }
