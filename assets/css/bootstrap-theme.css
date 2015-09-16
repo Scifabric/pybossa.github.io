@@ -32,6 +32,10 @@ body.press {
 	font-family: 'Open Sans', helvetica, arial, sans-serif;
 }
 
+body{
+	font-size: 16px;
+	}
+
 .btn{
 	border-radius: 10px;
 	font-weight: 800;
@@ -1228,10 +1232,10 @@ body.press ul.as-seen-on > li > span {
 	display:block;
 }
 body.press h2 {
-	font-family: 'Open Sans', helvetica, arial, sans-serif;
 	font-size:22px;
 	margin-top:30px;
-	color:#555;
+	color:#252D35;
+
 }
 body.press h2 small{
 	font-size:16px;
@@ -1321,9 +1325,13 @@ body.press .download-press-kit {
 }
 body.press p {
 	font-size: 16px;
-	font-weight: 400;
-	color: #666;
+	color: #252D35;
 }
+
+body .get_started p{
+	font-size: 16px;
+}
+
 body.press .download-press-kit p {
 	font-size:16px;
 	width:80%;
@@ -2635,13 +2643,14 @@ body.about .bignews-banner {
 }
 
 .orangebanner p {
-    color: #4B4B4B !important;
+    color: #252D35 !important;
 }
 
 .orangebanner a {
-    color: #4b4b4b;
+	color: #252D35;
     text-decoration: underline;
 }
+
 
 
 body.get_started ol > li > h3 {
