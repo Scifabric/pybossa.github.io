@@ -2016,7 +2016,7 @@ body.about ul.values li span {
 @media (max-width: 767px) {
 	.newsletter-signup h3,
 	.newsletter-signup p {
-		font-size:20px;
+		font-size:26px;
 		text-align:center;
 	}
 	.newsletter-signup p {
@@ -2067,7 +2067,7 @@ body.about ul.values li span {
 }
 @media (min-width: 991px) and (max-width: 1199px) {
 	.newsletter-signup h3 {
-		font-size:16px;
+		font-size:28px;
 	}
 	.newsletter-signup p {
 		margin:0 0 10px 0;
