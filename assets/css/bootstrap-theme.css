@@ -460,7 +460,7 @@ body.press {
 .navbar-default {
 	position:fixed;
 	width:100%;
-	background-color:rgba(0,0,0,1) !important;
+	background-color:#252D35 !important;
 	color:#fff;
 	height:80px;
 	padding:10px 0;
@@ -1825,7 +1825,7 @@ pre, code {
 	display:inline-block;
 	padding:10px 20px;
 	margin:10px 0;
-	color:#49d5a2;
+	color: #7CAFEC;
 	font-family: "Courier New", Courier, "Nimbus Mono L", monospace;
 	font-size:15px !important;
 	border-radius: 3px;
@@ -1893,9 +1893,10 @@ body.get_started a.copy-button span {
 body.get_started ol {
     list-style-type: none;
     counter-reset: ol-counter;
-	margin: 80px 0 ;
+	margin-top: 80px;
 }
 body.get_started ol > li {
+    display: inline-block;
 	margin-left:40px;
 	margin-bottom:60px;
 }
@@ -1912,10 +1913,10 @@ body.get_started ol > li:before {
 }
 body.get_started .support,
 body.about .support {
-	border-radius: 3px;
-	background-color: #f7f6f5;
+	border-radius: 5px;
+    border: 2px solid #F5A623;
 	margin-bottom: 60px;
-	text-align: left !important;
+	text-align: left;
 	padding: 30px;
 }
 body.about .support {
@@ -1925,14 +1926,19 @@ body.about .support {
 body.about .support p {
 	font-size:14px !important;
 }
+
+body.get_started .support {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 15px;
+}
 body.get_started .support h3 {
 	margin:0 0 10px 0;
-	color:#666;
-	font-size:20px;
+	color:#F5A623;
+    font-size: 28px;
+    line-height: 28px;
 }
-body.get_started .support p {
-	margin:0;
-}
+
 body.about ul.values {
 	margin:20px 0;
 	display:block;
@@ -1955,20 +1961,36 @@ body.about ul.values li span {
 	}
 	body.get_started ol > li:before {
 		display:inline-block;
-		float:none;
+		float: none;
 		margin:0 auto;
 	}
 	body.get_started ol > li {
 		margin-left:0px;
 		margin-bottom:30px;
+		/* text-align:left; */
+	}
+
+	body.get_started ol > li > h3, p {
+        margin-top: 10px !important;
 		text-align:left;
 	}
+
+    body.get_started .support:first-child {
+        text-align: center;
+    }
+
+    body.get_started .support img {
+        width: 50px;
+        padding-bottom: 10px;
+    }
+
+
 }
 
 .newsletter-signup {
-	background-color: rgba(43, 152, 132,1);
-	padding:60px 0;
-	color:#fff;
+	background-color: #F7F7F7;
+	padding: 10px 0;
+	color: black;
 	font-size:18px;
 	text-align:center;
 }
@@ -1977,8 +1999,10 @@ body.about ul.values li span {
 }
 .newsletter-signup h3 {
 	margin:0;
-	padding:0;
-	font-size:18px;
+	padding:5px;
+	font-size:28px;
+    font-style: italic;
+    font-weight: 300;
 }
 .newsletter-signup p {
 	margin:0;
@@ -1994,24 +2018,29 @@ body.about ul.values li span {
 }
 .newsletter-signup input.form-control {
 	-moz-box-sizing: border-box;
-	padding:0 15px;
-	width:270px;
-	height:50px;
-	font-size:15px;
-	margin-right:5px;
-	margin-top:-20px;
-	border: 1px solid #ccc;
-	border-radius: 4px;
-	-webkit-box-shadow: none;
-	box-shadow: none;
-	border:0;
-	color:#666;
-	background-color:#fff;
+    box-sizing: border-box;
+    padding: 0px 15px;
+    width: 270px;
+    height: 45px;
+    font-size: 15px;
+    margin-right: 5px;
+    margin-top: -5px;
+    border-radius: 3px;
+    box-shadow: none;
+    border: 1px solid;
+    color: #252D35;
+    background-color: #FFF;
+    box-shadow:inset 0 0 1px 1px #c8c8c8;
 }
 .newsletter-signup .btn-primary {
-	margin:-20px 0 0 0;
-	height:50px;
+    margin-top: -5px;
+	height:45px;
 	padding: 0 20px;
+    border: 2px solid #252D35;
+    font-size: 16px;
+    color: #252D35;
+    text-transform: uppercase;
+    transition: border 0.3s ease 0s, color 0.3s ease 0s, background 0.3s ease 0s;
 }
 .newsletter-signup input.form-control::-webkit-input-placeholder,
 .newsletter-signup input.form-control:-moz-placeholder,
@@ -2027,7 +2056,7 @@ body.about ul.values li span {
 @media (max-width: 767px) {
 	.newsletter-signup h3,
 	.newsletter-signup p {
-		font-size:15px;
+		font-size:26px;
 		text-align:center;
 	}
 	.newsletter-signup p {
@@ -2037,19 +2066,24 @@ body.about ul.values li span {
 		width:65%;
 		border-radius:4px 0 0 4px;
 		margin:0 0 0 0;
+        float:left;
 	}
 	.newsletter-signup .btn-primary {
 		float:right;
 		width:35%;
 		border-radius: 0 4px 4px 0;
 		border-left:0;
-		margin:-50px 0 0 -6px;
+		margin:-0px 0 0 -0px;
 		padding: 0 10px;
+        border: 1px solid;
 	}
+    .newsletter-signup input.form-control {
+        display: inline-block;
+    }
 }
 @media (min-width: 768px) and (max-width: 991px) {
 	.newsletter-signup h3 {
-		font-size:16px;
+		font-size:28px;
 	}
 	.newsletter-signup p {
 		margin:0 0 10px 0;
@@ -2059,20 +2093,21 @@ body.about ul.values li span {
 	.newsletter-signup input.form-control {
 		width:175px;
 		border-radius:4px 0 0 4px;
-		margin:-20px 0 0 0;
+		margin:-0px 0 0 0;
 	}
 	.newsletter-signup .btn-primary {
 		display:inline-block;
 		border-radius: 0 4px 4px 0;
 		border-left:0;
-		margin:-20px 0 0 -5px;
+		margin:-0px 0 0 -6px;
 		padding:8px 12px;
 		font-size:14px;
+        border: 1px solid;
 	}
 }
 @media (min-width: 991px) and (max-width: 1199px) {
 	.newsletter-signup h3 {
-		font-size:16px;
+		font-size:28px;
 	}
 	.newsletter-signup p {
 		margin:0 0 10px 0;
@@ -2096,6 +2131,10 @@ footer {
     border-bottom: solid 10px #F5A623;
 }
 
+footer p {
+    text-align: center;
+}
+
 
 .column {
     margin-top: 25px;
@@ -2108,9 +2147,24 @@ footer {
 .column > div {
     height: 100px;
 }
-.column > :not(:first-child) {
-    border-left:2px solid #D3D3D3;
+
+@media (min-width:768px) {
+    .column > :not(:first-child) {
+        border-left:2px solid #D3D3D3;
+    }
 }
+
+@media (max-width:767px) {
+    svg {
+        margin-left: auto;
+        margin-right: auto;
+        height: 23px;
+        width: 35px;
+        stroke: #D3D3D3;
+        stroke-width: 4px;
+    }
+}
+
 
 footer a {
     color: #D3D3D3;
@@ -2486,4 +2540,41 @@ body.about .bignews-banner {
 	margin-right:30px;
 }
 
+.orangebanner {
+	background-color:#F5A623;
+	padding-top:100px;
+	padding-bottom:40px;
+	color:#fff;
+	text-rendering: optimizeLegibility;
 
+}
+
+.orangebanner p {
+    color: #4B4B4B !important;
+}
+
+.orangebanner a {
+    color: #4b4b4b;
+    text-decoration: underline;
+}
+
+
+body.get_started ol > li > h3 {
+    color: #F5A623;
+    margin-top: 0px;
+}
+
+body.get_started .download {
+    padding-top: 10px;
+}
+
+body.get_started .download > a {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 15px;
+    color: #3C7AC2;
+}
+
+/* body.get_started li:nth-of-type(even) {
+    background-color: #F7F7F7;
+}*/
