@@ -751,12 +751,16 @@ ul.who-is-using li.esa {
 	background-position: 0px -500px;
 }
 
+.big-images-container{
+	margin-top: 100px;
+	margin-bottom: 100px; 
+}
+
 .nuke {
-	padding-top: 200px;
-	padding-bottom: 200px;
 	background: transparent url('../img/nuke-image.svg') no-repeat;
-	background-position-x: 170%;
 	background-position-y: 50%;
+	    background-size: 870px 486px;
+    height: 486px;
 }
 
 
@@ -1184,17 +1188,14 @@ body.press ul.as-seen-on > li > span > a{
 	font-weight:600;
 }
 body.press ul.screens > li > h4 {
-	/* font-family:georgia, 'times new roman', serif; */
-	font-family: 'Open Sans';
+	font-family:georgia, 'times new roman', serif;
 	font-size:20px;
 	margin: 20px 0 5px 0;
 }
-
 body.press ul.screens > li > p {
-	/* font-family:georgia, 'times new roman', serif;*/
-	font-family:'Open Sans';
-	font-size:16px;
-    font-style: italic;
+	font-family:georgia, 'times new roman', serif;
+	color:#666;
+	font-size:18px;
 }
 body.press ul.as-seen-on > li > ul > li span {
 	display:none;
@@ -1232,7 +1233,7 @@ body.about div.wood-bg  {
 body.press .download-press-kit {
 	padding:20px;
 	margin-top:30px;
-	background-color: #EBA632;
+	background-color:rgba(43, 152, 132,1);
 	border-radius:3px;
 	color:#fff;
 	text-align:center;
