@@ -674,15 +674,20 @@ body.index .navbar-default.huge,
 	margin:10px 0 20px 0;
 }
 
-.for_you{
+.for_you,
+.featuritis{
 	background-color: #f7f7f7;
 	text-align: center;
-
 }
 
 .for_you .row{
 	margin-bottom: 85px;
 }
+
+.featuritis .thumbnail-description{
+margin-top: 15px;
+}
+
 
 .institutions{
     text-align: center;
