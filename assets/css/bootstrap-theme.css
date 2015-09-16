@@ -1184,14 +1184,17 @@ body.press ul.as-seen-on > li > span > a{
 	font-weight:600;
 }
 body.press ul.screens > li > h4 {
-	font-family:georgia, 'times new roman', serif;
+	/* font-family:georgia, 'times new roman', serif; */
+	font-family: 'Open Sans';
 	font-size:20px;
 	margin: 20px 0 5px 0;
 }
+
 body.press ul.screens > li > p {
-	font-family:georgia, 'times new roman', serif;
-	color:#666;
-	font-size:18px;
+	/* font-family:georgia, 'times new roman', serif;*/
+	font-family:'Open Sans';
+	font-size:16px;
+    font-style: italic;
 }
 body.press ul.as-seen-on > li > ul > li span {
 	display:none;
@@ -1229,7 +1232,7 @@ body.about div.wood-bg  {
 body.press .download-press-kit {
 	padding:20px;
 	margin-top:30px;
-	background-color:rgba(43, 152, 132,1);
+	background-color: #EBA632;
 	border-radius:3px;
 	color:#fff;
 	text-align:center;
