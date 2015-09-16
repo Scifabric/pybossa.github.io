@@ -2091,6 +2091,10 @@ footer {
     border-bottom: solid 10px #F5A623;
 }
 
+footer p {
+    text-align: center;
+}
+
 
 .column {
     margin-top: 25px;
@@ -2103,9 +2107,24 @@ footer {
 .column > div {
     height: 100px;
 }
-.column > :not(:first-child) {
-    border-left:2px solid #D3D3D3;
+
+@media (min-width:768px) {
+    .column > :not(:first-child) {
+        border-left:2px solid #D3D3D3;
+    }
 }
+
+@media (max-width:767px) {
+    svg {
+        margin-left: auto;
+        margin-right: auto;
+        height: 23px;
+        width: 35px;
+        stroke: #D3D3D3;
+        stroke-width: 4px;
+    }
+}
+
 
 footer a {
     color: #D3D3D3;
