@@ -273,6 +273,13 @@ body.press {
     color: #252D35;
 }
 
+.media-claim{
+	font-weight: 200;
+	font-size: 28px;
+	color: #F5A623;
+	margin-top: 0px;
+}
+
 .thumbnail-heading{
 	font-size: 18px;
     font-weight: 800;
