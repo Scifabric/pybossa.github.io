@@ -278,6 +278,7 @@ body.press {
 	font-size: 28px;
 	color: #F5A623;
 	margin-top: 0px;
+	line-height: normal;
 }
 
 .thumbnail-heading{
