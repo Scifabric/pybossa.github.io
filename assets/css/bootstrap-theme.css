@@ -818,6 +818,10 @@ ul.who-is-using li.esa {
 	float: left;
 }
 
+.logo_sf {
+    margin-top: 60px;
+}
+
 @media (max-width: 767px) {
 
 
