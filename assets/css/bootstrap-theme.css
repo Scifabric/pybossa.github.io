@@ -820,6 +820,7 @@ ul.who-is-using li.esa {
 
 .logo_sf {
     margin-top: 60px;
+    max-width: 80%;
 }
 
 @media (max-width: 767px) {
@@ -1980,7 +1981,7 @@ body.get_started a.copy-button span {
 	}
 	kbd ul li {
 		width:auto;
-		word-wrap:break-word;
+        word-break: break-word;
 	}
 	body.get_started a.copy-button {
 		display:none;
