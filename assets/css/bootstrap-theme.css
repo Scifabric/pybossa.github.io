@@ -1994,7 +1994,6 @@ body.get_started ol {
 	margin-top: 80px;
 }
 body.get_started ol > li {
-    display: inline-block;
 	margin-left:40px;
 	margin-bottom:60px;
 }
