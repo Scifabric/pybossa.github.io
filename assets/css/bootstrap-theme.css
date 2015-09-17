@@ -820,6 +820,7 @@ ul.who-is-using li.esa {
 
 .logo_sf {
     margin-top: 60px;
+    max-width: 80%;
 }
 
 @media (max-width: 767px) {
@@ -1322,7 +1323,7 @@ body.about div.wood-bg  {
 body.press .download-press-kit {
 	padding:20px;
 	margin-top:30px;
-	background-color:rgba(43, 152, 132,1);
+	background-color:#F5A623;
 	border-radius:3px;
 	color:#fff;
 	text-align:center;
@@ -1980,7 +1981,7 @@ body.get_started a.copy-button span {
 	}
 	kbd ul li {
 		width:auto;
-		word-wrap:break-word;
+        word-break: break-word;
 	}
 	body.get_started a.copy-button {
 		display:none;
@@ -1993,7 +1994,6 @@ body.get_started ol {
 	margin-top: 80px;
 }
 body.get_started ol > li {
-    display: inline-block;
 	margin-left:40px;
 	margin-bottom:60px;
 }
@@ -2048,6 +2048,10 @@ body.about ul.values li span {
 	width:200px;
 	border-radius:50%;
 	padding:30px 20px;
+}
+
+body.get_started kbd > ul {
+    text-align: left;
 }
 
 @media (max-width: 491px) {
