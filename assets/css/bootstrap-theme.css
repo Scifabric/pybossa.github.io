@@ -1322,7 +1322,7 @@ body.about div.wood-bg  {
 body.press .download-press-kit {
 	padding:20px;
 	margin-top:30px;
-	background-color:rgba(43, 152, 132,1);
+	background-color:#F5A623;
 	border-radius:3px;
 	color:#fff;
 	text-align:center;
@@ -2048,6 +2048,10 @@ body.about ul.values li span {
 	width:200px;
 	border-radius:50%;
 	padding:30px 20px;
+}
+
+body.get_started kbd > ul {
+    text-align: left;
 }
 
 @media (max-width: 491px) {
