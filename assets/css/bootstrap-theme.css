@@ -27,8 +27,7 @@ html {
 	-webkit-font-smoothing: subpixel-antialiased;
 }
 
-body,
-body.press {
+body{
 	font-family: 'Open Sans', helvetica, arial, sans-serif;
 }
 
@@ -823,6 +822,8 @@ ul.who-is-using li.institution6 {
     max-width: 80%;
 }
 
+
+
 @media (max-width: 767px) {
 
 
@@ -1277,16 +1278,7 @@ body.press ul.as-seen-on > li > span > a{
 	color:#666;
 	font-weight:600;
 }
-body.press ul.screens > li > h4 {
-	font-family:georgia, 'times new roman', serif;
-	font-size:20px;
-	margin: 20px 0 5px 0;
-}
-body.press ul.screens > li > p {
-	font-family:georgia, 'times new roman', serif;
-	color:#666;
-	font-size:18px;
-}
+
 body.press ul.as-seen-on > li > ul > li span {
 	display:none;
 }
@@ -2676,6 +2668,19 @@ body.get_started .download > a {
     font-size: 15px;
     color: #3C7AC2;
 }
+
+.news-heading{
+	font-size: 18px;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: #252D35;
+    margin-top: 15px;
+}
+
+.news-heading a{
+	text-decoration: none;
+}
+
 
 /* body.get_started li:nth-of-type(even) {
     background-color: #F7F7F7;

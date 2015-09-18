@@ -13,7 +13,7 @@ body_class: press
 			{% if post.featured %}
 			<li class="col-md-4 col-sm-4 wow fadeInUp">
 				<a class="hidden-xs" href="{{post.link}}"><img src="{{site.URL}}/assets/img/{{post.featured_img}}" alt="{{post.author}}" width="100%"/></a>
-				<h4><a href="{{post.link}}">{{post.source}}</a></h4>
+				<h4 class="news-heading"><a href="{{post.link}}">{{post.source}}</a></h4>
 				{{post.content}}
 			</li>
 			{% endif %}
