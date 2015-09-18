@@ -27,13 +27,10 @@ html {
 	-webkit-font-smoothing: subpixel-antialiased;
 }
 
-body,
-body.press {
-	font-family: 'Open Sans', helvetica, arial, sans-serif;
-}
-
 body{
+	font-family: 'Open Sans', helvetica, arial, sans-serif;
 	font-size: 16px;
+	color: #252D35;
 	}
 
 .btn{
@@ -823,6 +820,8 @@ ul.who-is-using li.institution6 {
     max-width: 80%;
 }
 
+
+
 @media (max-width: 767px) {
 
 
@@ -1080,7 +1079,7 @@ body.error404 {
 	.apps > h2,
 	.projects h2,
 	footer h3 {
-		color:#666;
+		color: #252D35;
 		font-size:18px;
 	}
 	.apps > p,
@@ -1277,16 +1276,7 @@ body.press ul.as-seen-on > li > span > a{
 	color:#666;
 	font-weight:600;
 }
-body.press ul.screens > li > h4 {
-	font-family:georgia, 'times new roman', serif;
-	font-size:20px;
-	margin: 20px 0 5px 0;
-}
-body.press ul.screens > li > p {
-	font-family:georgia, 'times new roman', serif;
-	color:#666;
-	font-size:18px;
-}
+
 body.press ul.as-seen-on > li > ul > li span {
 	display:none;
 }
@@ -1328,10 +1318,7 @@ body.press .download-press-kit {
 	color:#fff;
 	text-align:center;
 }
-body.press p {
-	font-size: 16px;
-	color: #252D35;
-}
+
 
 body .get_started p{
 	font-size: 16px;
@@ -2676,6 +2663,19 @@ body.get_started .download > a {
     font-size: 15px;
     color: #3C7AC2;
 }
+
+.news-heading{
+	font-size: 18px;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: #252D35;
+    margin-top: 15px;
+}
+
+.news-heading a{
+	text-decoration: none;
+}
+
 
 /* body.get_started li:nth-of-type(even) {
     background-color: #F7F7F7;
