@@ -750,22 +750,22 @@ ul.who-is-using li span {
 	display:none;
 }
 
-ul.who-is-using li.ucl {
+ul.who-is-using li.institution1 {
 	background-position: 0px 0px;
 }
-ul.who-is-using li.nasa {
+ul.who-is-using li.institution2 {
 	background-position: 0px -100px;
 }
-ul.who-is-using li.bl {
+ul.who-is-using li.institution3 {
 	background-position: 0px -200px;
 }
-ul.who-is-using li.cern {
+ul.who-is-using li.institution4 {
 	background-position: 0px -300px;
 }
-ul.who-is-using li.bm {
+ul.who-is-using li.institution5 {
 	background-position: 0px -400px;
 }
-ul.who-is-using li.esa {
+ul.who-is-using li.institution6 {
 	background-position: 0px -500px;
 }
 
