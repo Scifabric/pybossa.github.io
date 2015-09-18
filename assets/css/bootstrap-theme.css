@@ -29,10 +29,8 @@ html {
 
 body{
 	font-family: 'Open Sans', helvetica, arial, sans-serif;
-}
-
-body{
 	font-size: 16px;
+	color: #252D35;
 	}
 
 .btn{
@@ -1081,7 +1079,7 @@ body.error404 {
 	.apps > h2,
 	.projects h2,
 	footer h3 {
-		color:#666;
+		color: #252D35;
 		font-size:18px;
 	}
 	.apps > p,
@@ -1320,10 +1318,7 @@ body.press .download-press-kit {
 	color:#fff;
 	text-align:center;
 }
-body.press p {
-	font-size: 16px;
-	color: #252D35;
-}
+
 
 body .get_started p{
 	font-size: 16px;
