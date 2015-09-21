@@ -635,6 +635,20 @@ body.index .navbar-default.huge,
 	color:#fff;
 	text-rendering: optimizeLegibility;
 }
+	@media only screen and (-webkit-min-device-pixel-ratio: 2), 
+only screen and (min-device-pixel-ratio: 2) {
+    
+  .opening {
+    /* Reference the @2x Sprite */
+    background-image: url('../img/home_orange@2x.png');
+    /* Translate the @2x sprite's dimensions back to 1x */
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; 
+    }
+}
+
 .opening h1 {
 	font-family: 'Varela Round', sans-serif;
 	font-size:64px;
