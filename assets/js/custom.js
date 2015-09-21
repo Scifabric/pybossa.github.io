@@ -10,6 +10,7 @@ $(window).scroll(function(e){
     }
 });
 
+
 $(function () {
 	 if (window.devicePixelRatio > 1) {
          var images = $("img.hires");
