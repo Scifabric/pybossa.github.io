@@ -306,9 +306,7 @@ body{
     color: #252D35;
 }
 
-.section-claim-bottom .fa-heart{
-	color: #E64C3C;
-}
+
 
 .features-btns{
 	margin-bottom: 50px;
@@ -918,6 +916,12 @@ ul.who-is-using li.institution6 {
     margin-bottom: 30px;
 	}
 
+	.section-claim-bottom {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-size: 20px
+	}
+
 	.features .row {
     margin-top: 0px;
 	}
@@ -941,7 +945,6 @@ ul.who-is-using li.institution6 {
    		text-align: center;
    	}
 
-
    	.people .media-left{
    	display: flex;
    	}
@@ -951,14 +954,26 @@ ul.who-is-using li.institution6 {
     text-align: center;
 	}
 
+	.people .section-title {
+    margin-bottom: 10px;
+	}
+
 	.people .media-object {
     display: block;
     margin: auto;
 	}
 
 	.people .media-heading {
-    margin-top: 20px;
+    margin-top: 18px;
+    font-size: 16px;
+    text-align: left;
 	}
+
+	.people .media-description {
+    font-size: 16px;
+	}
+
+
 
 	.nuke, 
 	.templates,
@@ -2114,20 +2129,6 @@ body.get_started kbd > ul {
 		margin-bottom:30px;
 		/* text-align:left; */
 	}
-
-	body.get_started ol > li > h3, p {
-        margin-top: 10px !important;
-		text-align:left;
-	}
-
-    body.get_started .support:first-child {
-        text-align: center;
-    }
-
-    body.get_started .support img {
-        width: 50px;
-        padding-bottom: 10px;
-    }
 
 
 }
