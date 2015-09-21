@@ -739,6 +739,21 @@ margin-top: 15px;
 	background-size: cover;
 }
 
+	@media only screen and (-webkit-min-device-pixel-ratio: 2), 
+only screen and (min-device-pixel-ratio: 2) {
+    
+  .institutions {
+    /* Reference the @2x Sprite */
+    background-image: url('../img/institutions_bg@2x.png');
+    /* Translate the @2x sprite's dimensions back to 1x */
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; 
+    }
+}
+
+
 .institutions .section-title,
 .institutions .section-claim{
 	color: #fff;
