@@ -861,10 +861,12 @@ ul.who-is-using li.institution6 {
 	
 	.opening h1{
 		font-size: 40px;
+		text-align: left;
 	}
 
 	.mantra{
-		font-size: 24px;
+		font-size: 22px;
+		padding: 0;
 	}
 
 	.mantra-btns{
@@ -962,7 +964,12 @@ ul.who-is-using li.institution6 {
 		margin-bottom: 40px;
 	}
 
-
+	.feature-big-claim{
+	font-size: 22px;
+	}
+	.big-claim-icon {
+		text-align: center;
+	}
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
@@ -2704,7 +2711,6 @@ body.get_started .download > a {
 .news-heading a{
 	text-decoration: none;
 }
-
 
 /* body.get_started li:nth-of-type(even) {
     background-color: #F7F7F7;
