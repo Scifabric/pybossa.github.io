@@ -851,6 +851,9 @@ ul.who-is-using li.institution6 {
 
 @media (max-width: 767px) {
 
+	.section-claim br {
+		display: none;
+	}
 
 	.opening{
 		padding-top: 110px;
@@ -859,7 +862,6 @@ ul.who-is-using li.institution6 {
 	
 	.opening h1{
 		font-size: 40px;
-		text-align: left;
 	}
 
 	.mantra{
@@ -905,14 +907,13 @@ ul.who-is-using li.institution6 {
 
 	.section-title{
 	padding: 0px;
-	text-align: left;
 	margin-bottom: 10px;	
+	font-size: 13px;
 	}
 
 	.section-claim {
     padding-left: 0px;
-    font-size: 22px;
-    text-align: left;
+    font-size: 18px;
     margin-bottom: 30px;
 	}
 
@@ -971,6 +972,7 @@ ul.who-is-using li.institution6 {
 
 	.people .media-description {
     font-size: 16px;
+    text-align: left;
 	}
 
 
