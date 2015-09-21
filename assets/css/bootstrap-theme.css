@@ -880,6 +880,27 @@ ul.who-is-using li.institution6 {
 		width: 100%;
 	}
 
+	.orangebanner {
+	margin-bottom: 20px;
+	}
+
+	.features .media {
+    padding: 20px 0 0 0;
+	}
+
+	.media-heading {
+    font-size: 13px;
+	}
+
+	.media-claim {
+    font-weight: 600;
+    font-size: 16px;
+	}
+
+	.media-left, .media > .pull-left {
+    padding-right: 5px;
+	}
+
 	.claims{
 		display: none;
 	}
