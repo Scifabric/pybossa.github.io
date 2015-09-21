@@ -906,14 +906,14 @@ ul.who-is-using li.institution6 {
 	}
 
 	.section-title{
-	padding: 10px;
+	padding: 0px;
 	text-align: left;
 	margin-bottom: 10px;	
 	}
 
 	.section-claim {
-	padding-left: 10px;
-    font-size: 24px;
+    padding-left: 0px;
+    font-size: 22px;
     text-align: left;
     margin-bottom: 30px;
 	}
