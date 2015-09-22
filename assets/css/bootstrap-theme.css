@@ -34,7 +34,7 @@ body{
 	}
 
 .btn{
-	border-radius: 10px;
+	border-radius: 5px;
 	font-weight: 800;
 	}
 
@@ -306,9 +306,7 @@ body{
     color: #252D35;
 }
 
-.section-claim-bottom .fa-heart{
-	color: #E64C3C;
-}
+
 
 .features-btns{
 	margin-bottom: 50px;
@@ -635,6 +633,20 @@ body.index .navbar-default.huge,
 	color:#fff;
 	text-rendering: optimizeLegibility;
 }
+	@media only screen and (-webkit-min-device-pixel-ratio: 2), 
+only screen and (min-device-pixel-ratio: 2) {
+    
+  .opening {
+    /* Reference the @2x Sprite */
+    background-image: url('../img/home_orange@2x.png');
+    /* Translate the @2x sprite's dimensions back to 1x */
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; 
+    }
+}
+
 .opening h1 {
 	font-family: 'Varela Round', sans-serif;
 	font-size:64px;
@@ -724,6 +736,21 @@ margin-top: 15px;
 	-o-background-size: cover;
 	background-size: cover;
 }
+
+	@media only screen and (-webkit-min-device-pixel-ratio: 2), 
+only screen and (min-device-pixel-ratio: 2) {
+    
+  .institutions {
+    /* Reference the @2x Sprite */
+    background-image: url('../img/institutions_bg@2x.png');
+    /* Translate the @2x sprite's dimensions back to 1x */
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; 
+    }
+}
+
 
 .institutions .section-title,
 .institutions .section-claim{
@@ -824,6 +851,9 @@ ul.who-is-using li.institution6 {
 
 @media (max-width: 767px) {
 
+	.section-claim br {
+		display: none;
+	}
 
 	.opening{
 		padding-top: 110px;
@@ -835,7 +865,8 @@ ul.who-is-using li.institution6 {
 	}
 
 	.mantra{
-		font-size: 24px;
+		font-size: 22px;
+		padding: 0;
 	}
 
 	.mantra-btns{
@@ -849,21 +880,47 @@ ul.who-is-using li.institution6 {
 		width: 100%;
 	}
 
+	.orangebanner {
+	margin-bottom: 20px;
+	}
+
+	.features .media {
+    padding: 20px 0 0 0;
+	}
+
+	.media-heading {
+    font-size: 13px;
+	}
+
+	.media-claim {
+    font-weight: 600;
+    font-size: 16px;
+	}
+
+	.media-left, .media > .pull-left {
+    padding-right: 5px;
+	}
+
 	.claims{
 		display: none;
 	}
 
 	.section-title{
-	padding: 10px;
-	text-align: left;
+	padding: 0px;
 	margin-bottom: 10px;	
+	font-size: 13px;
 	}
 
 	.section-claim {
-	padding-left: 10px;
-    font-size: 24px;
-    text-align: left;
+    padding-left: 0px;
+    font-size: 18px;
     margin-bottom: 30px;
+	}
+
+	.section-claim-bottom {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-size: 20px
 	}
 
 	.features .row {
@@ -889,7 +946,6 @@ ul.who-is-using li.institution6 {
    		text-align: center;
    	}
 
-
    	.people .media-left{
    	display: flex;
    	}
@@ -899,14 +955,27 @@ ul.who-is-using li.institution6 {
     text-align: center;
 	}
 
+	.people .section-title {
+    margin-bottom: 10px;
+	}
+
 	.people .media-object {
     display: block;
     margin: auto;
 	}
 
 	.people .media-heading {
-    margin-top: 20px;
+    margin-top: 18px;
+    font-size: 16px;
+    text-align: left;
 	}
+
+	.people .media-description {
+    font-size: 16px;
+    text-align: left;
+	}
+
+
 
 	.nuke, 
 	.templates,
@@ -933,7 +1002,12 @@ ul.who-is-using li.institution6 {
 		margin-bottom: 40px;
 	}
 
-
+	.feature-big-claim{
+	font-size: 22px;
+	}
+	.big-claim-icon {
+		text-align: center;
+	}
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
@@ -2058,20 +2132,6 @@ body.get_started kbd > ul {
 		/* text-align:left; */
 	}
 
-	body.get_started ol > li > h3, p {
-        margin-top: 10px !important;
-		text-align:left;
-	}
-
-    body.get_started .support:first-child {
-        text-align: center;
-    }
-
-    body.get_started .support img {
-        width: 50px;
-        padding-bottom: 10px;
-    }
-
 
 }
 
@@ -2675,7 +2735,6 @@ body.get_started .download > a {
 .news-heading a{
 	text-decoration: none;
 }
-
 
 /* body.get_started li:nth-of-type(even) {
     background-color: #F7F7F7;
