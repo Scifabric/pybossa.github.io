@@ -810,9 +810,7 @@ ul.who-is-using li.institution6 {
 }
 
 .integration {
-	background: transparent url('../img/integrations-image.svg') no-repeat;
-	background-position-y: 50%;
-
+	background: transparent url('../img/integrations-image.svg') no-repeat 0% 50%;
     height: 700px;
 }
 
