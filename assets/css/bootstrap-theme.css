@@ -2757,3 +2757,21 @@ body.get_started .download > a {
     text-transform: uppercase;
     transition: border 0.3s ease 0s, color 0.3s ease 0s, background 0.3s ease 0s;
 }
+
+
+@media(min-width:361px) {
+    .call-to-action h3 {
+        float: right;
+    }
+    .call-to-action a {
+        float: left;
+    }
+
+}
+
+@media(max-width:360px) {
+    .call-to-action h3 {
+        font-size: 26px;
+        padding-bottom: 8px;
+    }
+}
