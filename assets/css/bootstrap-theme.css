@@ -803,9 +803,7 @@ ul.who-is-using li.institution6 {
 }
 
 .nuke {
-	background: transparent url('../img/nuke-image.svg') no-repeat;
-	background-position-y: 50%;
-
+	background: transparent url('../img/nuke-image.svg') no-repeat 0% 50%;
     height: 700px;
 }
 
@@ -815,21 +813,15 @@ ul.who-is-using li.institution6 {
 }
 
 .templates {
-	background: transparent url('../img/templates-image.svg') no-repeat;
-	background-position-y: 50%;
+	background: transparent url('../img/templates-image.svg') no-repeat 0% 50%;
 	height: 700px;
     background-position: right;
 }
 
-
-
-.templates-box,
-.integration-box{
+ .nuke-box,
+ .templates-box,
+ .integration-box{	
 	margin-top: 250px;
-}
-
-.nuke-box{
-	margin-top: 350px;
 }
 
 
@@ -849,7 +841,10 @@ ul.who-is-using li.institution6 {
     max-width: 80%;
 }
 
-
+.main-features{
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
 
 @media (max-width: 767px) {
 
