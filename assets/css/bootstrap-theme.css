@@ -704,6 +704,7 @@ only screen and (min-device-pixel-ratio: 2) {
 	font-style: italic;
 	line-height: normal;
 }
+
 .big-claim-icon{
 	text-align: right;
 	margin-top: 17px;
@@ -1002,6 +1003,7 @@ ul.who-is-using li.institution6 {
 
 	.feature-big-claim{
 	font-size: 22px;
+	text-align: center;
 	}
 	.big-claim-icon {
 		text-align: center;
@@ -1034,6 +1036,13 @@ ul.who-is-using li.institution6 {
 		float: left;
 	}
 
+	.big-claim-icon {
+		text-align: center;
+	}
+
+	.feature-big-claim{
+	text-align: center;
+	}
 }
 
 div.project_icons {
