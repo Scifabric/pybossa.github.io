@@ -2132,6 +2132,7 @@ body.get_started kbd > ul {
 
 }
 
+.call-to-action, 
 .newsletter-signup {
 	background-color: #F7F7F7;
 	padding: 10px 0;
@@ -2736,3 +2737,41 @@ body.get_started .download > a {
 /* body.get_started li:nth-of-type(even) {
     background-color: #F7F7F7;
 }*/
+
+.call-to-action .row {
+    margin-top: 17px;
+    padding-bottom: 17px;
+}
+
+.call-to-action h3 {
+	margin:0;
+	padding:5px;
+	font-size:28px;
+    font-style: italic;
+    font-weight: 300;
+}
+
+.call-to-action .btn-primary {
+    border: 2px solid #252D35;
+    color: #252D35;
+    text-transform: uppercase;
+    transition: border 0.3s ease 0s, color 0.3s ease 0s, background 0.3s ease 0s;
+}
+
+
+@media(min-width:361px) {
+    .call-to-action h3 {
+        float: right;
+    }
+    .call-to-action a {
+        float: left;
+    }
+
+}
+
+@media(max-width:360px) {
+    .call-to-action h3 {
+        font-size: 26px;
+        padding-bottom: 8px;
+    }
+}
