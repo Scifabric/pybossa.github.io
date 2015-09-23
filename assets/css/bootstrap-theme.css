@@ -848,6 +848,7 @@ ul.who-is-using li.institution6 {
 }
 
 
+
 @media (max-width: 767px) {
 
 	.section-claim br {
@@ -1008,9 +1009,25 @@ ul.who-is-using li.institution6 {
 	.big-claim-icon {
 		text-align: center;
 	}
+
+	.mc-field-group{
+	text-align: center;
+	}
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
+
+	.mc-field-group{
+	text-align: center;
+	}
+
+	.newsletter-signup label {
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+	}
+
+
 
 	.features .row{
 	margin-top: 0px;	
@@ -2238,6 +2255,7 @@ body.get_started kbd > ul {
 @media (min-width: 768px) and (max-width: 991px) {
 	.newsletter-signup h3 {
 		font-size:28px;
+		text-align: center;
 	}
 	.newsletter-signup p {
 		margin:0 0 10px 0;
@@ -2256,6 +2274,26 @@ body.get_started kbd > ul {
 		margin:-0px 0 0 -6px;
 		padding:8px 12px;
 		font-size:14px;
+        border: 1px solid;
+	}
+
+	.newsletter {
+		max-width: 40%;
+	}
+
+		.newsletter-signup input.form-control {
+		width:65%;
+		border-radius:4px 0 0 4px;
+		margin:0 0 0 0;
+        float:left;
+	}
+	.newsletter-signup .btn-primary {
+		float:right;
+		width:35%;
+		border-radius: 0 4px 4px 0;
+		border-left:0;
+		margin:-0px 0 0 -0px;
+		padding: 0 10px;
         border: 1px solid;
 	}
 }
