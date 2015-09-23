@@ -841,7 +841,10 @@ ul.who-is-using li.institution6 {
     max-width: 80%;
 }
 
-
+.main-features{
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
 
 @media (max-width: 767px) {
 
