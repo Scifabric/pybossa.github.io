@@ -846,6 +846,7 @@ ul.who-is-using li.institution6 {
 	padding-bottom: 40px;
 }
 
+
 @media (max-width: 767px) {
 
 	.section-claim br {
@@ -2135,11 +2136,9 @@ body.get_started kbd > ul {
 .call-to-action, 
 .newsletter-signup {
 	background-color: #F7F7F7;
-	padding: 10px 0;
-	color: black;
-	font-size:18px;
-	text-align:center;
+	padding: 10px 0;	
 }
+
 .newsletter-signup a {
 	color:#fff;
 }
@@ -2749,29 +2748,36 @@ body.get_started .download > a {
 	font-size:28px;
     font-style: italic;
     font-weight: 300;
+    text-align: right;
 }
 
 .call-to-action .btn-primary {
     border: 2px solid #252D35;
     color: #252D35;
+    background-color: rgba(37, 45, 53, 0);
     text-transform: uppercase;
+    width: 210px;
+    padding: 8px;
+    transition: border 0.3s ease 0s, color 0.3s ease 0s, background 0.3s ease 0s;
+}
+
+.call-to-action .btn-primary:hover {
+    color: #fff;
+    background-color: rgba(37, 45, 53, 100);
     transition: border 0.3s ease 0s, color 0.3s ease 0s, background 0.3s ease 0s;
 }
 
 
-@media(min-width:361px) {
+
+
+@media(max-width:991px) {
+    .call-to-action,
     .call-to-action h3 {
-        float: right;
-    }
-    .call-to-action a {
-        float: left;
+    	text-align: center;
     }
 
-}
-
-@media(max-width:360px) {
-    .call-to-action h3 {
-        font-size: 26px;
-        padding-bottom: 8px;
+    .call-to-action .btn-primary {
+    	margin-top: 20px;
     }
+
 }
