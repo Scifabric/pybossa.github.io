@@ -37,64 +37,33 @@ body_class: get_started
                     <li>
                     <h3>Install PyBossa Juju charm</h3>
                     <p>Open a terminal and run:</p>
-                    <kbd>
-                        <ul>
-                            <li id="juju-charm" name="id">git clone https://github.com/PyBossa/pybossa-jujucharm.git</li>
-                        </ul>
-                    </kbd>
-                    <a href="#" data-clipboard-target="juju-charm" class="copy-button">Copy</a>
+                    <kbd>git clone https://github.com/PyBossa/pybossa-jujucharm.git</kbd>
+                    <!-- <a href="#" data-clipboard-target="juju-charm" class="copy-button">Copy</a> -->
                     <p>Access the charm:</p>
-                    <kbd>
-                        <ul>
-                            <li id="juju-charm-2" name="id">cd pybossa-jujucharm</li>
-                        </ul>
-                    </kbd>
-                    <a href="#" data-clipboard-target="juju-charm-2" class="copy-button">Copy</a>
+                    <kbd>cd pybossa-jujucharm</kbd>
+                    <!-- <a href="#" data-clipboard-target="juju-charm-2" class="copy-button">Copy</a> -->
                     <p>Launch the virtual machine and access it:</p>
-                    <kbd>
-                        <ul>
-                            <li id="juju-charm-3" name="id">vagrant up</li>
-                            <li id="juju-charm-3" name="id">vagrant ssh</li>
-                        </ul>
-                    </kbd>
-                    <a href="#" data-clipboard-target="juju-charm-3" class="copy-button">Copy</a>
+                    <pre>vagrant up<br>vagrant ssh</pre>
+                    <!-- <a href="#" data-clipboard-target="juju-charm-3" class="copy-button">Copy</a> -->
                     <p>Enable Juju:</p>
-                    <kbd>
-                        <ul>
-                            <li id="juju-charm-4" name="id">juju init</li>
-                            <li id="juju-charm-4" name="id">juju switch local</li>
-                            <li id="juju-charm-4" name="id">juju bootstrap</li>
-                        </ul>
-                    </kbd>
-                    <a href="#" data-clipboard-target="juju-charm-4" class="copy-button">Copy</a>
+                    <kbd>juju init<br>juju switch local<br>juju bootstrap</kbd>
+                    <!-- <a href="#" data-clipboard-target="juju-charm-4" class="copy-button">Copy</a> -->
                     </li>
                     <li>
                     <h3>Deploy PyBossa Juju bundle</h3>
                     <p>This command will install PostgreSQL and PyBossa and will connect them:</p>
-                    <kbd>
-                        <ul>
-                            <li id="juju-deployer" name="id">juju deployer -c bundle.yaml</li>
-                        </ul>
-                    </kbd>
-                    <a href="#" data-clipboard-target="juju-deployer" class="copy-button">Copy</a>
+                    <kbd>juju deployer -c bundle.yaml</kbd>
+                    <!-- <a href="#" data-clipboard-target="juju-deployer" class="copy-button">Copy</a> -->
                     </li>
                     <li>
                     <h3>Export PyBossa port</h3>
                     <p>In order to have access to the PyBossa server within the virtual machine, you have to open its port.</p>
                     <p>Open a terminal and run:</p>
-                    <kbd>
-                        <ul>
-                            <li id="juju-status" name="id">juju status</li>
-                        </ul>
-                    </kbd>
-                    <a href="#" data-clipboard-target="juju-status" class="copy-button">Copy</a>
+                    <kbd>juju status</kbd>
+                    <!-- <a href="#" data-clipboard-target="juju-status" class="copy-button">Copy</a> -->
                     <p>That command will give you the IP where the PyBossa server is listening. Copy it and pass it to the following command:</p>
-                    <kbd>
-                        <ul>
-                            <li id="juju-nat" name="id">sudo natpybossa IP</li>
-                        </ul>
-                    </kbd>
-                    <a href="#" data-clipboard-target="juju-nat" class="copy-button">Copy</a>
+                    <kbd>sudo natpybossa IP</kbd>
+                    <!-- <a href="#" data-clipboard-target="juju-nat" class="copy-button">Copy</a> -->
                     </li>
                     <li>
                     <h3>Testing PyBossa</h3>
