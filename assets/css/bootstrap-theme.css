@@ -2016,14 +2016,14 @@ pre, code {
     -webkit-overflow-scrolling: touch;
     white-space: pre;
     word-wrap: normal;
-	padding:10px 20px;
+	padding:10px 20px 11px;
 	margin:10px 0;
 	color: #7CAFEC;
-	font-family: "Courier New", Courier, "Nimbus Mono L", monospace;
-	font-size:15px !important;
+	font-size:17px !important;
 	border-radius: 3px;
 	background-color:#252D35;
 	border:none;
+    font-family: "Inconsolata";
 }
 kbd::-webkit-scrollbar, pre::-webkit-scrollbar, code::-webkit-scrollbar {
     height:.5em;
