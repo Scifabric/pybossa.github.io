@@ -2847,3 +2847,20 @@ body.get_started .download > a {
     }
 
 }
+
+.navbar-scifabric {
+    height: 44px;
+    float: left;
+}
+
+@media(max-width:320px) {
+    .navbar h3 {
+        margin-left: 20%;
+    }
+}
+
+@media(min-width:360px) and (max-width:360px) {
+    .navbar h3 {
+        margin-left: 25%;
+    }
+}
