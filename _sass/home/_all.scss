@@ -848,11 +848,11 @@ body.error404 {
 }
 @media (max-width: 767px) {
     .apps > h2,
-    .projects h2,
-    footer h3 {
+    .projects h2 {
         color: $grey;
         font-size:18px;
     }
+
     .apps > p,
     .projects > .container > p {
         color:#888;
@@ -1925,211 +1925,6 @@ body.about ul.values li span {
 }
 
 
-footer {
-    background-color:$grey;
-    text-align: center;
-    color: #D3D3D3;
-    font-size: 16px;
-    font-weight: 600;
-    padding-bottom: 80px;
-    padding-top: 60px;
-    border-bottom: solid 10px $orange;
-}
-
-footer p {
-    text-align: center;
-}
-
-
-.column {
-    margin-top: 25px;
-}
-
-.column p {
-    line-height: 0.8;
-}
-
-.column > div {
-    height: 100px;
-}
-
-@media (min-width:768px) {
-    .column > :not(:first-child) {
-        border-left:2px solid #D3D3D3;
-    }
-}
-
-@media (max-width:767px) {
-    svg {
-        margin-left: auto;
-        margin-right: auto;
-        height: 23px;
-        width: 35px;
-        stroke: #D3D3D3;
-        stroke-width: 4px;
-    }
-}
-
-
-footer a {
-    color: #D3D3D3;
-}
-footer a:hover {
-    color: #D3D3D3;
-}
-
-footer h3 {
-    font-family: 'Varela Round', sans-serif;
-    font-size:32px;
-    text-transform: uppercase;
-    color: white;
-
-}
-footer > .container > ul.supported > li > a {
-    cursor:pointer !important;
-    display:block;
-    height:70px;
-}
-footer ul.supported li span {
-    display:none;
-}
-footer ul {
-    list-style-type:none;
-    margin:0;
-    padding:0;
-}
-footer ul.footer-ssnn {
-    float:right;
-}
-footer ul.footer-ssnn li {
-    display:inline-block;
-    margin-left:8px;
-}
-footer ul.footer-ssnn li a.btn-inverse {
-    margin:-13px 0 30px 0;
-    color:#666;
-    border:2px solid #111;
-    background-color:#000;
-}
-footer ul.footer-ssnn li a.btn-inverse:hover {
-    color:#fff;
-    border:2px solid #222;
-    background-color:#111 !important;
-}
-footer ul.footer-ssnn li a.btn-small {
-    font-size:14px;
-    padding:10px 14px;
-}
-footer ul.footer-ssnn li i {
-    margin-right:5px;
-}
-footer ul.supported {
-    margin: 0 0 140px 0;
-}
-footer ul.supported li h3 {
-    margin: 30px 0
-}
-footer li.shuttleworth,
-footer li.openknowledge,
-footer li.cyberscience {
-    display:block;
-    height:70px;
-    background: transparent url('../img/sprite.png') no-repeat;
-    opacity:.2;
-    -webkit-transition: opacity0.3s ease;
-    -moz-transition: opacity 0.3s ease;
-    -o-transition: opacity 0.3s ease;
-    transition: opacity 0.3s ease;
-}
-footer li.shuttleworth:hover,
-footer li.openknowledge:hover,
-footer li.cyberscience:hover {
-    opacity:.6;
-}
-footer li.shuttleworth {
-    background-position: 50px -405px;
-}
-footer li.openknowledge {
-    background-position: 50px -480px;
-}
-footer li.cyberscience {
-    background-position: 50px -625px;
-}
-footer ul.footer-links li,
-footer ul.footer-nav li {
-    display:inline-block;
-    margin:0 5px 0 0;
-}
-footer ul.footer-nav li {
-    text-transform:uppercase;
-    font-family: 'Open Sans', helvetica, arial, sans-serif;
-    margin-right:10px;
-}
-footer ul.footer-nav li a {
-    padding-bottom:6px;
-}
-footer ul.footer-nav li a:hover {
-    text-decoration:none;
-    border-bottom:2px solid #666;
-}
-footer ul.footer-nav li.active a {
-    background-color:transparent;
-    border-bottom:2px solid #EE7147;
-}
-
-footer ul.footer-cc li {
-    float:right;
-    margin-top:-18px;
-}
-footer ul.footer-links li,
-footer ul.footer-cc li {
-    font-size:13px;
-    color:#444;
-}
-footer ul.footer-cc li a {
-    color:#444;
-}
-footer hr {
-    margin:30px 0;
-    border-color:#222;
-    padding:0;
-    width:100%;
-}
-@media (max-width: 491px) {
-    footer ul.footer-links li,
-    footer ul.footer-cc li {
-        float:none;
-        clear:both;
-        display:block;
-        text-align:center;
-    }
-    footer ul.footer-cc li {
-        margin:5px 0 0 0;
-    }
-    footer ul.footer-ssnn {
-        float:none;
-        margin:0 auto;
-        text-align:center;
-    }
-    footer ul.footer-ssnn li {
-        display:inline-block;
-        margin-left:8px;
-    }
-    footer li.shuttleworth,
-    footer li.openknowledge,
-    footer li.cyberscience {
-        width:290px;
-        margin:0 auto;
-    }
-    footer ul.supported {
-        margin: 0 0 40px 0;
-    }
-    footer ul.footer-ssnn li a.btn-inverse {
-        margin:0 0 10px 0;
-    }
-}
-
-
 div.divider {
     display:block;
     height:1px;
@@ -2429,3 +2224,4 @@ body.about .bignews-banner {
 }
 
 @import "home/batteries";
+@import "partials/footer";
