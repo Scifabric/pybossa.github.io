@@ -1,6 +1,7 @@
 @import "modules/colors";
 @import "partials/default";
 @import "partials/button";
+@import "partials/get-started";
 
 @media only screen and (-webkit-min-device-pixel-ratio: 2), 
 only screen and (min-device-pixel-ratio: 2) {
@@ -1090,9 +1091,7 @@ body.press .download-press-kit {
 }
 
 
-body .get_started p{
-    font-size: 16px;
-}
+
 
 body.press .download-press-kit p {
     font-size:16px;
@@ -1152,29 +1151,21 @@ body.about div.about-content ul {
     font-weight:400;
 }
 body.about > div.about-content h2,
-body.get_started > .content h2 {
-    font-family: 'Open Sans', helvetica, arial, sans-serif;
-    font-size:22px;
-    color:#666;
-    font-weight:400;
-}
+
 
 body.press div.press p {
     font-size:16px;
     font-weight:400;
     color:#666;
 }
-body.press div.presskit-logos h3,
-body.get_started > .content h3 {
+body.press div.presskit-logos h3 {
     font-family: 'Open Sans', helvetica, arial, sans-serif;
     font-size:22px;
     color:rgba(43, 152, 132,1);
     font-weight:normal;
     margin-left:15px;
 }
-body.get_started > .content h2,
-body.about > div.about-content h2,
-body.get_started > .content h3 {
+body.about > div.about-content h2 {
     margin:30px 0 10px 0;
 }
 body.press div.presskit-logos h3 {
@@ -1680,7 +1671,6 @@ body.blog .author-detail ul li a i {
     color:#fff;
 }
 
-body.get_started kbd,
 pre, code {
     display: block;
     width: auto;
@@ -1716,41 +1706,7 @@ code {
 body.blog pre, code {
     font-size:16px !important;
 }
-body.get_started kbd ul {
-    list-style-type:none;
-    padding:0;
-    margin:0;
-}
-body.get_started kbd ul {
-    list-style-type:none;
-    padding:0;
-    margin:0;
-}
-body.get_started a.copy-button {
-    display:inline-block;
-    padding:11px 13px 10px 13px;
-    position:absolute;
-    margin: 10px 0 0 5px;
-    background-color:#eee;
-    border-radius:3px;
-    color:#666;
-    width:auto;
-    -webkit-transition: background-color 0.3s ease, color 0.3s ease, width 0.3s ease;
-    -moz-transition: background-color 0.3s ease, color 0.3s ease, width 0.3s ease;
-    -o-transition: background-color 0.3s ease, color 0.3s ease, width 0.3s ease;
-    transition: background-color 0.3s ease, color 0.3s ease, width 0.3s ease;
-}
-body.get_started a.copy-button.zeroclipboard-is-hover {
-    background-color:#ccc;
-    color:#333;
-}
-body.get_started a.copy-button.zeroclipboard-is-active {
-    background-color:#333;
-    color:#fff;
-}
-body.get_started a.copy-button span {
-    display:none;
-}
+
 @media (max-width: 491px) {
     kbd {
         width:100%;
@@ -1764,27 +1720,7 @@ body.get_started a.copy-button span {
     }
 }
 
-body.get_started ol {
-    list-style-type: none;
-    counter-reset: ol-counter;
-    margin-top: 80px;
-}
-body.get_started ol > li {
-    margin-left:40px;
-    margin-bottom:60px;
-}
-body.get_started ol > li:before {
-    content: counter(ol-counter);
-    counter-increment: ol-counter;
-    font-size:20px;
-    color:#999;
-    background-color:#eee;
-    padding:10px 19px;
-    border-radius:100%;
-    float:left;
-    margin: -11px 0 0 -70px;
-}
-body.get_started .support,
+
 body.about .support {
     border-radius: 5px;
     border: 2px solid $orange;
@@ -1798,18 +1734,6 @@ body.about .support {
 }
 body.about .support p {
     font-size:14px !important;
-}
-
-body.get_started .support {
-    padding-top: 30px;
-    padding-bottom: 30px;
-    padding-left: 15px;
-}
-body.get_started .support h3 {
-    margin:0 0 10px 0;
-    color:$orange;
-    font-size: 28px;
-    line-height: 28px;
 }
 
 body.about ul.values {
@@ -1826,9 +1750,7 @@ body.about ul.values li span {
     padding:30px 20px;
 }
 
-body.get_started kbd > ul {
-    text-align: left;
-}
+
 
 @media (max-width: 491px) {
     body.get_started ol {
@@ -2443,21 +2365,7 @@ body.about .bignews-banner {
 
 
 
-body.get_started ol > li > h3 {
-    color: $orange;
-    margin-top: 0px;
-}
 
-body.get_started .download {
-    padding-top: 10px;
-}
-
-body.get_started .download > a {
-    text-transform: uppercase;
-    font-weight: bold;
-    font-size: 15px;
-    color: #3C7AC2;
-}
 
 .news-heading{
     font-size: 18px;
