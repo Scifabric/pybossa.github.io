@@ -1,0 +1,43 @@
+.batteries{
+    background-color: #f7f7f7;
+
+    /* Carousel base class */
+    .carousel {
+      height: 300px;
+      margin-bottom: 60px;
+    }
+    /* Since positioning the image, we need to help out the caption */
+    .carousel-caption {
+      z-index: 10;
+      text-shadow: none;
+      h3 {
+          font-size: 18px;
+          color: $orange;
+          text-transform: uppercase;
+      }
+      p {
+          color: $grey;
+      }
+    }
+    
+    /* Declare heights because of positioning of img element */
+    .carousel .item {
+      height: 300px;
+      background-color: inherit;
+    }
+    .carousel-inner > .item > img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      min-width: 100%;
+      height: 300px;
+    }
+
+    .carousel-indicators li {
+        border: 1px solid $orange;
+    }
+
+    .carousel-indicators .active {
+        background-color: $orange;
+    }
+}
