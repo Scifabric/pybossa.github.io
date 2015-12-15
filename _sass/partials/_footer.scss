@@ -1,5 +1,5 @@
-
-footer .scifabric {
+footer .scifabric,
+footer .pybossa {
     background-color: $grey;
     color: white;
     padding:100px 0 80px ;
@@ -13,54 +13,65 @@ footer .scifabric {
     line-height: 1.42857143;
 }
 
-footer .scifabric .col-md-2 p:first-child
+footer .pybossa {
+    background-color: $grey2;
+    padding:50px 0 40px ;
+}
+
+footer .pybossa h1 {
+    font-family: "Varela Round",sans-serif;
+    font-size: 40px;
+    color: $sfb-white;
+}
+
+footer .col-md-2 p:first-child
 { margin-top: 12px;
   padding-bottom: 30px;
 }
 
-footer .scifabric p{
+footer p{
     color: $sfb-semi-white;
     margin-bottom: 2px;
 }
 
-footer .scifabric p strong {
+footer p strong {
     color: $sfb-white;
 }
 
-footer .scifabric a,{
+footer a,{
     color: $sfb-semi-white;
 }
 
-footer .scifabric a:hover{
+footer a:hover{
     color: $sfb-white;
 }
 
-footer .scifabric .logo_horiz {
+footer .logo_horiz {
     width:50%;
     margin-bottom:15px;
 }
 
-footer .scifabric .logo_sf {
+footer .logo_sf {
     margin-top: 10px;
     width: 40%;
     opacity: .7;
 }
 
-footer .scifabric .dev-and-host {
+footer .dev-and-host {
     margin-top: 7px;
 }
 
 
 @media(max-width:768px) {
-    footer .scifabric .col-sm-4 {
+    footer .col-sm-4 {
         margin-top: 50px;
     
     }
-    footer .scifabric {
+    footer {
         text-align: center;
     }
 
-    footer .scifabric .col-sm-4 p:first-child {
+    footer .col-sm-4 p:first-child {
     padding-bottom: 15px;
     }
 }
