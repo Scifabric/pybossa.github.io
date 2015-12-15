@@ -1,3 +1,4 @@
+@import "modules/colors";
 @import "partials/default";
 @import "partials/button";
 
@@ -19,7 +20,7 @@ only screen and (min-device-pixel-ratio: 2) {
 
 
 .section-title{
-    color: #d3d3d3;
+    color: $light-grey;
     font-weight:800;
     text-transform: uppercase;
     font-size: 18px;
@@ -29,7 +30,7 @@ only screen and (min-device-pixel-ratio: 2) {
 
 .section-claim{
     font-size: 36px;
-    color: #252D35;
+    color: $grey;
     text-align: center;
     margin-bottom: 60px;
 }
@@ -46,13 +47,13 @@ only screen and (min-device-pixel-ratio: 2) {
     font-size: 18px;
     font-weight: 800;
     text-transform: uppercase;
-    color: #252D35;
+    color: $grey;
 }
 
 .media-claim{
     font-weight: 200;
     font-size: 28px;
-    color: #F5A623;
+    color: $orange;
     margin-top: 0px;
     line-height: normal;
 }
@@ -61,14 +62,14 @@ only screen and (min-device-pixel-ratio: 2) {
     font-size: 18px;
     font-weight: 800;
     text-transform: uppercase;
-    color: #F5A623;
+    color: $orange;
 }
 
 .media-description,
 .thumbnail-description{
     font-size: 16px;
     font-weight: 300;
-    color: #252D35;
+    color: $grey;
 }
 
 .section-claim-bottom{
@@ -78,7 +79,7 @@ only screen and (min-device-pixel-ratio: 2) {
     text-align: center;
     font-weight: lighter;
     font-style: italic;
-    color: #252D35;
+    color: $grey;
 }
 
 
@@ -106,7 +107,7 @@ only screen and (min-device-pixel-ratio: 2) {
 
 .people .media-heading{
     text-transform: none;
-    color: #F5A623;
+    color: $orange;
     font-weight: 300;
 }
 
@@ -237,39 +238,9 @@ only screen and (min-device-pixel-ratio: 2) {
 }
 .header .container .nav li.active a {
     background-color:transparent;
-    border-bottom:2px solid #F5A623;
-}
-.navbar-default {
-    border:0;
-    border-radius:0;
-    padding:15px 0;
-    height:80px;
-    background-color:none;
+    border-bottom:2px solid $orange;
 }
 
-.navbar-default .navbar-toggle {
-    border:2px solid #fff;
-}
-.navbar-default .navbar-toggle:focus {
-    background-color: transparent;
-    border:2px solid #F5A623;
-}
-.navbar-default .navbar-toggle:focus .icon-bar {
-    background-color: #F5A623;
-}
-.navbar-default .navbar-toggle .icon-bar {
-    background-color: #fff;
-}
-.navbar-default .navbar-toggle:hover {
-    background-color: transparent;
-    border:2px solid #F5A623;;
-}
-.navbar-default .navbar-toggle:hover .icon-bar  {
-    background-color: #F5A623;
-}
-.navbar-default .navbar-toggle.active {
-    background-color: transparent;
-}
 
 @media (max-width: 767px) {
     .navbar-brand {
@@ -280,7 +251,7 @@ only screen and (min-device-pixel-ratio: 2) {
         padding:5px 0;
     }
     body.index .navbar-default {
-        background-color: #252D35 !important;
+        background-color: $grey !important;
     }
     body.index .navbar-default.huge,
     .navbar-default.huge {
@@ -303,7 +274,7 @@ only screen and (min-device-pixel-ratio: 2) {
         border:0;
     }
     .header .container .nav li.active a {
-        background-color:#F5A623;
+        background-color:$orange;
         border:0;
         color:#fff !important;
     }
@@ -324,14 +295,13 @@ only screen and (min-device-pixel-ratio: 2) {
 }
 
 .opening {
-    background:#F5A623 url('../img/home_orange.png') no-repeat center top;
+    background:$orange url('../img/home_orange.png') no-repeat center top;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
     padding-top:175px;
     padding-bottom:80px;
-    text-align:center;
     color:#fff;
     text-rendering: optimizeLegibility;
 }
@@ -351,27 +321,27 @@ only screen and (min-device-pixel-ratio: 2) {
 
 .opening h1 {
     font-family: 'Varela Round', sans-serif;
-    font-size:64px;
-    margin-bottom:20px;
-    padding:0;
+    font-size:16px;
+    padding: 0px 10%;
     text-transform:uppercase;
-    color: #000;
+    color: white;
 }
 
 
 .mantra {
     font-family: 'Open Sans', helvetica, arial, sans-serif;
-    font-size:40px;
+    font-size:48px;
     font-weight:100;
     padding:0 10%;
     margin:0;
-    color: #252D35;
+    color: $grey;
     font-style: italic;
     margin-bottom: 40px;
 }
 
 .mantra-btns{
     margin-bottom: 130px;
+    padding: 0 10%;
 }
 
 
@@ -380,7 +350,7 @@ only screen and (min-device-pixel-ratio: 2) {
     font-weight:800;
     padding:0 10%;
     margin:30px 0 0px 0;
-    color: #252D35;
+    color: $grey;
 }
 
 .opening-description {
@@ -401,7 +371,7 @@ only screen and (min-device-pixel-ratio: 2) {
 }
 
 .feature-big-claim{
-    color: #252D35;
+    color: $grey;
     font-weight: 100;
     font-style: italic;
     line-height: normal;
@@ -418,11 +388,11 @@ margin-top: 15px;
 }
 
 .featuritis .section-title{
-    color: #252D35;
+    color: $grey;
 }
 
 .featuritis .section-claim{
-    color: #F5A623;
+    color: $orange;
 }
 
 .featuritis{
@@ -879,7 +849,7 @@ body.error404 {
     .apps > h2,
     .projects h2,
     footer h3 {
-        color: #252D35;
+        color: $grey;
         font-size:18px;
     }
     .apps > p,
@@ -1038,7 +1008,7 @@ body.press ul.as-seen-on > li > span {
 body.press h2 {
     font-size:22px;
     margin-top:30px;
-    color:#252D35;
+    color:$grey;
 
 }
 body.press h2 small{
@@ -1113,7 +1083,7 @@ body.about div.wood-bg  {
 body.press .download-press-kit {
     padding:20px;
     margin-top:30px;
-    background-color:#F5A623;
+    background-color:$orange;
     border-radius:3px;
     color:#fff;
     text-align:center;
@@ -1723,7 +1693,7 @@ pre, code {
     color: #7CAFEC;
     font-size:17px !important;
     border-radius: 3px;
-    background-color:#252D35;
+    background-color:$grey;
     border:none;
     font-family: "Inconsolata";
 }
@@ -1817,7 +1787,7 @@ body.get_started ol > li:before {
 body.get_started .support,
 body.about .support {
     border-radius: 5px;
-    border: 2px solid #F5A623;
+    border: 2px solid $orange;
     margin-bottom: 60px;
     text-align: left;
     padding: 30px;
@@ -1837,7 +1807,7 @@ body.get_started .support {
 }
 body.get_started .support h3 {
     margin:0 0 10px 0;
-    color:#F5A623;
+    color:$orange;
     font-size: 28px;
     line-height: 28px;
 }
@@ -1920,7 +1890,7 @@ body.get_started kbd > ul {
     border-radius: 3px;
     box-shadow: none;
     border: 1px solid;
-    color: #252D35;
+    color: $grey;
     background-color: #FFF;
     box-shadow:inset 0 0 1px 1px #c8c8c8;
 }
@@ -1928,9 +1898,9 @@ body.get_started kbd > ul {
     margin-top: -5px;
     height:45px;
     padding: 0 20px;
-    border: 2px solid #252D35;
+    border: 2px solid $grey;
     font-size: 16px;
-    color: #252D35;
+    color: $grey;
     text-transform: uppercase;
     transition: border 0.3s ease 0s, color 0.3s ease 0s, background 0.3s ease 0s;
 }
@@ -2034,14 +2004,14 @@ body.get_started kbd > ul {
 
 
 footer {
-    background-color:#252D35;
+    background-color:$grey;
     text-align: center;
     color: #D3D3D3;
     font-size: 16px;
     font-weight: 600;
     padding-bottom: 80px;
     padding-top: 60px;
-    border-bottom: solid 10px #F5A623;
+    border-bottom: solid 10px $orange;
 }
 
 footer p {
@@ -2454,7 +2424,7 @@ body.about .bignews-banner {
 }
 
 .orangebanner {
-    background-color:#F5A623;
+    background-color:$orange;
     padding-top:100px;
     padding-bottom:40px;
     color:#fff;
@@ -2463,18 +2433,18 @@ body.about .bignews-banner {
 }
 
 .orangebanner p {
-    color: #252D35 !important;
+    color: $grey !important;
 }
 
 .orangebanner a {
-    color: #252D35;
+    color: $grey;
     text-decoration: underline;
 }
 
 
 
 body.get_started ol > li > h3 {
-    color: #F5A623;
+    color: $orange;
     margin-top: 0px;
 }
 
@@ -2493,7 +2463,7 @@ body.get_started .download > a {
     font-size: 18px;
     font-weight: 800;
     text-transform: uppercase;
-    color: #252D35;
+    color: $grey;
     margin-top: 15px;
 }
 
@@ -2520,8 +2490,8 @@ body.get_started .download > a {
 }
 
 .call-to-action .btn-primary {
-    border: 2px solid #252D35;
-    color: #252D35;
+    border: 2px solid $grey;
+    color: $grey;
     background-color: rgba(37, 45, 53, 0);
     text-transform: uppercase;
     width: 210px;
@@ -2549,3 +2519,5 @@ body.get_started .download > a {
     }
 
 }
+
+@import "home/batteries";
