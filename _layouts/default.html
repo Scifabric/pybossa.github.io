@@ -125,39 +125,6 @@
 
     <script>
     new WOW().init();
-
-    $(document).ready(function() {
-
-        //initialize swiper when document ready  
-        var mySwiper = new Swiper ('.swiper-container', {
-          // Optional parameters
-          direction: 'vertical',
-          //autoplay: true,
-          //loop: true,
-          speed: 1000
-        })        
-
-        /*Set height of sections to window height*/    
-        $( ".opening" ).each(function(){
-            var $this = $(this);
-            if ($(window).height() >= "800") {
-                $this.css({'min-height':'770px'});
-            }
-            if ($(window).width() <= "768") {
-                $this.css({'min-height':'520px'});
-            }
-
-            /*Recalculate on window resize*/
-            $(window).resize(function(){
-                if ($(window).height() <= "801") {
-                    $this.css({'min-height':($(window).height()-30)+'px'});
-                }
-                if ($(window).width() <= "768") {
-                    $this.css({'min-height':'520px'});
-                }
-            });
-        });
-    });
     </script>
 <script>
 $('#presskit_en').on('click', function() {
