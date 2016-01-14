@@ -1,4 +1,5 @@
 @import "modules/colors";
+@import "partials/typography";
 @import "partials/default";
 @import "partials/button";
 @import "partials/get-started";
@@ -54,7 +55,7 @@ only screen and (min-device-pixel-ratio: 2) {
 .media-claim{
     font-weight: 200;
     font-size: 28px;
-    color: $orange;
+    color: $secondary;
     margin-top: 0px;
     line-height: normal;
 }
@@ -63,7 +64,7 @@ only screen and (min-device-pixel-ratio: 2) {
     font-size: 18px;
     font-weight: 800;
     text-transform: uppercase;
-    color: $orange;
+    color: $secondary;
 }
 
 .media-description,
@@ -108,7 +109,7 @@ only screen and (min-device-pixel-ratio: 2) {
 
 .people .media-heading{
     text-transform: none;
-    color: $orange;
+    color: $secondary;
     font-weight: 300;
 }
 
@@ -225,22 +226,7 @@ only screen and (min-device-pixel-ratio: 2) {
     color:#fff;
     text-transform:uppercase;
 }
-.header > .container > .nav {
-    padding:0;
-    margin:-34px 0 0 140px;
-    float:left;
-    text-transform:uppercase;
-}
-.header .container .nav li a {
-    color:#fff;
-}
-.header .container .nav li a:hover {
-    border-bottom:2px solid #666;
-}
-.header .container .nav li.active a {
-    background-color:transparent;
-    border-bottom:2px solid $orange;
-}
+
 
 
 @media (max-width: 767px) {
@@ -275,7 +261,7 @@ only screen and (min-device-pixel-ratio: 2) {
         border:0;
     }
     .header .container .nav li.active a {
-        background-color:$orange;
+        background-color:$secondary;
         border:0;
         color:#fff !important;
     }
@@ -296,7 +282,7 @@ only screen and (min-device-pixel-ratio: 2) {
 }
 
 .opening {
-    background:$orange url('../img/home_orange.png') no-repeat center top;
+    background:$secondary url('../img/home_orange.png') no-repeat center top;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -330,7 +316,6 @@ only screen and (min-device-pixel-ratio: 2) {
 
 
 .mantra {
-    font-family: 'Open Sans', helvetica, arial, sans-serif;
     font-size:48px;
     font-weight:100;
     padding:0 10%;
@@ -393,7 +378,7 @@ margin-top: 15px;
 }
 
 .featuritis .section-claim{
-    color: $orange;
+    color: $secondary;
 }
 
 .featuritis{
@@ -1084,7 +1069,7 @@ body.about div.wood-bg  {
 body.press .download-press-kit {
     padding:20px;
     margin-top:30px;
-    background-color:$orange;
+    background-color:$secondary;
     border-radius:3px;
     color:#fff;
     text-align:center;
@@ -1159,7 +1144,6 @@ body.press div.press p {
     color:#666;
 }
 body.press div.presskit-logos h3 {
-    font-family: 'Open Sans', helvetica, arial, sans-serif;
     font-size:22px;
     color:rgba(43, 152, 132,1);
     font-weight:normal;
@@ -1329,7 +1313,6 @@ body.press div.presskit-logos h3 {
 
 body.blog div.blog_entries h2 {
     margin:30px 10px 40px;
-    font-family: 'Open Sans', helvetica, arial, sans-serif;
     font-size: 22px;
     color: #666;
     font-weight: 400;
@@ -1383,7 +1366,6 @@ body.blog div.post-nav {
     margin:0 0 60px -30px;
 }
 body.blog p.intro {
-    font-family: georgia, 'times new roman', serif;
     font-size:18px;
 }
 body.blog p {
@@ -1432,7 +1414,6 @@ body.blog .post-detail h2,
 body.blog .post-detail h3,
 body.blog .post-detail h4 {
     font-size:18px;
-    font-family: georgia, 'times new roman', serif;
 }
 body.blog .post-detail h2,
 body.blog .post-detail h3,
@@ -1468,7 +1449,6 @@ body.blog ul.share-social {
     margin-right:10px;
     font-size:14px !important;
     color:#999;
-    font-family: 'Open Sans', helvetica, arial, sans-serif;
 }
 body.blog .post-detail ul.share-social {
     margin-top:-30px;
@@ -1610,7 +1590,6 @@ body.blog .tagged-in ul {
     list-style-type:none;
     margin:0;
     padding:0;
-    font-family: 'Open Sans', helvetica, arial, sans-serif;
     font-size:14px;
 }
 body.blog .tagged-in ul li {
@@ -1685,7 +1664,6 @@ pre, code {
     border-radius: 3px;
     background-color:$grey;
     border:none;
-    font-family: "Inconsolata";
 }
 kbd::-webkit-scrollbar, pre::-webkit-scrollbar, code::-webkit-scrollbar {
     height:.5em;
@@ -1723,7 +1701,7 @@ body.blog pre, code {
 
 body.about .support {
     border-radius: 5px;
-    border: 2px solid $orange;
+    border: 2px solid $secondary;
     margin-bottom: 60px;
     text-align: left;
     padding: 30px;
@@ -2141,7 +2119,7 @@ body.about .bignews-banner {
 }
 
 .orangebanner {
-    background-color:$orange;
+    background-color:$secondary;
     padding-top:100px;
     padding-bottom:40px;
     color:#fff;
