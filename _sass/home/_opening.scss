@@ -1,0 +1,33 @@
+.opening {
+    text-align: center;
+    background: $primary no-repeat center top;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding-top:120px;
+}
+
+.opening h1 {
+    font-family: 'Varela Round', sans-serif;
+    font-size: 58px;
+    font-weight: 200;
+    text-transform:uppercase;
+    color: white;
+    padding-top: 120px;
+}
+
+.opening h2 {
+    font-weight: 600;
+    font-size: 28px;
+    color: $dark-grey;
+    margin-bottom: 90px;
+}
+
+.opening p.lead {
+   color: white;
+   font-size: 16px;
+}
+
+
+

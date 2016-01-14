@@ -275,45 +275,9 @@ only screen and (min-device-pixel-ratio: 2) {
         margin:0;
     }
 
-    .opening h1{
-        font-size: 24px;
-    }
-
 }
 
-.opening {
-    background:$secondary url('../img/home_orange.png') no-repeat center top;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    padding-top:175px;
-    padding-bottom:80px;
-    color:#fff;
-    text-rendering: optimizeLegibility;
-}
-    @media only screen and (-webkit-min-device-pixel-ratio: 2), 
-only screen and (min-device-pixel-ratio: 2) {
-    
-  .opening {
-    /* Reference the @2x Sprite */
-    background-image: url('../img/home_orange@2x.png');
-    /* Translate the @2x sprite's dimensions back to 1x */
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover; 
-    }
-}
-
-.opening h1 {
-    font-family: 'Varela Round', sans-serif;
-    font-size:16px;
-    padding: 0px 10%;
-    text-transform:uppercase;
-    color: white;
-}
-
+@import "home/opening";
 
 .mantra {
     font-size:48px;
@@ -511,15 +475,6 @@ ul.who-is-using li.institution6 {
 
     .section-claim br {
         display: none;
-    }
-
-    .opening{
-        padding-top: 110px;
-        padding-bottom: 0px;
-    }
-    
-    .opening h1{
-        font-size: 40px;
     }
 
     .mantra{
