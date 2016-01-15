@@ -3,6 +3,7 @@
     text-align: center;
 
     p {
+        color: $dark-grey;
         font-size: 28px;
         font-style: italic;
         margin-bottom: -20px;
@@ -18,11 +19,16 @@
         font-style: normal;
     }
 
+    .padding-90 {
+        padding-bottom: 90px;
+    }
 
     .swiper-container {
         height: 100px;
+        padding-bottom: 30px;
     }
     .swiper-slide {
+        color: $dark-grey;
         text-align: center;
         font-size: 28px;
         background: transparent;
