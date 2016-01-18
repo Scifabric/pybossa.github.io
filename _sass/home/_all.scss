@@ -39,13 +39,6 @@ only screen and (min-device-pixel-ratio: 2) {
 
 
 
-.media-heading{
-    font-size: 18px;
-    font-weight: 800;
-    text-transform: uppercase;
-    color: $grey;
-}
-
 .media-claim{
     font-weight: 200;
     font-size: 28px;
@@ -60,24 +53,6 @@ only screen and (min-device-pixel-ratio: 2) {
     text-transform: uppercase;
     color: $secondary;
 }
-
-.media-description,
-.thumbnail-description{
-    font-size: 16px;
-    font-weight: 300;
-    color: $grey;
-}
-
-.section-claim-bottom{
-    margin-top: 60px;
-    margin-bottom: 0px;
-    font-size: 24px;
-    text-align: center;
-    font-weight: lighter;
-    font-style: italic;
-    color: $grey;
-}
-
 
 
 .features-btns{
