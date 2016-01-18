@@ -6,7 +6,12 @@
         padding-bottom: 40px;
     }
 
+    .list-number{
+        margin-top: 5px;
+    }
+
     p.list {
+       
         text-align: left;
         font-size: 20px;
         font-weight: 600;
@@ -14,7 +19,7 @@
     }
 
     p.list-text {
-        padding-left: 25px;
+      
         text-align: left;
         font-size: 16px;
         color: $grey;
