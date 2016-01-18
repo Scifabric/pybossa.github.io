@@ -37,13 +37,7 @@ only screen and (min-device-pixel-ratio: 2) {
     margin-bottom: 60px;
 }
 
-.features .row{
-    margin-top: 35px;   
-}
 
-.features .media{
-    padding: 20px;
-}
 
 .media-heading{
     font-size: 18px;
@@ -2156,6 +2150,8 @@ body.about .bignews-banner {
 
 }
 
+@import "home/default";
 @import "home/batteries";
 @import "home/gettingstarted";
+@import "home/features";
 @import "partials/footer";
