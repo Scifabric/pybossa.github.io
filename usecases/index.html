@@ -18,13 +18,14 @@ css: usecases
     <div class="container pictures">
         <div class="row padding-top-90 padding-bottom-150">
             <div class="col-md-6">
-                <h2>TExt</h2>
-                <p>text</p>
-                <p class="more"><img src="#"></img> read more<p>
+                <h2>I've a set of PDFs where my OCR does a very bad job</h2>
+                <p>You are covered! PyBossa can import any PDF file and render it for your users, so you can extract any information from them, like tables! All you have to do is upload your PDF files (with scanned images included, no problem!) to your Dropbox account (PyBossa is integrated with Dropbox) or host them in your own web server. Then, use one of our ready-to-use templates to extract the information that you want.</p>
+                <p id="PdfMore" class="more"><img class="plus-icon" src="/assets/img/plus-icon.svg"></img> <span>read more</span><p>
+                <p id="longPdf" class="collapse">The templates allow you to zoom in and out from the PDF (this is pretty handy when documents are written by hand) and move between pages. A task could involve the analysis of a full document, or just a few pages. It's up to you to decide. Moreover, due to the PyBossa.JS library you can integrate your template with third party online services like Open Corporates or Encyclopedia of Life to run queries about the data contained in the PDFs, so your users can input the best possible information. Simple yet advanced!</p>
             </div>
             <div class="col-md-6">
                 <h2></h2>
-                <img src="/assets/img/case-audio.svg">
+                <img src="/assets/img/case-pdf.svg">
             </div>
         </div>
 
@@ -36,8 +37,24 @@ css: usecases
             <div class="col-md-6">
                 <h2>TExt</h2>
                 <p>text</p>
+                <p class="more"><img src="/assets/img/plus-icon.svg"></img> read more<p>
+            </div>
             </div>
         </div>
 
     </div>
 </div>
+<script>
+    $("#PdfMore").on('click', function(){
+            if ($("#PdfMore img").hasClass("rotated")) {
+                $("#PdfMore img").removeClass("rotated");
+                $("#PdfMore span").html("Read more");
+                $("#longPdf").css("max-height", "0px");
+            }
+            else {
+                $("#PdfMore img").addClass("rotated");
+                $("#PdfMore span").html("Close");
+                $("#longPdf").css("max-height", "500px");
+            }
+            });
+</script>
