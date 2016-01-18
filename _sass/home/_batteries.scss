@@ -11,8 +11,8 @@
     }
 
     .swiper-container {
-        height: 100px;
-        padding-bottom: 30px;
+        height: 70px;
+        
     }
     .swiper-slide {
         color: $dark-grey;
@@ -33,5 +33,9 @@
         -ms-flex-align: center;
         -webkit-align-items: center;
         align-items: center;
+    }
+
+    .swiper-padding{
+        padding-bottom: 60px;
     }
 }
