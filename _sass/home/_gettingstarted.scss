@@ -2,13 +2,19 @@
     background: $bg-light;
     text-align: center;
 
+    p.title {
+        padding-bottom: 40px;
+    }
+
     p.list {
+        text-align: left;
         font-size: 20px;
         font-weight: 600;
         color: $dark-grey;
     }
 
     p.list-text {
+        padding-left: 25px;
         text-align: left;
         font-size: 16px;
         color: $grey;
