@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="424px" height="238px" viewBox="0 0 424 238" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.4.4 (17249) - http://www.bohemiancoding.com/sketch -->
+    <title>case-classification</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="1.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.35 0" in="shadowBlurOuter1" type="matrix" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="1.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.35 0" in="shadowBlurOuter1" type="matrix" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Style-Inventory" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Uses-cases" sketch:type="MSArtboardGroup" transform="translate(-154.000000, -2289.000000)">
+            <g id="case-classification" sketch:type="MSLayerGroup" transform="translate(158.000000, 2291.000000)">
+                <rect id="Rectangle-1226-Copy-3" fill="#077CA0" filter="url(#filter-1)" sketch:type="MSShapeGroup" x="310" y="0" width="106.758621" height="38" rx="2"></rect>
+                <text id="NESSIE" sketch:type="MSTextLayer" font-family="Source Sans Pro" font-size="18" font-weight="bold" sketch:alignment="middle" fill="#FFFFFF">
+                    <tspan x="334.596" y="24">NESSIE</tspan>
+                </text>
+                <g id="Group" transform="translate(0.000000, 1.000000)" sketch:type="MSShapeGroup">
+                    <g id="g103">
+                        <g id="Page-1">
+                            <g id="g103">
+                                <path d="M289.387886,0 L289.387886,229.928416 L0,229.928416 L0,0 L289.387886,0 Z" id="Fill-663" fill="#F8F8F8"></path>
+                                <path d="M0,0 L288.727786,0 L288.727786,230 L0,230 L0,0 L0,0 Z" id="Stroke-664" stroke="#FFFFFF" stroke-width="1.9047619"></path>
+                                <path d="M1.18818019,152.116402 L287.539606,152.116402 L287.539606,228.783069 L1.18818019,228.783069 L1.18818019,152.116402 L1.18818019,152.116402 Z" id="Fill-2569" fill="#077CA0"></path>
+                            </g>
+                            <g id="Group" transform="translate(102.183496, 18.253968)" fill="#ECECEC">
+                                <ellipse id="Oval-219" cx="15.729119" cy="31.8274318" rx="15.729119" ry="16.1009361"></ellipse>
+                                <ellipse id="Oval-219-Copy" cx="34.0187922" cy="25.0875051" rx="15.729119" ry="16.1009361"></ellipse>
+                                <ellipse id="Oval-219-Copy-2" cx="53.7716393" cy="31.8274318" rx="15.729119" ry="16.1009361"></ellipse>
+                                <ellipse id="Oval-219-Copy-3" cx="69.8665517" cy="25.0875051" rx="15.729119" ry="16.1009361"></ellipse>
+                                <ellipse id="Oval-219-Copy-4" cx="85.9614642" cy="31.8274318" rx="15.729119" ry="16.1009361"></ellipse>
+                                <ellipse id="Oval-219-Copy-5" cx="107.909072" cy="16.1009361" rx="15.729119" ry="16.1009361"></ellipse>
+                                <ellipse id="Oval-219-Copy-6" cx="112.298594" cy="32.5763126" rx="15.729119" ry="16.1009361"></ellipse>
+                                <ellipse id="Oval-219-Copy-7" cx="128.393506" cy="28.8319088" rx="15.729119" ry="16.1009361"></ellipse>
+                                <ellipse id="Oval-219-Copy-8" cx="151.804288" cy="31.8274318" rx="15.729119" ry="16.1009361"></ellipse>
+                            </g>
+                        </g>
+                    </g>
+                    <path d="M58.0464058,134.58716 C63.5199069,136.721923 72.4911267,133.770673 75.8115232,135.564296 C76.9648521,136.187305 58.7416457,158.163281 57.5121378,163.200318 C56.2826298,168.237355 54.8063967,170.529997 56.2826296,170.755874 C59.8303085,171.298701 73.1648843,170.755874 74.7252528,170.755874 C76.2824678,170.755874 76.4965182,170.749409 79.9141642,165.715604 C83.3318102,160.6818 84.96057,155.339456 90.0069758,148.422024 C93.2140458,144.025888 105.146193,132.857802 105.146193,120.752296 C105.146193,111.201316 95.644273,100 84.96057,100 C75.4254183,100 68.1715129,108.922378 66.7220519,117.63071 C66.5474579,118.679667 53,123.368572 53,124.39535 C53,126.957244 54.2780931,133.117451 58.0464058,134.58716 Z" id="Oval-210" fill="#2F4149"></path>
+                    <path d="M113,170.164524 C113,170.164524 129.821353,140.266112 148.324841,139.03608 C162.400049,138.100421 169.661896,155.599487 172.331573,164.028876 C173.171494,166.680893 174.988054,174.293822 174.988054,174.293822" id="Path-2638" stroke="#2F4149" stroke-width="13"></path>
+                    <path d="M209.128157,171.664143 C209.488346,170.728308 209.941178,169.670794 210.490651,168.523059 C212.072554,165.218789 211.290528,162.808877 213.035209,159.449811 C217.982152,149.925369 241.305954,143.524655 239.892417,140.629172 C238.478879,137.733689 207.381059,144.972396 201.72691,159.449811 C200.042608,163.762456 198.388683,167.881992 198,169.117913 L208.76372,172.668785 C208.805122,172.537136 208.925077,172.191782 209.128157,171.664143 Z" id="Shape" fill="#2F4149"></path>
+                    <path d="M50,164.791973 C50,164.791973 62.2280141,167.012259 79.5081967,166.989797 C89.2314322,166.977157 100.676151,164.626668 112.143613,164.755733 C113.149142,164.767051 113.934426,167.976359 122.540984,167.976359 C131.147541,167.976359 129.918033,166.989797 136.702249,164.931244 C143.486465,162.872692 159.201176,164.876078 167.266443,164.830114 C171.070611,164.808434 169.262295,170.494878 180.327869,170.494878 C192.622951,170.494878 187.995862,165.885387 193.769411,166.989796 C200.097865,168.200352 206.393129,169.424118 212.295082,169.235619 C224.519727,168.845181 234.355292,164.791973 234.355292,164.791973 L234.355292,184.34673 L50,184.34673 L50,164.791973 Z" id="Rectangle-1243" fill="#077CA0"></path>
+                    <ellipse id="Oval-91" fill="#F5A623" cx="49.9509111" cy="47.5692367" rx="16.9509111" ry="17.5692367"></ellipse>
+                </g>
+                <g id="Rectangle-1226-Copy-4-+-NOPE" transform="translate(310.000000, 48.000000)">
+                    <rect id="Rectangle-1226-Copy-4" stroke="#077CA0" fill="#FFFFFF" filter="url(#filter-2)" sketch:type="MSShapeGroup" x="0" y="0" width="106.758621" height="38" rx="2"></rect>
+                    <text id="NOPE" sketch:type="MSTextLayer" font-family="Source Sans Pro" font-size="18" font-weight="bold" sketch:alignment="middle" fill="#077CA0">
+                        <tspan x="30.473" y="24">NOPE</tspan>
+                    </text>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
