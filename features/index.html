@@ -72,8 +72,8 @@ css: features
             </div>
         </div>
 
-        <div id="multilingual" class="row features-row">
-            <div class="col-md-4 feature">
+        <div class="row features-row">
+            <div id="multilingual" class="col-md-4 feature">
                 <img src="/assets/img/multilingual.svg"/>
                 <h3>Multilingual</h3>
                 <p>We speak: English, Español, ελληνικά, Français, Italiano, 日本語, Deutsche and Português.</p>
@@ -117,7 +117,9 @@ css: features
 $( document ).ready(function() {
         var hash = window.location.hash.substring(1);
         if (hash) {
+            $("#" + hash + " img").attr('data-wow-iteration', 3);
             $("#" + hash + " img").addClass('wow pulse');
+
         }
         });
 
