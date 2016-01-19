@@ -14,10 +14,23 @@
 
     img {
         display: inline-block;
-        padding-right: 5px;
         margin-top: -2px;
     }
+
+    span {
+        padding-left: 5px;
+    }
 }
+
+.more:hover {
+    cursor: pointer;
+}
+
+.more:hover img {
+    animation:spin 2s linear;
+}
+
+@keyframes spin { 100% { transform:rotate(90deg); } }
 
 .collapse{
     display: inline-block;
