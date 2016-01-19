@@ -104,26 +104,12 @@ body.index .navbar-default.huge,
     background-color:none;
 }
 
-.navbar-default .navbar-toggle {
-    border:2px solid #fff;
-}
-.navbar-default .navbar-toggle:focus {
-    background-color: transparent;
-    border:2px solid $primary;
-}
-.navbar-default .navbar-toggle:focus .icon-bar {
-    background-color: $primary;
-}
-.navbar-default .navbar-toggle .icon-bar {
-    background-color: #fff;
-}
-.navbar-default .navbar-toggle:hover {
-    background-color: transparent;
-    border:2px solid $primary;
-}
-.navbar-default .navbar-toggle:hover .icon-bar  {
-    background-color: $primary;
-}
-.navbar-default .navbar-toggle.active {
-    background-color: transparent;
+.navbar-default .navbar-toggle,
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus, {
+    border: 0px;
+    background: none;
+    padding-top: 5px;
+    padding-bottom: 0px;
+    font-size: 18px;
 }
