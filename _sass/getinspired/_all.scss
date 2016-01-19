@@ -32,6 +32,7 @@
     border: 1px solid $grey;
     transition: all 1s;
     cursor: pointer;
+    white-space: nowrap;
 }
 
 .list-features li a {
