@@ -99,20 +99,18 @@ css: usecases
 </div>
 <script>
     $(".more").on('click', function(evt){
-            console.log($(this).attr('id'));
             var id = $(this).attr('id');
             if ($("#" + id + " img").hasClass("rotated")) {
                 $("#" + id + " img").removeClass("rotated");
                 $("#" + id + " span").html("Read more");
-                $("#long" + id).css("display", "none");
                 $("#long" + id).css("max-height", "0px");
+                $(this).css("margin-top", "-25px");
             }
             else {
                 $("#" + id + " img").addClass("rotated");
                 $("#" + id + " span").html("Close");
-                $("#long" + id).css("display", "inline-block");
                 $("#long" + id).css("max-height", "500px");
-
+                $(this).css("margin-top", "0px");
             }
             });
 </script>
