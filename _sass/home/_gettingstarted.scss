@@ -6,7 +6,12 @@
         padding-bottom: 40px;
     }
 
+    .list-number{
+        margin-top: 5px;
+    }
+
     p.list {
+       
         text-align: left;
         font-size: 20px;
         font-weight: 600;
@@ -14,10 +19,14 @@
     }
 
     p.list-text {
-        padding-left: 25px;
+      
         text-align: left;
         font-size: 16px;
         color: $grey;
+    }
+
+    .media{
+        margin-bottom: 20px;
     }
 
     .btn.btn-default {
@@ -25,12 +34,21 @@
         height: 55px;
         border: 2px solid $blue;
         border-radius: 3px;
-        margin-top: 60px;
-        margin-bottom: 60px;
+        margin-top: 40px;
+        margin-bottom: 40px;
         color: $blue;
         padding-top: 10px;
         text-transform: uppercase;
         font-size: 20px;
         font-weight: 700;
+        transition: all .3s ease-in-out;
     }
+
+    .btn-default:hover {
+        color: $sfb-white;
+        background: $blue;
+    }
+
+
+
 }

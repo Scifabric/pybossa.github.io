@@ -230,7 +230,7 @@ only screen and (min-device-pixel-ratio: 2) {
         border:0;
     }
     .header .container .nav li.active a {
-        background-color:$secondary;
+        background-color:$primary;
         border:0;
         color:#fff !important;
     }
@@ -481,10 +481,6 @@ ul.who-is-using li.institution6 {
 
     .media-left, .media > .pull-left {
     padding-right: 5px;
-    }
-
-    .claims{
-        display: none;
     }
 
     .section-title{

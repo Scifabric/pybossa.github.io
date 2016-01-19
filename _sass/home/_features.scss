@@ -1,10 +1,7 @@
 .features {
     text-align: center;
 
-    .row{
-        margin-top: 35px;
-    }
-
+ 
     .media {
         padding: 20px;
     }
@@ -42,6 +39,24 @@
     .heart {
         padding-left: 5px;
         padding-right: 5px;
+    }
+
+       .row{
+        margin-top: 20px;
+        }
+
+@media (max-width: 768px){
+     .row{
+        margin-top: 0px;
+        }
+
+    .media-object{
+        width: 70px;
+    }     
+    .media {
+    padding: 10px;
+    }
+    
     }
 
 }

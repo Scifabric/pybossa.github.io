@@ -109,20 +109,20 @@ body.index .navbar-default.huge,
 }
 .navbar-default .navbar-toggle:focus {
     background-color: transparent;
-    border:2px solid #F5A623;
+    border:2px solid $primary;
 }
 .navbar-default .navbar-toggle:focus .icon-bar {
-    background-color: #F5A623;
+    background-color: $primary;
 }
 .navbar-default .navbar-toggle .icon-bar {
     background-color: #fff;
 }
 .navbar-default .navbar-toggle:hover {
     background-color: transparent;
-    border:2px solid #F5A623;;
+    border:2px solid $primary;
 }
 .navbar-default .navbar-toggle:hover .icon-bar  {
-    background-color: #F5A623;
+    background-color: $primary;
 }
 .navbar-default .navbar-toggle.active {
     background-color: transparent;

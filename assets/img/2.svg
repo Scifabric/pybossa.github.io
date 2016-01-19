@@ -1,14 +1,16 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
     <!-- Generator: Sketch 3.4.4 (17249) - http://www.bohemiancoding.com/sketch -->
-    <title>2</title>
+    <title>Oval 49 Copy 7 + 1 copy Copy Copy</title>
     <desc>Created with Sketch.</desc>
     <defs></defs>
     <g id="Style-Inventory" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
         <g id="Home" sketch:type="MSArtboardGroup" transform="translate(-530.000000, -862.000000)">
-            <g id="2" sketch:type="MSLayerGroup" transform="translate(530.000000, 862.000000)">
+            <g id="Oval-49-Copy-7-+-1-copy-Copy-Copy" sketch:type="MSLayerGroup" transform="translate(530.000000, 862.000000)">
                 <ellipse id="Oval-49-Copy-7" fill="#2F4149" sketch:type="MSShapeGroup" cx="10" cy="10" rx="10" ry="10"></ellipse>
-                <path d="M7.2895,14 L12.6455,14 L12.6455,13.077 L10.2405,13.077 C9.8115,13.077 9.3045,13.116 8.8495,13.155 C10.8125,11.101 12.2295,9.554 12.2295,7.994 C12.2295,6.525 11.2805,5.55 9.7465,5.55 C8.6675,5.55 7.9265,6.057 7.2375,6.811 L7.8485,7.422 C8.3295,6.863 8.9275,6.421 9.6165,6.421 C10.6695,6.421 11.1895,7.097 11.1895,8.046 C11.1895,9.385 9.7855,10.88 7.2895,13.363 L7.2895,14 Z" fill="#FFFFFF" sketch:type="MSShapeGroup"></path>
+                <text id="2" sketch:type="MSTextLayer" font-family="Source Sans Pro" font-size="13" font-weight="normal" sketch:alignment="middle" fill="#FFFFFF">
+                    <tspan x="6.7695" y="14">2</tspan>
+                </text>
             </g>
         </g>
     </g>

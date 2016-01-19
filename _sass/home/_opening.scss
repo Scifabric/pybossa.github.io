@@ -5,7 +5,7 @@
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    padding-top:120px;
+    padding-top:90px;
 }
 
 .opening h1 {
@@ -28,7 +28,27 @@
    color: white;
    font-size: 16px;
    padding-bottom: 90px;
+   margin-bottom: 0;
 }
 
+@media (max-width: 768px){
 
+    .lead br {
+       display: none;
+    }
+
+    .opening h1 {
+    font-size: 45px;
+    padding-top: 20px;
+    }
+
+    .opening h2{
+        margin-bottom: 60px;
+    }
+
+    .opening p.lead {
+    padding-bottom: 60px;
+    }
+
+}
 
