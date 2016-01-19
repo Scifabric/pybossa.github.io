@@ -4,30 +4,30 @@
 @import "partials/button";
 
 
-.features-row:first-child{
-	padding-top: 90px;
+.features-row:last-child{
+    padding-bottom: 90px;
 
 }
 
 .feature {
-    padding-bottom: 90px;
+    padding-top: 90px;
     text-align: center;
 }
 
 @media (max-width: 768px){
-	
-	.features-row:first-child{
-	padding-top: 40px;
-	}
+    
+    .features-row:first-child{
+    padding-top: 40px;
+    }
 
-	.feature {
+    .feature {
     padding-bottom: 20px;
-	}
+    }
 
-	.feature:last-child {
+    .feature:last-child {
     padding-bottom: 40px;
-	}
-}	
+    }
+}   
 
 
 .features h3 {

@@ -23,7 +23,7 @@ css: features
                 <h3>Private</h3>
                 <p>Data belongs to you. Keep it private or make it public. It's your choice.</p>
             </div>
-            <div class="col-md-4 feature">
+            <div id="customisable" class="col-md-4 feature">
                 <img src="/assets/img/customisable.svg"/>
                 <h3>Customisable</h3>
                 <p>You can retain all your branding.<br/> Make it yours.</p>
@@ -112,3 +112,13 @@ css: features
 
     </div>
 </div>
+
+<script>
+$( document ).ready(function() {
+        var hash = window.location.hash.substring(1);
+        if (hash) {
+            $("#" + hash + " img").addClass('wow pulse');
+        }
+        });
+
+</script>
