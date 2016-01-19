@@ -104,12 +104,15 @@ css: usecases
             if ($("#" + id + " img").hasClass("rotated")) {
                 $("#" + id + " img").removeClass("rotated");
                 $("#" + id + " span").html("Read more");
+                $("#long" + id).css("display", "none");
                 $("#long" + id).css("max-height", "0px");
             }
             else {
                 $("#" + id + " img").addClass("rotated");
                 $("#" + id + " span").html("Close");
+                $("#long" + id).css("display", "inline-block");
                 $("#long" + id).css("max-height", "500px");
+
             }
             });
 </script>
