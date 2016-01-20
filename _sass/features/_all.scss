@@ -1,0 +1,42 @@
+@import "modules/colors";
+@import "partials/typography";
+@import "partials/default";
+@import "partials/button";
+
+
+.features-row:last-child{
+    padding-bottom: 90px;
+
+}
+
+.feature {
+    padding-top: 90px;
+    text-align: center;
+}
+
+@media (max-width: 768px){
+    
+    .features-row:first-child{
+    padding-top: 40px;
+    }
+
+    .feature {
+    padding-bottom: 20px;
+    }
+
+    .feature:last-child {
+    padding-bottom: 40px;
+    }
+}   
+
+
+.features h3 {
+    color: $dark-grey;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.features p {
+    padding-left: 15px;
+    padding-right: 15px;
+}

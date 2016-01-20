@@ -5,3 +5,5 @@ permalink: pretty
 gems:
     - jekyll-redirect-from
     - jekyll-sitemap
+sass:
+    style: compressed

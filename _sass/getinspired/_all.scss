@@ -1,0 +1,52 @@
+@import "usecases/all";
+
+.lead {
+    color: white;
+    margin-top: -50px;
+}
+
+.pictures a,
+.pictures a:hover {
+    color: $blue;
+    text-decoration: underline;
+}
+
+.features-header {
+    color: $grey;
+    font-weight: 600;
+}
+
+.list-features {
+    padding: 0px;
+}
+
+.list-features li {
+    display: inline;
+    background: $grey;
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+    padding-right: 5px;
+    padding-left: 5px;
+    border-radius: 2px;
+    border: 1px solid $grey;
+    transition: all 1s;
+    cursor: pointer;
+    white-space: nowrap;
+}
+
+.list-features li a {
+    text-decoration: none;
+    color: white;
+}
+
+.list-features li:hover {
+    color: $grey;
+    background: white;
+    border: 1px solid $grey;
+}
+
+.list-features li:hover a {
+    text-decoration: none;
+    color: $grey;
+}

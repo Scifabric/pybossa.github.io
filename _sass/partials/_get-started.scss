@@ -1,0 +1,138 @@
+ .get-started p{
+    font-size: 16px;
+}
+
+.get-started > .content h2 {
+    font-family: 'Open Sans', helvetica, arial, sans-serif;
+    font-size:22px;
+    color:#666;
+    font-weight:400;
+}
+
+.get-started > .content h3 {
+    font-family: 'Open Sans', helvetica, arial, sans-serif;
+    font-size:22px;
+    color:rgba(43, 152, 132,1);
+    font-weight:normal;
+    margin-left:15px;
+}
+
+
+.get-started > .content h2,
+.get-started > .content h3 {
+    margin:30px 0 10px 0;
+}
+
+.get-started kbd {
+    display: block;
+    width: auto;
+    overflow: auto;
+    -webkit-overflow-scrolling: touch;
+    white-space: pre;
+    word-wrap: normal;
+    padding:10px 20px 11px;
+    margin:10px 0;
+    color: #7CAFEC;
+    font-size:17px !important;
+    border-radius: 3px;
+    background-color:$grey;
+    border:none;
+    font-family: "Inconsolata";
+}
+
+.get-started kbd ul {
+    list-style-type:none;
+    padding:0;
+    margin:0;
+}
+.get-started kbd ul {
+    list-style-type:none;
+    padding:0;
+    margin:0;
+}
+.get-started a.copy-button {
+    display:inline-block;
+    padding:11px 13px 10px 13px;
+    position:absolute;
+    margin: 10px 0 0 5px;
+    background-color:#eee;
+    border-radius:3px;
+    color:#666;
+    width:auto;
+    -webkit-transition: background-color 0.3s ease, color 0.3s ease, width 0.3s ease;
+    -moz-transition: background-color 0.3s ease, color 0.3s ease, width 0.3s ease;
+    -o-transition: background-color 0.3s ease, color 0.3s ease, width 0.3s ease;
+    transition: background-color 0.3s ease, color 0.3s ease, width 0.3s ease;
+}
+.get-started a.copy-button.zeroclipboard-is-hover {
+    background-color:#ccc;
+    color:#333;
+}
+.get-started a.copy-button.zeroclipboard-is-active {
+    background-color:#333;
+    color:#fff;
+}
+.get-started a.copy-button span {
+    display:none;
+}
+
+.get-started ol {
+    list-style-type: none;
+    counter-reset: ol-counter;
+    margin-top: 80px;
+}
+.get-started ol > li {
+    margin-left:40px;
+    margin-bottom:60px;
+}
+.get-started ol > li:before {
+    content: counter(ol-counter);
+    counter-increment: ol-counter;
+    font-size:20px;
+    color:#999;
+    background-color:#eee;
+    padding:10px 19px;
+    border-radius:100%;
+    float:left;
+    margin: -11px 0 0 -70px;
+}
+
+.get-started .support {
+    border-radius: 5px;
+    border: 2px solid $orange;
+    margin-bottom: 60px;
+    text-align: left;
+    padding: 30px;
+}
+
+.get-started .support {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 15px;
+}
+.get-started .support h3 {
+    margin:0 0 10px 0;
+    color:$orange;
+    font-size: 28px;
+    line-height: 28px;
+}
+
+.get-started kbd > ul {
+    text-align: left;
+}
+
+.get-started ol > li > h3 {
+    color: $orange;
+    margin-top: 0px;
+}
+
+.get-started .download {
+    padding-top: 10px;
+}
+
+.get-started .download > a {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 15px;
+    color: #3C7AC2;
+}

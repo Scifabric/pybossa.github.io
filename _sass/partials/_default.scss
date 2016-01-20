@@ -1,0 +1,21 @@
+p.title {
+    font-weight: 600;
+    color: $grey;
+    padding-top: 40px;
+    font-size: 16px;
+    font-style: normal;
+}
+
+.bluebanner {
+    background: $primary;
+    color: white;
+    font-size: 28px;
+    text-align: center;
+    h1 {
+        padding-top:140px;
+        padding-bottom: 90px;
+        color: white;
+        font-size: 28px;
+        font-weight: normal;
+    }
+}

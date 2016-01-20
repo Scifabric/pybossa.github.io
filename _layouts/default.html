@@ -1,147 +1,132 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="utf-8">
-	<title>{{ page.title }}</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta name="description" content="Open source framework for crowdsourcing projects">
-	<meta name="author" content="Shuttleworth Foundation">
+    <meta charset="utf-8">
+    <title>{{ page.title }}</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Open source framework for crowdsourcing projects">
+    <meta name="author" content="Shuttleworth Foundation">
     <!-- Bitly -->
     <meta name="bitly-verification" content="2377023aa0ff"/>
     <!-- Google verification -->
     <meta name="google-site-verification" content="NAoPwFvipgcBx6Z5vkKgHoAlCuqgDLugYCgf6Odl2gc" />
 
-	<!-- Latest compiled and minified CSS -->
-	<link rel="stylesheet" href="/assets/css/bootstrap.css" type="text/css" media="screen" title="no title" charset="utf-8">
-	<link rel="stylesheet" href="/assets/css/bootstrap-theme.css" type="text/css" media="screen" title="no title" charset="utf-8">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="/assets/css/bootstrap.css" type="text/css" media="screen" title="no title" charset="utf-8">
+    <link rel="stylesheet" href="/assets/css/bootstrap-theme.css" type="text/css" media="screen" title="no title" charset="utf-8">
+    {% if page.css %}
+    <link rel="stylesheet" href="/assets/css/{{page.css}}.css" type="text/css" media="screen" title="no title" charset="utf-8">
+    {% endif %}
 
-	<link href='http://fonts.googleapis.com/css?family=Varela+Round' rel='stylesheet' type='text/css'>
-	<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,600,700' rel='stylesheet' type='text/css'>
-	<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Titillium+Web:400,400italic,700|Inconsolata">
+    <link href='http://fonts.googleapis.com/css?family=Varela+Round' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400italic,600,600italic,200,200italic,300,700,700italic,900italic,900,300italic' rel='stylesheet' type='text/css'>
 
-	<!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
-	<!--[if lt IE 9]>
-	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-	<![endif]-->
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
 
-	<!-- Fav and touch icons -->
-	<!-- <link rel="shortcut icon" href="../assets/ico/favicon.ico">
-	<link rel="apple-touch-icon-precomposed" sizes="144x144" href="../assets/ico/apple-touch-icon-144-precomposed.png">
-	<link rel="apple-touch-icon-precomposed" sizes="114x114" href="../assets/ico/apple-touch-icon-114-precomposed.png">
-	<link rel="apple-touch-icon-precomposed" sizes="72x72" href="../assets/ico/apple-touch-icon-72-precomposed.png">
-	<link rel="apple-touch-icon-precomposed" href="../assets/ico/apple-touch-icon-57-precomposed.png">-->
+    <!-- Fav and touch icons -->
+    <!-- <link rel="shortcut icon" href="../assets/ico/favicon.ico">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="../assets/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="../assets/ico/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="../assets/ico/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="../assets/ico/apple-touch-icon-57-precomposed.png">-->
 
-	<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
-	<link rel="stylesheet" href="/assets/animate.css" type="text/css" media="screen" title="no title" charset="utf-8">
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/assets/animate.css" type="text/css" media="screen" title="no title" charset="utf-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.2.7/css/swiper.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.2.7/css/swiper.min.css">
 
-	{% if page.active == 'press' %}
-	<!-- for Google -->
-	<meta name="description" content="{{page.title}} - PyBossa.com" />
-	<meta name="keywords" content="{{page.keywords}}" />
+    {% if page.active == 'press' %}
+    <!-- for Google -->
+    <meta name="description" content="{{page.title}} - PyBossa.com" />
+    <meta name="keywords" content="{{page.keywords}}" />
     {% for member in site.data.crew %}
     {% if member.author == page.author %}
-	<meta name="author" content="{{member.name}} {{member.surname}}" />
+    <meta name="author" content="{{member.name}} {{member.surname}}" />
     {% endif %}
     {% endfor %}
-	<meta name="copyright" content="SciFabric © 2015" />
-	<meta name="application-name" content="PyBossa" />
+    <meta name="copyright" content="SciFabric © 2015" />
+    <meta name="application-name" content="PyBossa" />
 
-	<!-- for Facebook -->          
-	<meta property="og:title" content="{{page.title}} - PyBossa.com" />
-	<meta property="og:type" content="article" />
-	<meta property="og:image" content="{{page.photo}}" />
-	<meta property="og:url" content="http%3A%2F%2Fpybossa.com{{page.url}}" />
-	<meta property="og:description" content="{{page.intro}}" />
+    <!-- for Facebook -->          
+    <meta property="og:title" content="{{page.title}} - PyBossa.com" />
+    <meta property="og:type" content="article" />
+    <meta property="og:image" content="{{page.photo}}" />
+    <meta property="og:url" content="http%3A%2F%2Fpybossa.com{{page.url}}" />
+    <meta property="og:description" content="{{page.intro}}" />
 
-	<!-- for Twitter -->          
-	<meta name="twitter:card" content="summary_large_image" />
-	<meta name="twitter:site" content="@PyBossa" />
-    {% for member in site.data.crew %}
-    {% if member.author == page.author %}
-    <meta name="twitter:creator" content="@{{member.twitter}}" />
-    {% endif %}
-    {% endfor %}
-	<meta name="twitter:title" content="{{page.title}} - PyBossa.com" />
-	<meta name="twitter:description" content="{{page.intro}}" />
-	<meta name="twitter:image:src" content="http://pybossa.com{{page.photo}}" />
-	{% endif %}
-
-
-
-	{% if page.active == 'blog' %}
-	<!-- for Google -->
-	<meta name="description" content="{{page.title}} - PyBossa.com" />
-	<meta name="keywords" content="{{page.keywords}}" />
-    {% for member in site.data.crew %}
-    {% if member.author == page.author %}
-	<meta name="author" content="{{member.name}} {{member.surname}}" />
-    {% endif %}
-    {% endfor %}
-	<meta name="copyright" content="SciFabric © 2014" />
-	<meta name="application-name" content="PyBossa" />
-
-	<!-- for Facebook -->          
-	<meta property="og:title" content="{{page.title}}" />
-	<meta property="og:site_name" content="PyBossa" />
-	<meta property="og:url" content="http://pybossa.com{{page.url}}" />
-	<meta property="og:description" content="{{page.intro}}" />
-	<meta property="og:image" content="{{page.photo}}" />
-	<meta property="og:type" content="article" />
-
-	<!-- for Twitter -->          
-	<meta name="twitter:card" content="summary_large_image" />
-	<meta name="twitter:site" content="@PyBossa" />
+    <!-- for Twitter -->          
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@PyBossa" />
     {% for member in site.data.crew %}
     {% if member.author == page.author %}
     <meta name="twitter:creator" content="@{{member.twitter}}" />
     {% endif %}
     {% endfor %}
-	<meta name="twitter:title" content="{{page.title}} - PyBossa.com" />
-	<meta name="twitter:description" content="{{page.intro}}" />
-	<meta name="twitter:image:src" content="http://pybossa.com{{page.photo}}" />
-	{% endif %}
-	<script src="http://code.jquery.com/jquery-1.11.0.min.js" type="text/javascript" charset="utf-8"></script>
+    <meta name="twitter:title" content="{{page.title}} - PyBossa.com" />
+    <meta name="twitter:description" content="{{page.intro}}" />
+    <meta name="twitter:image:src" content="http://pybossa.com{{page.photo}}" />
+    {% endif %}
+
+
+
+    {% if page.active == 'blog' %}
+    <!-- for Google -->
+    <meta name="description" content="{{page.title}} - PyBossa.com" />
+    <meta name="keywords" content="{{page.keywords}}" />
+    {% for member in site.data.crew %}
+    {% if member.author == page.author %}
+    <meta name="author" content="{{member.name}} {{member.surname}}" />
+    {% endif %}
+    {% endfor %}
+    <meta name="copyright" content="SciFabric © 2014" />
+    <meta name="application-name" content="PyBossa" />
+
+    <!-- for Facebook -->          
+    <meta property="og:title" content="{{page.title}}" />
+    <meta property="og:site_name" content="PyBossa" />
+    <meta property="og:url" content="http://pybossa.com{{page.url}}" />
+    <meta property="og:description" content="{{page.intro}}" />
+    <meta property="og:image" content="{{page.photo}}" />
+    <meta property="og:type" content="article" />
+
+    <!-- for Twitter -->          
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@PyBossa" />
+    {% for member in site.data.crew %}
+    {% if member.author == page.author %}
+    <meta name="twitter:creator" content="@{{member.twitter}}" />
+    {% endif %}
+    {% endfor %}
+    <meta name="twitter:title" content="{{page.title}} - PyBossa.com" />
+    <meta name="twitter:description" content="{{page.intro}}" />
+    <meta name="twitter:image:src" content="http://pybossa.com{{page.photo}}" />
+    {% endif %}
+    <script src="http://code.jquery.com/jquery-1.11.0.min.js" type="text/javascript" charset="utf-8"></script>
     {% include scroll.html %}
-	
+    
 </head>
 
-<body class="{{page.body_class}}">
-	{% include gtm.html %}
-	{% include navbar.html %}
-	{{ content }}
-	{% include footer.html %}
+<body>
+    {% include gtm.html %}
+    {% include navbar.html %}
+    {{ content }}
+    {% include footer.html %}
 
-	<script src="/assets/js/bootstrap.min.js" type="text/javascript" charset="utf-8"></script>
-	<script src="/assets/js/custom.js" type="text/javascript" charset="utf-8"></script>
-	<script src="/assets/js/wow.min.js" type="text/javascript" charset="utf-8"></script>
+    <script src="/assets/js/bootstrap.min.js" type="text/javascript" charset="utf-8"></script>
+    <script src="/assets/js/custom.js" type="text/javascript" charset="utf-8"></script>
+    <script src="/assets/js/slides.js" type="text/javascript" charset="utf-8"></script>
+    <script src="/assets/js/wow.min.js" type="text/javascript" charset="utf-8"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.2.7/js/swiper.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.2.7/js/swiper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.2.7/js/swiper.jquery.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.2.7/js/swiper.jquery.min.js"></script>
 
-	<script>
-	new WOW().init();
-
-	$(document).ready(function() {
-
-		/*Set height of sections to window height*/	   
-		$( ".opening" ).each(function(){
-			var $this = $(this);
-			if ($(window).height() >= "800") {
-				$this.css({'min-height':'770px'});
-			}
-			if ($(window).width() <= "768") {
-				$this.css({'min-height':'520px'});
-			}
-
-			/*Recalculate on window resize*/
-			$(window).resize(function(){
-				if ($(window).height() <= "801") {
-					$this.css({'min-height':($(window).height()-30)+'px'});
-				}
-				if ($(window).width() <= "768") {
-					$this.css({'min-height':'520px'});
-				}
-			});
-		});
-	});
-	</script>
+    <script>
+    new WOW().init();
+    </script>
 <script>
 $('#presskit_en').on('click', function() {
   ga('send', 'event', 'button', 'click', 'presskit-en');
