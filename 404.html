@@ -1,16 +1,78 @@
 ---
 layout: default
 title: PyBossa - 404 Error, page not found
-body_class: error404
 active: error404
 permalink: 404.html
+css: errors 
 ---
 
-    <div class="container-fluid cuatrocerocuatro">
-        <div class="container">
-            <div class="whatis_icons" data-icon="n"></div>
-            <h2>Ahoy pirate!</h2>
-            <p class="lead">Ye got th'wrong course.</p>
-            <p>Let's take a grog and <a href="/">go back home</a>.<br/> Full speed ahead! Aaaaaaar!</p>
+<div class="container-fluid bluebanner">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div id="penguin" class="img-responsive"></div>
+            </div>
+            <div class="col-md-12">
+                <h1>404 Page not found</h1>
+            </div>
         </div>
     </div>
+</div>
+
+<div class="container-fluid">
+    <div class="container">
+        <div class="row uses-row">
+            <div class="col-md-6">
+                <img alt="Page not found" class="img-responsive" src="/assets/img/nick_404.svg">
+            </div>
+             <div class="col-md-6">
+                 <h2>C'est la vie!</h2>
+                 <p>Do you know that our mascot, Nick is a leopard seal?</p>
+
+                 <p>Some information about it:</p>
+                 <p>The leopard seal (Hydrurga leptonyx), also referred to as the sea leopard, is the second largest species of seal in the Antarctic (after the southern elephant seal). Along with all of the other earless seals, it belongs to the family Phocidae, and is the only species in the genus Hydrurga. The name hydrurga means "water worker" and leptonyx is the Greek for "small clawed".</p>
+            </div>
+        </div>
+    </div>
+</div>
+        <script src="/assets/js/snap.svg.js"></script>
+        <script>
+//Run script right away
+            window.onload = function () {
+//We'll be appending the icon to this DIV later
+                var s = Snap("#penguin");
+//Have Snap load the SVG file
+                Snap.load("/assets/img/penguin.svg", function(f) {
+//Assign the white rectangle
+                    finOne = f.select("#fin1");
+                    finTwo = f.select("#fin2");
+//Assign the whole icon group
+                    finOne.attr({opacity: '1'});
+                    finTwo.attr({opacity: '0'});
+                    var time = 90;
+                    var opacityOne = '1';
+                    var opacityTwo = '0.1';
+
+                    function showFinOne(){
+                        finOne.animate({opacity: opacityOne}, time, mina.linear, hideFinOne);
+                    }
+
+                    function hideFinOne(){
+                        finOne.animate({opacity: opacityTwo}, time, mina.linear, showFinTwo);
+                    }
+
+                    function showFinTwo(){
+                        finTwo.animate({opacity: opacityOne}, time, mina.linear, hideFinTwo);
+                    }
+
+                    function hideFinTwo(){
+                        finTwo.animate({opacity: opacityTwo}, time, mina.linear, showFinOne);
+                    }
+
+
+                    finOne.animate({opacity: '0'}, time, mina.linear, showFinTwo);
+                        
+                s.append(f);
+                });          
+            };
+        </script>
