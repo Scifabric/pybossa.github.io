@@ -1,4 +1,4 @@
-window.onload = function () {
+function animPdfCase() {
     var s = Snap("#case-pdf");
     Snap.load("/assets/img/case-pdf.svg", function(f) {
         user1Line1 = f.select("#user1-line1");
