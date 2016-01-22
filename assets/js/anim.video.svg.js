@@ -74,12 +74,12 @@ function animVideoCase() {
                         waves.animate({opacity: 1}, time, mina.bounce);
                     });
                 $("#case-video img").hide();
-                s.append(f);
             }
             window.animVideo = true;
         }
 
-        startAnim();
+        //startAnim();
+        s.append(f);
 
         var waypoint = new Waypoint({
             element: document.getElementById('case-video-waypoint'),
