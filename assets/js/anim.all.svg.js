@@ -1,7 +1,8 @@
 window.onload = function() {
     animPdfCase();
     animVideoCase();
-    animPhotoCase();
+    animGeoCase();
     animSoundCase();
     animTranslationCase();
+    animPhotoCase();
 }

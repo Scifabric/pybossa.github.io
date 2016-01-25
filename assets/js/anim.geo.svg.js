@@ -1,5 +1,5 @@
-function animPhotoCase() {
-    var s = Snap("#case-photo");
+function animGeoCase() {
+    var s = Snap("#case-geo");
     Snap.load("/assets/img/case-geolocation.svg", function(f) {
 
 
@@ -41,7 +41,7 @@ function animPhotoCase() {
         s.append(f);
 
         var waypoint = new Waypoint({
-            element: document.getElementById('case-photo-waypoint'),
+            element: document.getElementById('case-geo-waypoint'),
             offset: 85,
             handler: startAnim
         });
