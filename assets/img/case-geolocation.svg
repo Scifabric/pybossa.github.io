@@ -23,7 +23,6 @@
             </feMerge>
         </filter>
         <ellipse id="path-3" cx="7.44690436" cy="7.4491271" rx="7.44690436" ry="7.4491271"></ellipse>
-        <rect id="path-5" x="0" y="0" width="98" height="57"></rect>
     </defs>
     <g id="animations" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
         <g id="example-geo" sketch:type="MSLayerGroup" transform="translate(3.000000, 2.000000)">
@@ -213,7 +212,7 @@
                     <ellipse id="Oval-123-Copy-2" fill="#7EAE49" cx="24" cy="28" rx="10" ry="12"></ellipse>
                     <ellipse id="Oval-123" fill="#7EAE49" cx="13" cy="14.5" rx="12" ry="14.5"></ellipse>
                 </g>
-                <ellipse id="sun" fill="#F88B1C" cx="42" cy="43.2038261" rx="17" ry="17.2038261"></ellipse>
+                <ellipse id="sun2" fill="#F88B1C" cx="42" cy="43.2038261" rx="17" ry="17.2038261"></ellipse>
             </g>
             <g id="user4-card" transform="translate(330.000000, 0.000000)">
                 <g>
@@ -231,16 +230,10 @@
                         </g>
                     </g>
                     <rect id="user4-name" fill="#FFFFFF" sketch:type="MSShapeGroup" x="22" y="73" width="39" height="5"></rect>
-                </g>
-                <g id="map-group" transform="translate(5.000000, 5.000000)">
-                    <g id="streets">
-                        <mask id="mask-6" sketch:name="street-bg" fill="white">
-                            <use xlink:href="#path-5"></use>
-                        </mask>
-                        <use id="street-bg" fill="#FFFFFF" sketch:type="MSShapeGroup" xlink:href="#path-5"></use>
-                        <path d="M26.1156708,47.319358 L6,67.4350288 L15.2036872,76.6387161 L51.819358,40.0230453 L92.7175144,80.9212017 L101.921202,71.7175144 L61.0230453,30.819358 L102.638716,-10.7963128 L93.4350288,-20 L65.319358,8.1156708 L42.8526045,-14.3510827 L33.6489173,-5.14739548 L56.1156708,17.319358 L35.319358,38.1156708 L-15.6731964,-12.8768836 L-24.8768836,-3.67319639 L26.1156708,47.319358 Z" id="street4" fill="#D3D3D3" sketch:type="MSShapeGroup" mask="url(#mask-6)"></path>
-                    </g>
-                    <path d="M57.9959958,14.1045333 L57.9959958,14.1045333 C52.7603793,9.10142857 44.2711275,9.10142857 39.0347734,14.1045333 C34.3169652,18.6121905 33.7858799,27.1003429 37.7896733,32.2 L48.5153846,47 L59.2418335,32.2 C63.2448894,27.1003429 62.713804,18.6121905 57.9959958,14.1045333 L57.9959958,14.1045333 L57.9959958,14.1045333 Z M48.6459431,27.2666667 C46.2014752,27.2666667 44.2202318,25.3736762 44.2202318,23.0380952 C44.2202318,20.703219 46.2014752,18.8095238 48.6459431,18.8095238 C51.090411,18.8095238 53.0716544,20.703219 53.0716544,23.0380952 C53.0716544,25.3736762 51.090411,27.2666667 48.6459431,27.2666667 L48.6459431,27.2666667 L48.6459431,27.2666667 Z" id="map-pin" fill="#077CA0" sketch:type="MSShapeGroup"></path>
+                    <rect id="st-bg" fill="#FFFFFF" sketch:type="MSShapeGroup" x="5" y="5" width="98" height="57"></rect>
+                    <path d="M5,8 L5,26 L31,52 L21,62 L40,62 L57,45 L74,62 L92,62 L66,36 L97,5 L79,5 L70.4853068,13.5146932 L61.9852941,5.01468048 L43.999994,5.01468048 L60.9926583,22.0073448 L40.0000016,43.0000016 L8,11 L5,8 Z" id="streets" fill="#D8D8D8" sketch:type="MSShapeGroup"></path>
+                    <path d="M62.9959958,19.1045333 L62.9959958,19.1045333 C57.7603793,14.1014286 49.2711275,14.1014286 44.0347734,19.1045333 C39.3169652,23.6121905 38.7858799,32.1003429 42.7896733,37.2 L53.5153846,52 L64.2418335,37.2 C68.2448894,32.1003429 67.713804,23.6121905 62.9959958,19.1045333 L62.9959958,19.1045333 L62.9959958,19.1045333 Z" id="map-pin" fill="#077CA0" sketch:type="MSShapeGroup"></path>
+                    <circle id="Oval-26" fill="#FFFFFF" sketch:type="MSShapeGroup" cx="53.5" cy="28.5" r="4.5"></circle>
                 </g>
             </g>
         </g>
