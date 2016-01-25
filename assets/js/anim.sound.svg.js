@@ -50,25 +50,6 @@ function animSoundCase() {
             waves.push(line);
         }
 
-        function playSound(){
-            // create WebAudio API context
-            var context = new AudioContext()
-
-            // Create lineOut
-            var lineOut = new WebAudiox.LineOut(context)
-
-            // load a sound and play it immediatly
-            WebAudiox.loadBuffer(context, '/assets/birds.mp3', function(buffer){
-                // init AudioBufferSourceNode
-                var source  = context.createBufferSource();
-                source.buffer   = buffer
-                source.connect(lineOut.destination)
-
-                // start the sound now
-                source.start(0);
-            });
-        }
-
         function startAnim(){
 
             if (window.animSound === false) {
@@ -80,7 +61,7 @@ function animSoundCase() {
                         barTwo.animate({x: '240'}, 1000,
                                 mina.easein, selectOption);
                         progressTwo.animate({width: '200'}, 1000, mina.easein);
-                        playSound();
+                        playSound('birds.mp3');
                     }
                     if (i==waves.length) {
                         last = true;
