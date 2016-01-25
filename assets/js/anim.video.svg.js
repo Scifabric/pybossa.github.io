@@ -1,7 +1,7 @@
 function animVideoCase() {
     window.animVideo = false;
     var s = Snap("#case-video");
-    Snap.load("/assets/img/case-video2.svg", function(f) {
+    Snap.load("/assets/img/case-video.svg", function(f) {
         user3Line1 = f.select("#user3-line1");
         user3Line2 = f.select("#user3-line2");
         user3Line3 = f.select("#user3-line3");
