@@ -24,9 +24,15 @@ function animVideoCase() {
         play = f.select("#play");
         pause = f.select("#pause");
         sun = f.select("#sun");
+        bar = f.select("#bar");
+        progress = f.select("#Fill-2553");
 
         waves.attr({opacity: '0'});
         play.attr({opacity: '0'});
+        bar.attr({x: 70});
+        progress.attr({d: "M115.694481,18.7112257 L51.1290743,18.7112257 C49.3619257,18.7112257 47.9335072,20.1638973 47.9335072,21.9537961 C47.9335072,23.7469375 49.3619257,25.1963665 51.1290743,25.1963665 L70,25.1963665 L70,18.7112257"});
+
+
 
         var time = 500;
         var opacityOne = '1';
@@ -58,21 +64,32 @@ function animVideoCase() {
         }
 
         function showCardUser3() {
+            pause.attr({opacity: '0'});
+            play.attr({opacity: '1'});
             card3.animate({opacity: opacityOne}, time, mina.easin,
                     showUser3Avatar);
+        }
+
+        function sunGrow() {
+            sun.animate({rx:15, ry:15}, time, mina.easin, sunShrink);
+        }
+
+        function sunShrink() {
+            sun.animate({rx:12, ry:12}, time, mina.easin);
         }
 
 
         function startAnim() {
             if (window.animVideo == false) {
-                    play.animate({opacity: '1'}, time, mina.easin, function(g){
-                        sun.animate({rx: 15, ry:15}, time, mina.easin);
+                bar.animate({transform: 'translate(72px, 0px)'}, time*2,
+                        mina.easin);
+                progress.animate({d: "M115.694481,18.7112257 L51.1290743,18.7112257 C49.3619257,18.7112257 47.9335072,20.1638973 47.9335072,21.9537961 C47.9335072,23.7469375 49.3619257,25.1963665 51.1290743,25.1963665 L142,25.1963665 L142,18.7112257"}, time*2, mina.easin);
+                        sunGrow();
                         boat.animate({transform: 'translate(100px,0px)' }, time*2, 
                                       mina.easin, function(h){
                                         showCardUser3();
                                       });
                         waves.animate({opacity: 1}, time, mina.bounce);
-                    });
                 $("#case-video img").hide();
             }
             window.animVideo = true;
