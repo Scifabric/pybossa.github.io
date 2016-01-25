@@ -101,10 +101,10 @@ function animPdfCase() {
 
 
         function startAnim() {
-            $("#case-pdf img").hide();
             showCardUser1();
-            s.append(f);
         }
+
+        s.append(f);
 
 
         var waypoint = new Waypoint({
