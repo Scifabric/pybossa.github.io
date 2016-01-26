@@ -16,20 +16,11 @@ function animPhotoCase() {
 
         s.append(f);
 
-        //var waypoint = new Waypoint({
-        //    element: document.getElementById('case-geo-waypoint'),
-        //    offset: 85,
-        //    handler: startAnimPhoto
-        //});
-
-        var inviewPhoto = new Waypoint.Inview({
-          element: $('#case-photo')[0],
-          entered: function(direction) {
-             startAnimPhoto();
-          }
+        var waypoint = new Waypoint({
+            element: document.getElementById('case-geo-waypoint'),
+            offset: 200,
+            handler: startAnimPhoto
         });
-
-
     });          
 };
 

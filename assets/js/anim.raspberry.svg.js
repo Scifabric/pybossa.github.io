@@ -40,13 +40,11 @@ function animRaspberryCase() {
 
         s.append(f);
 
-        var inviewGeo = new Waypoint.Inview({
-          element: $('#case-raspberry')[0],
-          entered: function(direction) {
-             startAnim();
-          }
-        });
-
+        var waypoint = new Waypoint({
+            element: document.getElementById('case-raspberry-waypoint'),
+            offset: 200,
+            handler: startAnim
+        })
 
     });          
 };
