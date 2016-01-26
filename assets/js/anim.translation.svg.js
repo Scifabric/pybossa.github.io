@@ -3,6 +3,7 @@ function animTranslationCase() {
     Snap.load("/assets/img/case-translation.svg", function(f) {
 
         var time = 500;
+        var wordTime = 250;
         var card5 = f.select("#user5-card");
         var user5avatar = f.select("#user5-avatar");
         var playThree = f.select("#play-3");
@@ -21,13 +22,13 @@ function animTranslationCase() {
         }
 
         function showWords() {
-        words[0].animate({opacity: '1'}, time, mina.easein, function(){
-            words[1].animate({opacity: '1'}, time, mina.easein, function(){
-                words[2].animate({opacity: '1'}, time, mina.easein, function(){
-                    words[3].animate({opacity: '1'}, time, mina.easein, function(){
-                        words[4].animate({opacity: '1'}, time, mina.easein, function(){
-                            words[5].animate({opacity: '1'}, time, mina.easein, function(){
-                                words[6].animate({opacity: '1'}, time, mina.easein, function(){
+        words[0].animate({opacity: '1'}, wordTime, mina.easein, function(){
+            words[1].animate({opacity: '1'}, wordTime, mina.easein, function(){
+                words[2].animate({opacity: '1'}, wordTime, mina.easein, function(){
+                    words[3].animate({opacity: '1'}, wordTime, mina.easein, function(){
+                        words[4].animate({opacity: '1'}, wordTime, mina.easein, function(){
+                            words[5].animate({opacity: '1'}, wordTime, mina.easein, function(){
+                                words[6].animate({opacity: '1'}, wordTime, mina.easein, function(){
                                 });
                             });
                         });
@@ -90,8 +91,8 @@ function animTranslationCase() {
 
         function startAnim() {
             showWords();
-            barThree.animate({x: '240'}, 3500, mina.easein);
-            progressThree.animate({width: '200'}, 3500, mina.easein, showCard5);
+            barThree.animate({x: '240'}, 1750, mina.easein);
+            progressThree.animate({width: '200'}, 1750, mina.easein, showCard5);
         }
 
         s.append(f);
