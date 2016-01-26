@@ -61,7 +61,7 @@ function animSoundCase() {
                         barTwo.animate({x: '240'}, 1000,
                                 mina.easein, selectOption);
                         progressTwo.animate({width: '200'}, 1000, mina.easein);
-                        playSound('birds.mp3');
+                        playSound('birds.mp3', 0.5);
                     }
                     if (i==waves.length) {
                         last = true;
@@ -78,11 +78,20 @@ function animSoundCase() {
 
         s.append(f);
 
-        var waypoint = new Waypoint({
-            element: document.getElementById('case-audio-waypoint'),
-            offset: 85,
-            handler: startAnim
-        });
+        //var waypoint = new Waypoint({
+        //    element: document.getElementById('case-audio-waypoint'),
+        //    offset: 85,
+        //    handler: startAnim
+        //});
+
+
+        var inview = new Waypoint.Inview({
+          element: $('#case-audio')[0],
+          entered: function(direction) {
+            startAnim();
+          }
+        })
+
 
     });          
 };

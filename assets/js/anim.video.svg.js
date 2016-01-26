@@ -90,7 +90,7 @@ function animVideoCase() {
                                         showCardUser3();
                                       });
                         waves.animate({opacity: 1}, time, mina.bounce);
-                playSound('boat.mp3');
+                playSound('boat.mp3', 0.1);
 
             }
             window.animVideo = true;
@@ -99,11 +99,19 @@ function animVideoCase() {
         //startAnim();
         s.append(f);
 
-        var waypoint = new Waypoint({
-            element: document.getElementById('case-video-waypoint'),
-            offset: 85,
-            handler: startAnim
+        //var waypoint = new Waypoint({
+        //    element: document.getElementById('case-video-waypoint'),
+        //    offset: 85,
+        //    handler: startAnim
+        //})
+
+        var inviewVideo = new Waypoint.Inview({
+          element: $('#case-video')[0],
+          entered: function(direction) {
+             startAnim();
+          }
         })
+
 
     });          
 };

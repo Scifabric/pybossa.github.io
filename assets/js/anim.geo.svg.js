@@ -40,11 +40,19 @@ function animGeoCase() {
 
         s.append(f);
 
-        var waypoint = new Waypoint({
-            element: document.getElementById('case-geo-waypoint'),
-            offset: 85,
-            handler: startAnim
+        //var waypoint = new Waypoint({
+        //    element: document.getElementById('case-geo-waypoint'),
+        //    offset: 85,
+        //    handler: startAnim
+        //});
+
+        var inviewGeo = new Waypoint.Inview({
+          element: $('#case-geo')[0],
+          entered: function(direction) {
+             startAnim();
+          }
         });
+
 
     });          
 };

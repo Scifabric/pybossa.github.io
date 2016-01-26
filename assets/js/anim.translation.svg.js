@@ -96,11 +96,19 @@ function animTranslationCase() {
 
         s.append(f);
 
-        var waypoint = new Waypoint({
-            element: document.getElementById('case-translation-waypoint'),
-            offset: 85,
-            handler: startAnim
+        //var waypoint = new Waypoint({
+        //    element: document.getElementById('case-translation-waypoint'),
+        //    offset: 85,
+        //    handler: startAnim
+        //});
+
+        var inview = new Waypoint.Inview({
+          element: $('#case-translation')[0],
+          entered: function(direction) {
+            startAnim();
+          }
         });
+
 
     });          
 };

@@ -1,11 +1,11 @@
-function playSound(file){
+function playSound(file, volume){
     // create WebAudio API context
     var context = new AudioContext()
 
     // Create lineOut
     var lineOut = new WebAudiox.LineOut(context)
 
-    lineOut.volume = 0.6;
+    lineOut.volume = volume;
 
     // load a sound and play it immediatly
     WebAudiox.loadBuffer(context, '/assets/'+ file, function(buffer){

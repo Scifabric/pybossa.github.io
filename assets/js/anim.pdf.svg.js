@@ -107,11 +107,17 @@ function animPdfCase() {
         s.append(f);
 
 
-        var waypoint = new Waypoint({
-            element: document.getElementById('case-pdf-waypoint'),
-            offset: 85,
-            handler: startAnim
-        })
+        //var waypoint = new Waypoint({
+        //    element: document.getElementById('case-pdf-waypoint'),
+        //    offset: 85,
+        //    handler: startAnim
+        //})
+        var inviewPdf = new Waypoint.Inview({
+          element: $('#case-pdf')[0],
+          entered: function(direction) {
+             startAnim();
+          }
+        });
 
     });          
 };
