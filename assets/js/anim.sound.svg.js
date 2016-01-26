@@ -9,12 +9,14 @@ function animSoundCase() {
         var playTwo = f.select("#play-2");
         var pauseTwo = f.select("#pause-2");
         var barTwo = f.select("#bar-2");
+        var btnControlTwo = f.select("#btn-control-2");
         var progressTwo = f.select("#progress-2");
         var btnBird = f.select("#btn-bird");
 
 
         btnBird.attr({fill: '#2F4149'});
         playTwo.attr({opacity: '0'});
+        pauseTwo.attr({opacity: '0'});
         barTwo.attr({x: 70});
         progressTwo.attr({width: '30'});
 
@@ -23,7 +25,7 @@ function animSoundCase() {
             if (last) {
                 id.animate({opacity: '1'}, time, mina.easein, function(){
                     pauseTwo.attr({opacity: '0'});
-                    playTwo.attr({opacity: '1'});
+                    plauseTwo.attr({opacity: '0'});
                 });
             }
             else {
