@@ -73,20 +73,11 @@ function animSoundCase() {
 
         s.append(f);
 
-        //var waypoint = new Waypoint({
-        //    element: document.getElementById('case-audio-waypoint'),
-        //    offset: 85,
-        //    handler: startAnim
-        //});
-
-
-        var inview = new Waypoint.Inview({
-          element: $('#case-audio')[0],
-          entered: function(direction) {
-            startAnim();
-          }
-        })
-
+        var waypoint = new Waypoint({
+            element: document.getElementById('case-audio-waypoint'),
+            offset: 200,
+            handler: startAnim
+        });
 
     });          
 };
