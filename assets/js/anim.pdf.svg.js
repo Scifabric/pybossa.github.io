@@ -32,7 +32,7 @@ function animPdfCase() {
         user2avatar.attr({opacity: '0'});
 
 
-        var time = 500;
+        var time = 250;
         var opacityOne = '1';
         var opacityTwo = '0.1';
 
