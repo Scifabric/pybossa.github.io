@@ -6,10 +6,8 @@ function animTranslationCase() {
         var wordTime = 250;
         var card5 = f.select("#user5-card");
         var user5avatar = f.select("#user5-avatar");
-        var playThree = f.select("#play-3");
-        var pauseThree = f.select("#pause-3");
-        var barThree = f.select("#bar-3");
-        var progressThree = f.select("#progress-3");
+        var barThree = f.select("#bar-4");
+        var progressThree = f.select("#progress-4");
         var user5Line1 = f.select("#user5-line1");
         var user5Line2 = f.select("#user5-line2");
         var user5Line3 = f.select("#user5-line3");
@@ -44,8 +42,7 @@ function animTranslationCase() {
         user5Line2.attr({opacity: '0'});
         user5Line3.attr({opacity: '0'});
 
-        playThree.attr({opacity: '0'});
-        barThree.attr({x: '70'});
+        barThree.attr({x: '50'});
         progressThree.attr({width: '30'});
 
         card5.attr({opacity: '0'});
@@ -56,8 +53,6 @@ function animTranslationCase() {
         }
 
         function showCard5() {
-            pauseThree.attr({opacity: '0'});
-            playThree.attr({opacity: '1'});
             card5.animate({opacity: '1'}, time, mina.easein);
             user5avatar.animate({opacity: '1'}, time, mina.easein, showCardUser5Lines);
         }
@@ -92,7 +87,7 @@ function animTranslationCase() {
         function startAnim() {
             showWords();
             barThree.animate({x: '240'}, 1750, mina.easein);
-            progressThree.animate({width: '200'}, 1750, mina.easein, showCard5);
+            progressThree.animate({width: '220'}, 1750, mina.easein, showCard5);
         }
 
         s.append(f);
