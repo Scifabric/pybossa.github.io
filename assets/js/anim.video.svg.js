@@ -21,16 +21,13 @@ function animVideoCase() {
 
         boat = f.select("#boat");
         waves = f.select("#waves");
-        play = f.select("#play");
-        pause = f.select("#pause");
         sun = f.select("#sun");
-        bar = f.select("#bar");
-        progress = f.select("#Fill-2553");
+        bar = f.select("#bar-2");
+        progress = f.select("#progress-2");
 
         waves.attr({opacity: '0'});
-        play.attr({opacity: '0'});
         bar.attr({x: 70});
-        progress.attr({d: "M115.694481,18.7112257 L51.1290743,18.7112257 C49.3619257,18.7112257 47.9335072,20.1638973 47.9335072,21.9537961 C47.9335072,23.7469375 49.3619257,25.1963665 51.1290743,25.1963665 L70,25.1963665 L70,18.7112257"});
+        progress.attr({width: 50});
 
 
 
@@ -64,8 +61,6 @@ function animVideoCase() {
         }
 
         function showCardUser3() {
-            pause.attr({opacity: '0'});
-            play.attr({opacity: '1'});
             card3.animate({opacity: opacityOne}, time, mina.easin,
                     showUser3Avatar);
         }
@@ -81,9 +76,9 @@ function animVideoCase() {
 
         function startAnim() {
             if (window.animVideo == false) {
-                bar.animate({transform: 'translate(72px, 0px)'}, 2000,
+                bar.animate({x: 140}, 2000,
                         mina.easin);
-                progress.animate({d: "M115.694481,18.7112257 L51.1290743,18.7112257 C49.3619257,18.7112257 47.9335072,20.1638973 47.9335072,21.9537961 C47.9335072,23.7469375 49.3619257,25.1963665 51.1290743,25.1963665 L142,25.1963665 L142,18.7112257"}, 2000, mina.easin);
+                progress.animate({width: 120}, 2000, mina.easin);
                         sunGrow();
                         boat.animate({transform: 'translate(100px,0px)' }, 2000, 
                                       mina.easin, function(h){
