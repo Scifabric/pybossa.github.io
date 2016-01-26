@@ -2,9 +2,9 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>{{ page.title }}</title>
+    <title>{{ page.title }} - PyBossa</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Open source framework for crowdsourcing projects">
+    <meta name="description" content="{% if page.description %}{{page.description}}{% else %}{{page.title}}{% endif %}">
     <meta name="author" content="Shuttleworth Foundation">
     <!-- Bitly -->
     <meta name="bitly-verification" content="2377023aa0ff"/>
@@ -47,7 +47,7 @@
     <meta name="author" content="{{member.name}} {{member.surname}}" />
     {% endif %}
     {% endfor %}
-    <meta name="copyright" content="SciFabric © 2015" />
+    <meta name="copyright" content="SciFabric © 2016" />
     <meta name="application-name" content="PyBossa" />
 
     <!-- for Facebook -->          
