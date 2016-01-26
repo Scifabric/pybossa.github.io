@@ -6,27 +6,20 @@ function animSoundCase() {
 
         var totalTime = 0;
 
-        var playTwo = f.select("#play-2");
-        var pauseTwo = f.select("#pause-2");
-        var barTwo = f.select("#bar-2");
+        var barTwo = f.select("#bar-3");
         var btnControlTwo = f.select("#btn-control-2");
-        var progressTwo = f.select("#progress-2");
-        var btnBird = f.select("#btn-bird");
+        var progressTwo = f.select("#progress-3");
+        var btnBird = f.select("#btn-2-bg");
 
 
         btnBird.attr({fill: '#2F4149'});
-        playTwo.attr({opacity: '0'});
-        pauseTwo.attr({opacity: '0'});
-        barTwo.attr({x: 70});
+        barTwo.attr({x: 50});
         progressTwo.attr({width: '30'});
 
         function animShowWave(id, last, time){
             //var time = parseInt(Math.random() * 100);
             if (last) {
-                id.animate({opacity: '1'}, time, mina.easein, function(){
-                    pauseTwo.attr({opacity: '0'});
-                    plauseTwo.attr({opacity: '0'});
-                });
+                id.animate({opacity: '1'}, time, mina.easein);
             }
             else {
                 id.animate({opacity: '1'}, time, mina.easein);
@@ -62,7 +55,7 @@ function animSoundCase() {
 
                         barTwo.animate({x: '240'}, 1000,
                                 mina.easein, selectOption);
-                        progressTwo.animate({width: '200'}, 1000, mina.easein);
+                        progressTwo.animate({width: '220'}, 1000, mina.easein);
                         playSound('birds.mp3', 0.5);
                     }
                     if (i==waves.length) {
