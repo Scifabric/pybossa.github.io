@@ -6,4 +6,5 @@ window.onload = function() {
     animSoundCase();
     animTranslationCase();
     animPhotoCase();
+    animRaspberryCase();
 }
