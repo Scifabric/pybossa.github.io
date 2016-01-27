@@ -5,7 +5,9 @@
     <title>{{ page.title }} - PyBossa</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="{% if page.description %}{{page.description}}{% else %}{{page.title}}{% endif %}">
-    <meta name="author" content="Shuttleworth Foundation">
+    <meta name="author" content="SciFabric LTD">
+    <meta name="copyright" content="SciFabric © 2016" />
+    <meta name="application-name" content="PyBossa" />
     <!-- Bitly -->
     <meta name="bitly-verification" content="2377023aa0ff"/>
     <!-- Google verification -->
@@ -26,84 +28,27 @@
     <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
 
-    <!-- Fav and touch icons -->
-    <!-- <link rel="shortcut icon" href="../assets/ico/favicon.ico">
-    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="../assets/ico/apple-touch-icon-144-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="../assets/ico/apple-touch-icon-114-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="../assets/ico/apple-touch-icon-72-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" href="../assets/ico/apple-touch-icon-57-precomposed.png">-->
-
     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
     <link rel="stylesheet" href="/assets/animate.css" type="text/css" media="screen" title="no title" charset="utf-8">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.2.7/css/swiper.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.2.7/css/swiper.min.css">
 
-    {% if page.active == 'press' %}
-    <!-- for Google -->
-    <meta name="description" content="{{page.title}} - PyBossa.com" />
-    <meta name="keywords" content="{{page.keywords}}" />
-    {% for member in site.data.crew %}
-    {% if member.author == page.author %}
-    <meta name="author" content="{{member.name}} {{member.surname}}" />
-    {% endif %}
-    {% endfor %}
-    <meta name="copyright" content="SciFabric © 2016" />
-    <meta name="application-name" content="PyBossa" />
 
     <!-- for Facebook -->          
     <meta property="og:title" content="{{page.title}} - PyBossa.com" />
     <meta property="og:type" content="article" />
-    <meta property="og:image" content="{{page.photo}}" />
+    <meta property="og:image" content="http://pybossa.com/assets/img/seo/pybossa-square.png?x={{site.time | date: '%s'}}" />
     <meta property="og:url" content="http%3A%2F%2Fpybossa.com{{page.url}}" />
-    <meta property="og:description" content="{{page.intro}}" />
+    <meta property="og:description" content="{{page.description}}" />
 
     <!-- for Twitter -->          
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:site" content="@PyBossa" />
-    {% for member in site.data.crew %}
-    {% if member.author == page.author %}
-    <meta name="twitter:creator" content="@{{member.twitter}}" />
-    {% endif %}
-    {% endfor %}
+    <meta name="twitter:creator" content="@Scifabric" />
     <meta name="twitter:title" content="{{page.title}} - PyBossa.com" />
-    <meta name="twitter:description" content="{{page.intro}}" />
-    <meta name="twitter:image:src" content="http://pybossa.com{{page.photo}}" />
-    {% endif %}
+    <meta name="twitter:description" content="{{page.description}}" />
+    <meta name="twitter:image:src" content="http://pybossa.com/assets/img/seo/pybossa.png?x={{site.time | date: '%s'}}" />
 
-
-
-    {% if page.active == 'blog' %}
-    <!-- for Google -->
-    <meta name="description" content="{{page.title}} - PyBossa.com" />
-    <meta name="keywords" content="{{page.keywords}}" />
-    {% for member in site.data.crew %}
-    {% if member.author == page.author %}
-    <meta name="author" content="{{member.name}} {{member.surname}}" />
-    {% endif %}
-    {% endfor %}
-    <meta name="copyright" content="SciFabric © 2014" />
-    <meta name="application-name" content="PyBossa" />
-
-    <!-- for Facebook -->          
-    <meta property="og:title" content="{{page.title}}" />
-    <meta property="og:site_name" content="PyBossa" />
-    <meta property="og:url" content="http://pybossa.com{{page.url}}" />
-    <meta property="og:description" content="{{page.intro}}" />
-    <meta property="og:image" content="{{page.photo}}" />
-    <meta property="og:type" content="article" />
-
-    <!-- for Twitter -->          
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:site" content="@PyBossa" />
-    {% for member in site.data.crew %}
-    {% if member.author == page.author %}
-    <meta name="twitter:creator" content="@{{member.twitter}}" />
-    {% endif %}
-    {% endfor %}
-    <meta name="twitter:title" content="{{page.title}} - PyBossa.com" />
-    <meta name="twitter:description" content="{{page.intro}}" />
-    <meta name="twitter:image:src" content="http://pybossa.com{{page.photo}}" />
-    {% endif %}
     <script src="http://code.jquery.com/jquery-1.11.0.min.js" type="text/javascript" charset="utf-8"></script>
     {% include scroll.html %}
     
