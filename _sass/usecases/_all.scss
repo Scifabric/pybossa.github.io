@@ -23,6 +23,16 @@
 
 }
 
+@media (max-width: 360px){
+    .uses-row:first-child{
+    padding-top: 40px;
+    }
+
+    .uses-row{
+    padding-bottom: 40px;
+    }
+}
+
 
 .pictures img,
 .pictures svg {
