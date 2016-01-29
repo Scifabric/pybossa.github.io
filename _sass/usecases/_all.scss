@@ -11,18 +11,46 @@
     padding-bottom: 150px;
 }
 
+@media (max-width: 980px) {
+    .pictures svg {
+        padding-bottom: 10px;
+        width: 100%;
+        height: 100%;
+    }
+
+}
+
 @media (max-width: 768px){
 
+    .uses-row:first-child{
+    padding-top: 100px;
+    }
+
+    .uses-row{
+    padding-bottom: 100px;
+    }
+
+}
+
+@media (max-width: 360px){
+    .pictures svg {
+        padding-bottom: 10px;
+        width: 100%;
+        height: 100%;
+    }
     .uses-row:first-child{
     padding-top: 40px;
     }
 
     .uses-row{
-    padding-bottom: 40px;
+    padding-bottom: 80px;
+    }
+
+    .use-text{
+    margin-top: 40px;
     }
 
 }
-
 
 
 .pictures img,
@@ -30,6 +58,10 @@
     display: block;
     margin: 0 auto;
 
+}
+
+.pictures svg {
+    width: 100%;
 }
 
 .pictures h2 {
