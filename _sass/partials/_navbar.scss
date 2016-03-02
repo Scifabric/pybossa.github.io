@@ -115,3 +115,9 @@ body.index .navbar-default.huge,
     font-weight: 600;
     text-transform: uppercase;
 }
+
+.navbar-brand > img {
+    display: block;
+    max-width: 170px;
+    margin-top: -10px;
+}
