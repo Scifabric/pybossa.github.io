@@ -121,3 +121,14 @@ body.index .navbar-default.huge,
     max-width: 170px;
     margin-top: -10px;
 }
+
+@media (max-width: 767px) {
+    .navbar-default .navbar-toggle {
+        margin-top: 20px;
+    }
+
+
+.navbar-default .navbar-collapse {
+    margin-top: 20px;
+}
+}
