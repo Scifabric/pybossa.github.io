@@ -1,6 +1,6 @@
 function animPdfCase() {
     var s = Snap("#case-pdf");
-    Snap.load("/assets/img/case-pdf.svg", function(f) {
+    Snap.load("//cdn.pybossa.com/assets/img/case-pdf.svg", function(f) {
         user1Line1 = f.select("#user1-line1");
         user1Line2 = f.select("#user1-line2");
         user1Line3 = f.select("#user1-line3");

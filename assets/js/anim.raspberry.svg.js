@@ -1,7 +1,7 @@
 function animRaspberryCase() {
     window.animRaspberry = false;
     var s = Snap("#case-raspberry");
-    Snap.load("/assets/img/case-raspberry.svg", function(f) {
+    Snap.load("//cdn.pybossa.com/assets/img/case-raspberry.svg", function(f) {
 
 
         var time = 340;
