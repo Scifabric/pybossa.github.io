@@ -1,7 +1,7 @@
 function animPhotoCase() {
     window.animSound = false;
     var s = Snap("#case-photo");
-    Snap.load("/assets/img/case-classification.svg", function(f) {
+    Snap.load("//cdn.pybossa.com/assets/img/case-classification.svg", function(f) {
         var time = 500;
 
         var btn = f.select("#btnNessy");

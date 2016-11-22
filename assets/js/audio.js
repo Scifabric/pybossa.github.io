@@ -8,7 +8,7 @@ function playSound(file, volume){
     lineOut.volume = volume;
 
     // load a sound and play it immediatly
-    WebAudiox.loadBuffer(context, '/assets/'+ file, function(buffer){
+    WebAudiox.loadBuffer(context, '//cdn.pybossa.com/assets/'+ file, function(buffer){
         // init AudioBufferSourceNode
         var source  = context.createBufferSource();
         source.buffer   = buffer

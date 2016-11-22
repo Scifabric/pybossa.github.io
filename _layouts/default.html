@@ -5,20 +5,20 @@
     <title>{{ page.title }} - PYBOSSA</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="{% if page.description %}{{page.description}}{% else %}{{page.title}}{% endif %}">
-    <meta name="author" content="SciFabric LTD">
-    <meta name="copyright" content="SciFabric © 2016" />
-    <meta name="application-name" content="PyBossa" />
+    <meta name="author" content="Scifabric LTD">
+    <meta name="copyright" content="Scifabric © 2016" />
+    <meta name="application-name" content="PYBOSSA" />
     <!-- Bitly -->
     <meta name="bitly-verification" content="2377023aa0ff"/>
     <!-- Google verification -->
     <meta name="google-site-verification" content="NAoPwFvipgcBx6Z5vkKgHoAlCuqgDLugYCgf6Odl2gc" />
 
-    <link rel="icon" type="image/png" href="/assets/img/favicon.png">
+    <link rel="icon" type="image/png" href="{{site.cdn}}/assets/img/favicon.png">
     <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="/assets/css/bootstrap.css" type="text/css" media="screen" title="no title" charset="utf-8">
-    <link rel="stylesheet" href="/assets/css/bootstrap-theme.css" type="text/css" media="screen" title="no title" charset="utf-8">
+    <link rel="stylesheet" href="{{site.cdn}}/assets/css/bootstrap.css" type="text/css" media="screen" title="no title" charset="utf-8">
+    <link rel="stylesheet" href="{{site.cdn}}/assets/css/bootstrap-theme.css" type="text/css" media="screen" title="no title" charset="utf-8">
     {% if page.css %}
-    <link rel="stylesheet" href="/assets/css/{{page.css}}.css" type="text/css" media="screen" title="no title" charset="utf-8">
+    <link rel="stylesheet" href="{{site.cdn}}/assets/css/{{page.css}}.css" type="text/css" media="screen" title="no title" charset="utf-8">
     {% endif %}
 
     <link href='http://fonts.googleapis.com/css?family=Varela+Round' rel='stylesheet' type='text/css'>
@@ -30,15 +30,15 @@
     <![endif]-->
 
     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="/assets/animate.css" type="text/css" media="screen" title="no title" charset="utf-8">
+    <link rel="stylesheet" href="{{site.cdn}}/assets/animate.css" type="text/css" media="screen" title="no title" charset="utf-8">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.2.7/css/swiper.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.2.7/css/swiper.min.css">
 
 
     <!-- for Facebook -->          
-    <meta property="og:title" content="{{page.title}} - PyBossa.com" />
+    <meta property="og:title" content="{{page.title}} - PYBOSSA by Scifabric" />
     <meta property="og:type" content="article" />
-    <meta property="og:image" content="http://pybossa.com/assets/img/seo/pybossa-square.png?x={{site.time | date: '%s'}}" />
+    <meta property="og:image" content="{{site.cdn}}/assets/img/seo/pybossa-square.png?x={{site.time | date: '%s'}}" />
     <meta property="og:url" content="http%3A%2F%2Fpybossa.com{{page.url}}" />
     <meta property="og:description" content="{{page.description}}" />
 
@@ -46,9 +46,9 @@
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:site" content="@PyBossa" />
     <meta name="twitter:creator" content="@Scifabric" />
-    <meta name="twitter:title" content="{{page.title}} - PyBossa.com" />
+    <meta name="twitter:title" content="{{page.title}} - PYBOSSA by Scifabric" />
     <meta name="twitter:description" content="{{page.description}}" />
-    <meta name="twitter:image:src" content="http://pybossa.com/assets/img/seo/pybossa.png?x={{site.time | date: '%s'}}" />
+    <meta name="twitter:image:src" content="{{site.cdn}}/assets/img/seo/pybossa.png?x={{site.time | date: '%s'}}" />
 
     <script src="http://code.jquery.com/jquery-1.11.0.min.js" type="text/javascript" charset="utf-8"></script>
     {% include scroll.html %}
@@ -61,10 +61,10 @@
     {{ content }}
     {% include footer.html %}
 
-    <script src="/assets/js/bootstrap.min.js" type="text/javascript" charset="utf-8"></script>
-    <script src="/assets/js/custom.js" type="text/javascript" charset="utf-8"></script>
-    <script src="/assets/js/slides.js" type="text/javascript" charset="utf-8"></script>
-    <script src="/assets/js/wow.min.js" type="text/javascript" charset="utf-8"></script>
+    <script src="{{site.cdn}}/assets/js/bootstrap.min.js" type="text/javascript" charset="utf-8"></script>
+    <script src="{{site.cdn}}/assets/js/custom.js" type="text/javascript" charset="utf-8"></script>
+    <script src="{{site.cdn}}/assets/js/slides.js" type="text/javascript" charset="utf-8"></script>
+    <script src="{{site.cdn}}/assets/js/wow.min.js" type="text/javascript" charset="utf-8"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.2.7/js/swiper.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.2.7/js/swiper.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.2.7/js/swiper.jquery.js"></script>
