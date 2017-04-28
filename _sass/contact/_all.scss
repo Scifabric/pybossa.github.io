@@ -5,6 +5,8 @@
 .thumbnail.card {
     border-radius: 2px;
     padding: 0;
+    display: flex;
+    flex-direction: column;
  
     box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
     margin-top: 80px;
@@ -13,15 +15,34 @@
     div {
         border-radius: 2px 2px 0px 0px;
     }
+    .title {
+        margin-top:46px;
+        margin-bottom: 7px;
+        display: flex;
+        flex-direction: column;
+    }
     .caption {
         padding-left: 20px;
         padding-right: 20px;
         padding-bottom: 10px;
         padding-top: 0px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .desc {
+            min-height: 100px;
+        }
 
 
         p {
+            margin-top: 32px;
             display: block;
+            text-align: center;
+            a {
+                color: rgb(65, 177, 211);
+                text-decoration: underline;
+            }
             
         }
 
@@ -53,6 +74,9 @@
 
 .readmore {
     
+    p {
+        max-height: 50px;
+    }
 
     a {
         color: $blue;
