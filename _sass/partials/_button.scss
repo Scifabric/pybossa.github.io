@@ -206,3 +206,25 @@
     -o-transition: border 0.3s ease, color 0.3s ease, background 0.3s ease;
     transition: border 0.3s ease, color 0.3s ease, background 0.3s ease;
 }
+
+.btn-community,
+.btn-scifabric {
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-content: center;
+  width: 236px;
+  height: 45px;
+  border-radius: 3px;
+  border: solid 2px rgb(65, 177, 211);
+  text-decoration: none !important;
+}
+
+.btn-scifabric {
+  width: 256px;
+  height: 45px;
+  border-radius: 3px;
+  background-color: rgb(8, 125, 161);
+  border: solid 2px rgb(8, 125, 161);
+  color: white !important;
+}
