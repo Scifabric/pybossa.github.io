@@ -210,15 +210,20 @@
 .btn-community,
 .btn-scifabric {
     display: flex;
-    flex-direction:column;
     justify-content: center;
     align-content: center;
+    align-items: center;
   width: 236px;
   height: 45px;
   border-radius: 3px;
   border: solid 2px rgb(65, 177, 211);
   text-decoration: none !important;
   cursor: pointer;
+
+  i {
+      margin-left: 5px;
+      margin-top: 2px;
+  }
 
 }
 
