@@ -6,14 +6,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="{% if page.description %}{{page.description}}{% else %}{{page.title}}{% endif %}">
     <meta name="author" content="Scifabric LTD">
-    <meta name="copyright" content="Scifabric © 2016" />
+    <meta name="copyright" content="Scifabric © 2017" />
     <meta name="application-name" content="PYBOSSA" />
     <!-- Bitly -->
     <meta name="bitly-verification" content="2377023aa0ff"/>
     <!-- Google verification -->
     <meta name="google-site-verification" content="NAoPwFvipgcBx6Z5vkKgHoAlCuqgDLugYCgf6Odl2gc" />
 
-    <link rel="icon" type="image/png" href="{{site.cdn}}/assets/img/favicon.png">
+    <link rel="icon" type="image/png" href="{{site.cdn}}/assets/favicon/favicon.ico">
+
+    <!-- Le fav and touch icons -->
+    <link rel="apple-touch-icon" sizes="57x57" href="{{site.cdn}}/assets/favicon/apple-touch-icon-57x57.png?x={{site.time | date: '%s'}}">
+    <link rel="apple-touch-icon" sizes="60x60" href="{{site.cdn}}/assets/favicon/apple-touch-icon-60x60.png?x={{site.time | date: '%s'}}">
+    <link rel="apple-touch-icon" sizes="72x72" href="{{site.cdn}}/assets/favicon/apple-touch-icon-72x72.png?x={{site.time | date: '%s'}}">
+    <link rel="apple-touch-icon" sizes="76x76" href="{{site.cdn}}/assets/favicon/apple-touch-icon-76x76.png?x={{site.time | date: '%s'}}">
+    <link rel="apple-touch-icon" sizes="114x114" href="{{site.cdn}}/assets/favicon/apple-touch-icon-114x114.png?x={{site.time | date: '%s'}}">
+    <link rel="apple-touch-icon" sizes="120x120" href="{{site.cdn}}/assets/favicon/apple-touch-icon-120x120.png?x={{site.time | date: '%s'}}">
+    <link rel="apple-touch-icon" sizes="144x144" href="{{site.cdn}}/assets/favicon/apple-touch-icon-144x144.png?x={{site.time | date: '%s'}}">
+    <link rel="apple-touch-icon" sizes="152x152" href="{{site.cdn}}/assets/favicon/apple-touch-icon-152x152.png?x={{site.time | date: '%s'}}">
+    <link rel="apple-touch-icon" sizes="180x180" href="{{site.cdn}}/assets/favicon/apple-touch-icon-180x180.png?x={{site.time | date: '%s'}}">
+    <link rel="icon" type="image/png" href="{{site.cdn}}/assets/favicon/favicon-32x32.png?x={{site.time | date: '%s'}}" sizes="32x32">
+    <link rel="icon" type="image/png" href="{{site.cdn}}/assets/favicon/android-chrome-192x192.png?x={{site.time | date: '%s'}}" sizes="192x192">
+    <link rel="icon" type="image/png" href="{{site.cdn}}/assets/favicon/favicon-96x96.png?x={{site.time | date: '%s'}}" sizes="96x96">
+    <link rel="icon" type="image/png" href="{{site.cdn}}/assets/favicon/favicon-16x16.png?x={{site.time | date: '%s'}}" sizes="16x16">
+    <link rel="manifest" href="{{site.cdn}}/assets/favicon/manifest.json?x={{site.time | date: '%s'}}">
+    <link rel="mask-icon" href="{{site.cdn}}/assets/favicon/safari-pinned-tab.svg?x={{site.time | date: '%s'}}" color="#2e404a">
+    <link rel="shortcut icon" href="{{site.cdn}}/assets/favicon/favicon.ico?x={{site.time | date: '%s'}}">
+    <meta name="msapplication-TileColor" content="#2e404a">
+    <meta name="msapplication-TileImage" content="{{site.cdn}}/assets/favicon/mstile-144x144.png?x={{site.time | date: '%s'}}">
+    <meta name="msapplication-config" content="{{site.cdn}}/assets/favicon/browserconfig.xml?x={{site.time | date: '%s'}}">
+    <meta name="theme-color" content="#2e404a">
+
+
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="{{site.cdn}}/assets/css/bootstrap.css" type="text/css" media="screen" title="no title" charset="utf-8">
     <link rel="stylesheet" href="{{site.cdn}}/assets/css/bootstrap-theme.css" type="text/css" media="screen" title="no title" charset="utf-8">
