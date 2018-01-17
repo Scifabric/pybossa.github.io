@@ -1,7 +1,7 @@
 function animSoundCase() {
     window.animSound = false;
     var s = Snap("#case-audio");
-    Snap.load("//cdn.pybossa.com/assets/img/case-audio.svg", function(f) {
+    Snap.load("//pybossa.com/assets/img/case-audio.svg", function(f) {
         var time = 500;
 
         var totalTime = 0;

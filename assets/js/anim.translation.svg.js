@@ -1,6 +1,6 @@
 function animTranslationCase() {
     var s = Snap("#case-translation");
-    Snap.load("//cdn.pybossa.com/assets/img/case-translation.svg", function(f) {
+    Snap.load("//pybossa.com/assets/img/case-translation.svg", function(f) {
 
         var time = 500;
         var wordTime = 250;
