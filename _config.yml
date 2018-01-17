@@ -2,7 +2,7 @@ name: PYBOSSA
 markdown: kramdown
 highlighter: rouge
 permalink: pretty
-url: http://pybossa.com
+url: https://pybossa.com
 cdn: //cdn.pybossa.com
 gems:
     - jekyll-redirect-from
