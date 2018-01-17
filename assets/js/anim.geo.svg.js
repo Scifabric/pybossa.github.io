@@ -1,6 +1,6 @@
 function animGeoCase() {
     var s = Snap("#case-geo");
-    Snap.load("//cdn.pybossa.com/assets/img/case-geolocation.svg", function(f) {
+    Snap.load("//pybossa.com/assets/img/case-geolocation.svg", function(f) {
 
 
         card4 = f.select("#user4-card");

@@ -1,7 +1,7 @@
 function animPhotoCase() {
     window.animSound = false;
     var s = Snap("#case-photo");
-    Snap.load("//cdn.pybossa.com/assets/img/case-classification.svg", function(f) {
+    Snap.load("//pybossa.com/assets/img/case-classification.svg", function(f) {
         var time = 500;
 
         var btn = f.select("#btnNessy");
@@ -21,6 +21,6 @@ function animPhotoCase() {
             offset: 200,
             handler: startAnimPhoto
         });
-    });          
+    });
 };
 
